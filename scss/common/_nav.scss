@@ -229,15 +229,23 @@ h1 {
   .logo-appli-img {
     display: none;
   }
-  #theme-a .main-top-nav .top-nav-settings {
-    text-align: center;
-    margin: 5px 0;
-    .top-nav-settings-profile {
-      float: initial;
-      display: inline-block;
+  #theme-a .main-top-nav {
+    form {
+      margin: 0 auto 10px;
     }
-    .top-nav-settings-ico {
-      display: none;
+    .top-nav-settings {
+      text-align: center;
+      margin: 5px 0;
+      .top-nav-settings-profile {
+        float: initial;
+        display: inline-block;
+        & > h4 {
+          text-align: center;
+        }
+      }
+      .top-nav-settings-ico {
+        display: none;
+      }
     }
   }
   .dropdown.menu {
