@@ -1,0 +1,9 @@
+@import "../node_modules/dirq_ui/scss/common/mixins";
+@import "../node_modules/dirq_ui/scss/common/variables";
+
+@import "common/_nav";
+@import "common/_dropdown-white";
+
+body {
+  font-size: $font-input;
+}
