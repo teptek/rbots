@@ -8,6 +8,26 @@ body {
 
 #theme-a {
   background-color: transparent;
+  .main-top-nav {
+    form {
+      display: table;
+    }
+    .dropdown {
+      display: inherit;
+    }
+    .top-nav-settings {
+      h4 {
+        font-size: $font-input;
+        font-weight: 600;
+      }
+      &:hover, &:focus {
+        opacity: 1;
+      }
+      .top-nav-settings-profile {
+        text-align: right;
+      }
+    }
+  }
 }
 
 .navbar {
@@ -65,10 +85,6 @@ body {
   }
 }
 
-#theme-a .main-top-nav .top-nav-settings h4 {
-  font-size: $font-input;
-  font-weight: 600;
-}
 .menu-icon {
   display: inherit;
 }
@@ -147,17 +163,9 @@ h1 {
   text-transform: uppercase;
 }
 
-#theme-a .main-top-nav .dropdown {
-  display: inherit;
-}
-
 .dropdown-pane {
   border: medium none;
   padding: 0;
-}
-
-#theme-a .main-top-nav .top-nav-settings:hover, #theme-a .main-top-nav .top-nav-settings:focus {
-  opacity: 1;
 }
 
 @media screen and (max-width: 63.9375em) {
