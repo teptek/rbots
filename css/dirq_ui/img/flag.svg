@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.66488889,2.18666667 L4.66488889,8.49688889 C7.33717662,7.66047049 9.93591434,6.60503988 12.4346667,5.34133333 C9.93591434,4.07762678 7.33717662,3.02219618 4.66488889,2.18577778 L4.66488889,2.18666667 Z M3.79377778,9.78844444 L3.79377778,0.894222222 C7.37866667,2.112 10.2417778,3.304 13.5555556,4.91911111 L13.5555556,5.76355556 C10.2426667,7.37866667 7.37955556,8.57155556 3.79288889,9.78844444 L3.79377778,9.78844444 Z M2,0 L2.87111111,0 L2.87111111,16 L2,16 L2,0 Z" id="path-1"></path>
+    </defs>
+    <g id="SHARCK---Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Set/flag" transform="translate(-2.000000, 0.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="flag" fill-rule="nonzero"></g>
+        </g>
+    </g>
+</svg>

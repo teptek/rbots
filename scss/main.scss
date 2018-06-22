@@ -1,9 +1,23 @@
-@import "../node_modules/dirq_ui/scss/common/mixins";
-@import "../node_modules/dirq_ui/scss/common/variables";
+//R'BOTS v1
 
-@import "common/_nav";
-@import "common/_dropdown-white";
+@import "legacy/main";
+@import "legacy/theme-grey";
+
+//v3
+
+@import "common/mixins";
+@import "common/variables";
+@import "common/styles";
+
+@import "components/components";
+@import "elements/elements";
 
 body {
   font-size: $font-input;
+  background-color: $darker;
+  font-family: Read;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 300;
 }

@@ -1,0 +1,52 @@
+/*************************************************
+Variables Globales
+*************************************************/
+
+$background-image		: '../images/bg-creme-bgLogo2.jpg';
+$background-synthesis-arrow-previous-hover: '../images/themes/grey/arrow-synthesis-previous-hover.png';
+$background-synthesis-arrow-next-hover: '../images/themes/grey/arrow-synthesis-next-hover.png';
+$link-color				: #225873;
+$table-header			: #ced7d9;
+$bordure-section-table	: #d1d1e0;
+$bordure-section-form	: #d1d1e0;
+$line-hover				: #e0e0eb;
+$button-text-color		: #003f69;
+$button-shadow			: rgba(0,0,0,0.40);
+$button-border-hover	: #0086b3;
+$button-color			: #c3dae6;
+$button-hover 			: #7f8c8d;
+$button-hover-secondary	: #B7CBCC;
+$button-tertiary 		: #535353;
+$button-tertiary-hover 	: #353535;
+$logo-border			: #FECB00;
+$ico-info				: '../images/ico-info-HVR.png';
+$ico-info				: '../images/themes/grey/ico-info-HVR.png';
+$separator-ae			: '../images/themes/grey/separator-ae-45.png';
+$separator-ai			: '../images/themes/grey/separator-ai-45.png';
+$separator-ia			: '../images/themes/grey/separator-ia-45.png';
+$separator-ii			: '../images/themes/grey/separator-ii-45.png';
+$separator-ie			: '';
+$separator-e			: '../images/themes/grey/separator-e-45.png';
+$ico-filter             : '../images/themes/grey/ico-filtres.png';
+$ico-filter-actif       : '../images/themes/grey/ico-filtres-actif.png';
+
+$button-tertiary : #535353;
+$button-tertiary-hover : #353535;
+$ico-search-bar :  '../images/themes/grey/new/icone-search.png';
+$ico-search-plus-bar :  '../images/themes/grey/new/icone-search-plus.png';
+
+$border-table			: #E1E5E6;   /* border, background table et style pour filtres */
+$cadre-pagination   	: #7da1b3;
+$link-color-over-pagination : #225873;
+
+/* Diverses icones */
+$ico-consult: '../images/themes/grey/new/consult.png';
+$ico-consult-hover: '../images/themes/grey/new/consult-hover.png';
+$ico-basket: '../images/themes/grey/new/basket.png';
+$ico-basket-hover: '../images/themes/grey/new/basket-hover.png';
+$ico-edit: '../images/themes/grey/new/edit.png';
+$ico-edit-hover: '../images/themes/grey/new/edit-hover.png';
+$ico-xceltomail: '../images/themes/grey/ico-xceltomail.gif';
+$ico-xceltomail-hover: '../images/themes/grey/ico-xceltomail.gif';
+
+@import 'application';

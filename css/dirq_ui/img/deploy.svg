@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>deploy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.658,7.986 L7.986,7.316 L10.452,4.859 L14.515,0.866 C13.366,1.061 12.637,1.229 11.349,1.536 L10.648,0.838 C12.553,0.418 13.898,0.168 15.468,1.11022302e-16 L16,0.53 C15.832,2.094 15.58,3.435 15.16,5.333 L14.459,4.635 C14.795,3.379 14.935,2.625 15.159,1.48 L11.124,5.529 L8.658,7.986 Z M0,16 L0,2.01 L7.986,2.01 L7.986,2.96 L0.981,2.96 L0.981,15.05 L13,15.05 L13,7.987 L13.981,7.987 L13.981,16 L0,16 Z" id="path-1"></path>
+    </defs>
+    <g id="SHARCK---Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Set/deploy">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="deploy" fill-rule="nonzero"></g>
+        </g>
+    </g>
+</svg>

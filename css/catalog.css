@@ -1,0 +1,100 @@
+div.catalog-14mvqx7-Html-Html {
+    background: white;
+}
+
+.catalog-xm8mvq-Menu-Menu {
+    display: none;
+}
+
+.catalog-1mbo59e-_ColorPaletteItem-_ColorPaletteItem {
+    font-size: 14px;
+}
+
+h1.catalog-ohyl74-Menu-Menu {
+    background-image: url('../logo-rbots.svg');
+    background-repeat: no-repeat;
+    background-position: center top 10px;
+    padding: 10px 0;
+    background-size: 200px;
+}
+
+.catalog-17u1t4g-Menu-Menu {
+    margin-bottom: 2.9em;
+    text-align: center;
+}
+
+.catalog-dc5dse-AppLayout-AppLayout, .catalog-o5tzde-source-source, .catalog-15o9zei-NavigationBar-NavigationBar {
+    font-size: 14px;
+}
+
+div.catalog-4g86b3-Page-Page {
+    max-width: 75%;
+}
+
+.catalog-17xphrn-HighlightedCode-HighlightedCode {
+    font-size: 12px;
+}
+
+.catalog-7qbo-Link-Link {
+    font-size: 14px;
+}
+
+.modal {
+    display: block;
+    position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+    div.catalog-4g86b3-Page-Page {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+.preview {
+  width: 100px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.preview > .inner {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: #f5f5f5;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+.preview > .inner > i {
+    line-height: 85px;
+    font-size: 40px;
+    color: #333;
+}
+
+.label-class {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 12px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #ddd;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    color: #666;
+    text-align: center;
+}
+
+
+i[class^="ico-"]:before, i[class*=" ico-"]:before {
+  vertical-align: middle;
+}

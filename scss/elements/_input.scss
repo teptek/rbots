@@ -1,0 +1,9 @@
+input[type="radio"] {
+  border: 1px solid $sun-yellow;
+  background-color: transparent;
+  outline: medium none;
+  &:checked {
+    background-color: $sun-yellow;
+    outline: medium none;
+  }
+}

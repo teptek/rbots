@@ -1,0 +1,71 @@
+$renaultcolor:#F8B101;
+
+//@import "compass/css3/font-face";
+//@include font-face("renault-life", font-files("RenaultLife/RenaultLife-Bold.woff", "RenaultLife/RenaultLife-Bold.ttf", "RenaultLife/RenaultLife-Bold.svg"), "RenaultLife/RenaultLife-Bold.eot", 'bold');
+//@include font-face("renault-life", font-files("RenaultLife/RenaultLife-RegularItalic.woff", "RenaultLife/RenaultLife-RegularItalic.ttf", "RenaultLife/RenaultLife-RegularItalic.svg"), "RenaultLife/RenaultLife-RegularItalic.eot", 'normal', 'italic');
+//@include font-face("renault-life", font-files("RenaultLife/RenaultLife-BoldItalic.woff", "RenaultLife/RenaultLife-BoldItalic.ttf", "RenaultLife/RenaultLife-BoldItalic.svg"), "RenaultLife/RenaultLife-BoldItalic.eot", 'bold', 'italic');
+//@include font-face("renault-life", font-files("RenaultLife/RenaultLife-Regular.woff", "RenaultLife/RenaultLife-Regular.ttf", "RenaultLife/RenaultLife-Regular.svg"), "RenaultLife/RenaultLife-Regular.eot");
+
+// foundation settings
+
+@import "settings";
+
+
+// bower:scss
+@import "../../../bower_components/foundation/scss/foundation.scss";
+// endbower
+
+$fi-path: "../bower_components/foundation-icon-fonts";
+//@import "../../../bower_components/foundation-icon-fonts/foundation-icons";
+
+
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-36 { font-size: 36px; }
+.size-48 { font-size: 48px; }
+.size-60 { font-size: 60px; }
+.size-72 { font-size: 72px; }
+.step {display: inline-block; line-height: 1; width: 18px }
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #c0c0c0;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+.row {
+	max-width: 100%;
+}
+
+#footer p {
+    color: #6c6f70;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.footertpl {
+    margin: 2rem 0rem 0rem 0rem;
+    max-width: 100%;
+    padding:3px;
+    margin-top: 7px !important;
+}
+.image {
+   height: 25px;
+
+}
+
+.font {
+
+color: #6c6f70;
+
+}
+

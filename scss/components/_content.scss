@@ -1,0 +1,19 @@
+.main-content {
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &.grid-container.fluid {
+    background-color: white;
+    @include border-radius(6px);
+    margin: 0 15px 15px;
+    padding: 1.6rem;
+  }
+}
+
+@media screen and (max-width: $breakpoint-large) {
+  .main-content.grid-container.fluid {
+    margin-top: .9375rem;
+  }
+}
