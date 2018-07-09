@@ -1,3 +1,7 @@
+.catalog-1r2hlvj-Menu-Menu > li a {
+    font-size: 14px;
+}
+
 div.catalog-14mvqx7-Html-Html {
     background: white;
 }
@@ -11,7 +15,7 @@ div.catalog-14mvqx7-Html-Html {
 }
 
 h1.catalog-ohyl74-Menu-Menu {
-    background-image: url('../logo-rbots.svg');
+    background-image: url('../img/rbots-logo.svg');
     background-repeat: no-repeat;
     background-position: center top 10px;
     padding: 10px 0;
