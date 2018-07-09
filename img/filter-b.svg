@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>filter-b</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.77777778,12.5568635 L8.77777778,9.19680994 L13.8806685,3 L2.11898327,3 L7.22222222,9.19679016 L7.22222222,13.5290857 L8.77777778,12.5568635 Z M6.22222222,15.3333333 L6.22222222,9.55555556 L0,2 L15.9995556,2 L9.77777778,9.55555556 L9.77777778,13.1111111 L6.22222222,15.3333333 Z" id="path-1"></path>
+    </defs>
+    <g id="SHARCK---Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Set/filter-b" transform="translate(0.000000, -2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="filter-b" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

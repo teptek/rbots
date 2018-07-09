@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico-plus" transform="translate(2.000000, 2.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M5,5 L5,1 C5,0.44771525 5.4477153,0 6,0 C6.5522847,0 7,0.44771525 7,1 L7,5 L11,5 C11.5522847,5 12,5.4477153 12,6 C12,6.5522847 11.5522847,7 11,7 L7,7 L7,11 C7,11.5522847 6.5522847,12 6,12 C5.4477153,12 5,11.5522847 5,11 L5,7 L1,7 C0.4477153,7 0,6.5522847 0,6 C0,5.4477153 0.4477153,5 1,5 L5,5 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

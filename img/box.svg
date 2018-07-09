@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/box</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.1352941,2.61029412 L12.4661765,4.34323529 L12.4661765,14.1267647 L15.1352941,12.0708824 L15.1352941,2.61029412 Z M11.8485294,3.67529412 L14.6411765,1.84176471 L10.6617647,1.84176471 L7.84617647,3.67529412 L11.8494118,3.67529412 L11.8485294,3.67529412 Z M6.51029412,3.67529412 L9.32764706,1.84176471 L5.47352941,1.84176471 L2.63235294,3.67529412 L6.51117647,3.67529412 L6.51029412,3.67529412 Z M11.6014706,14.2758824 L11.6014706,4.51705882 L7.15352941,4.51705882 L7.15352941,7.16676471 L6.28882353,7.16676471 L6.28882353,4.51705882 L1.86470588,4.51705882 L1.86470588,14.2758824 L11.6014706,14.2758824 Z M12.565,15.1176471 L1,15.1176471 L1,3.79882353 L5.275,1 L16,1 L16,12.4926471 L12.565,15.1176471 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/box" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

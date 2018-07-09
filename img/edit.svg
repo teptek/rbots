@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/Edit</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.4,15.2384 L15.4,15.2384 L15.4,16 L3.4,16 L3.4,15.2384 Z M3.0408,9.5016 C3.9608,10.3312 4.9032,11.2952 5.9128,12.3928 L14.2336,4.0568 L11.3856,1.1656 L3.0416,9.5016 L3.0408,9.5016 Z M2.0544,12.2576 C2.48,12.6384 2.8392,12.9976 3.2208,13.4464 C3.916,13.312 4.5888,13.1776 5.3512,12.952 C4.4286428,11.9551139 3.47097257,10.9913064 2.48,10.0624 C2.256,10.8464 2.0768,11.5184 1.9648,12.168 L2.0544,12.2576 Z M1,13.8272 C1.1792,12.3024 1.336,11.4736 1.808,9.6144 L11.408,0 L15.4,4.012 L5.8,13.6248 C3.9832,14.096 3.1088,14.252 1.5832,14.4088 L1,13.8272 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/Edit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="edit" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

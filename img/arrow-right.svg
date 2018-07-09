@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,4 C8,4.258 8.092,4.493 8.29,4.69 L10.6,7 L3,7 C2.449,7 2,7.448 2,8 C2,8.552 2.449,9 3,9 L10.6,9 L8.29,11.31 C8.092,11.507 8,11.741 8,12.001 C8,12.492 8.406,13.001 9,13.001 C9.265,13.001 9.497,12.903 9.69,12.711 L13.677,8.724 C13.861,8.54 14,8.365 14,8 C14,7.636 13.833,7.433 13.669,7.269 L9.69,3.29 C9.497,3.097 9.265,3 9,3 C8.407,3 8,3.508 8,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/arrow-right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use fill="#000000" xlink:href="#path-1"></use>
+    </g>
+</svg>

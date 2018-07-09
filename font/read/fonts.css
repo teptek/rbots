@@ -1,0 +1,80 @@
+@font-face {
+	font-family:'Read';
+	src:	url('read-light_v2000.eot');
+	src:	url('read-light_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-light_v2000.woff2') format('woff2'),
+			url('read-light_v2000.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Read';
+	src:	url('read-lightitalic_v2000.eot');
+	src:	url('read-lightitalic_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-lightitalic_v2000.woff2') format('woff2'),
+			url('read-lightitalic_v2000.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:'Read';
+	src:	url('read-italic_v2000.eot');
+	src:	url('read-italic_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-italic_v2000.woff2') format('woff2'),
+			url('read-italic_v2000.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:'Read';
+	src:	url('read-regular_v2000.eot');
+	src:	url('read-regular_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-regular_v2000.woff2') format('woff2'),
+			url('read-regular_v2000.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Read';
+	src:	url('read-medium_v2000.eot');
+	src:	url('read-medium_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-medium_v2000.woff2') format('woff2'),
+			url('read-medium_v2000.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Read';
+	src:	url('read-mediumitalic_v2000.eot');
+	src:	url('read-mediumitalic_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-mediumitalic_v2000.woff2') format('woff2'),
+			url('read-mediumitalic_v2000.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family:'Read';
+	src:	url('read-bold_v2000.eot');
+	src:	url('read-bold_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-bold_v2000.woff2') format('woff2'),
+			url('read-bold_v2000.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family:'Read';
+	src:	url('read-bolditalic_v2000.eot');
+	src:	url('read-bolditalic_v2000.eot?#iefix') format('embedded-opentype'),
+			url('read-bolditalic_v2000.woff2') format('woff2'),
+			url('read-bolditalic_v2000.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+

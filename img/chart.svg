@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.013,14.011 L6.032,14.011 L6.032,10.004 L3.002,10.004 L3.002,14.011 L2.02,14.011 L2.02,9.051 L6.031,9.051 L6.031,5.044 L10.041,5.044 L10.041,1.037 L15.006,1.037 L15.006,14.01 L14.025,14.01 L14.025,1.989 L11.023,1.989 L11.023,14.011 L10.041,14.011 L10.041,5.996 L7.011,5.996 L7.013,14.011 Z M16,16 L0,16 L0,0 L0.982,0 L0.982,15.047 L16,15.047 L16,16 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/chart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

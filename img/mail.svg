@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.9888,8.93942857 C10.5392,7.01171429 12.6208,5.084 14.6576,2.81942857 L1.32,2.81942857 C3.5136,5.22885714 5.5944,7.13257143 7.9888,8.93942857 Z M1.3424,13.1805714 L14.6576,13.1805714 L11.3904,9.37314286 L11.9944,8.81942857 L15.2168,12.578 L15.2168,3.47 C12.9336,5.95142857 11.1,7.61428571 8.3248,9.71085714 L7.6528,9.71085714 C4.9448,7.66228571 3.1104,5.97628571 0.784,3.47 L0.784,12.5771429 L4.0064,8.81857143 L4.6096,9.37228571 L1.3432,13.1797143 L1.3424,13.1805714 Z M0,2 L16,2 L16,14 L0,14 L0,2 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="mail" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

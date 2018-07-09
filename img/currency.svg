@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/currency</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.174,10.545 L0,10.545 L0,9.566 L3.033,9.566 C2.99879972,9.04467125 2.98012478,8.52244 2.977,8 C2.977,7.44 3.005,6.91 3.033,6.406 L0,6.406 L0,5.428 L3.174,5.428 C3.792,1.483 5.953,0 9.097,0 C10.643,0 12.017,0.224 13,0.587 L13,1.567 C11.624,1.119 10.585,0.979 9.126,0.979 C6.486,0.979 4.746,2.126 4.184,5.428 L11.007,5.428 L10.895,6.406 L4.045,6.406 C4.015,6.881 3.988,7.413 3.988,8 C3.988,8.56 4.015,9.09 4.045,9.566 L10.361,9.566 L10.249,10.546 L4.184,10.546 C4.774,13.79 6.599,15.021 9.462,15.021 C10.922,15.021 11.738,14.909 13,14.545 L13,15.525 C11.8492689,15.8508387 10.657925,16.0107846 9.462,16 C6.009,16 3.792,14.406 3.174,10.545 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/currency" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

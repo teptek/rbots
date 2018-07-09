@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>icons</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .preview .inner i {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+
+        @font-face {
+    font-family: "icons";
+    src: url("./icons.eot?af68856ce0835d42171a5a686c927bf8?#iefix") format("embedded-opentype"),
+url("./icons.woff2?af68856ce0835d42171a5a686c927bf8") format("woff2"),
+url("./icons.woff?af68856ce0835d42171a5a686c927bf8") format("woff"),
+url("./icons.ttf?af68856ce0835d42171a5a686c927bf8") format("truetype"),
+url("./icons.svg?af68856ce0835d42171a5a686c927bf8#icons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="ico-"]:before, i[class*=" ico-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-a:before {
+    content: "\f101";
+}
+.ico-admin:before {
+    content: "\f102";
+}
+.ico-arrow-left:before {
+    content: "\f103";
+}
+.ico-arrow-rd-left:before {
+    content: "\f104";
+}
+.ico-arrow-rd-right:before {
+    content: "\f105";
+}
+.ico-arrow-right:before {
+    content: "\f106";
+}
+.ico-assistant:before {
+    content: "\f107";
+}
+.ico-avatar:before {
+    content: "\f108";
+}
+.ico-box:before {
+    content: "\f109";
+}
+.ico-chart:before {
+    content: "\f10a";
+}
+.ico-clear:before {
+    content: "\f10b";
+}
+.ico-client:before {
+    content: "\f10c";
+}
+.ico-close:before {
+    content: "\f10d";
+}
+.ico-comment:before {
+    content: "\f10e";
+}
+.ico-contact-mail:before {
+    content: "\f10f";
+}
+.ico-contact_mail:before {
+    content: "\f110";
+}
+.ico-currency:before {
+    content: "\f111";
+}
+.ico-dashboard:before {
+    content: "\f112";
+}
+.ico-deploy:before {
+    content: "\f113";
+}
+.ico-documentation:before {
+    content: "\f114";
+}
+.ico-download:before {
+    content: "\f115";
+}
+.ico-edit:before {
+    content: "\f116";
+}
+.ico-expand-off:before {
+    content: "\f117";
+}
+.ico-expand-on:before {
+    content: "\f118";
+}
+.ico-filter-b:before {
+    content: "\f119";
+}
+.ico-filter:before {
+    content: "\f11a";
+}
+.ico-flag:before {
+    content: "\f11b";
+}
+.ico-folder:before {
+    content: "\f11c";
+}
+.ico-globe:before {
+    content: "\f11d";
+}
+.ico-ico-arrow-rd-left:before {
+    content: "\f11e";
+}
+.ico-ico-arrow-rd-right:before {
+    content: "\f11f";
+}
+.ico-info:before {
+    content: "\f120";
+}
+.ico-links:before {
+    content: "\f121";
+}
+.ico-list:before {
+    content: "\f122";
+}
+.ico-location:before {
+    content: "\f123";
+}
+.ico-logo-a:before {
+    content: "\f124";
+}
+.ico-logo-app:before {
+    content: "\f125";
+}
+.ico-logo-monochrome-grey:before {
+    content: "\f126";
+}
+.ico-logo.dirq:before {
+    content: "\f127";
+}
+.ico-mail:before {
+    content: "\f128";
+}
+.ico-menu:before {
+    content: "\f129";
+}
+.ico-more:before {
+    content: "\f12a";
+}
+.ico-off:before {
+    content: "\f12b";
+}
+.ico-pdf:before {
+    content: "\f12c";
+}
+.ico-plus:before {
+    content: "\f12d";
+}
+.ico-renault:before {
+    content: "\f12e";
+}
+.ico-search-rd:before {
+    content: "\f12f";
+}
+.ico-search:before {
+    content: "\f130";
+}
+.ico-select:before {
+    content: "\f131";
+}
+.ico-sets:before {
+    content: "\f132";
+}
+.ico-settings:before {
+    content: "\f133";
+}
+.ico-tag:before {
+    content: "\f134";
+}
+.ico-time:before {
+    content: "\f135";
+}
+.ico-toggle:before {
+    content: "\f136";
+}
+.ico-trash:before {
+    content: "\f137";
+}
+.ico-upload:before {
+    content: "\f138";
+}
+.ico-valid-cercle:before {
+    content: "\f139";
+}
+.ico-validation:before {
+    content: "\f13a";
+}
+.ico-view-off:before {
+    content: "\f13b";
+}
+.ico-view:before {
+    content: "\f13c";
+}
+
+
+    </style>
+</head>
+<body>
+
+    <h1>icons</h1>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-a"></i>
+            </span>
+            <br>
+            <span class='label'>a</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-admin"></i>
+            </span>
+            <br>
+            <span class='label'>admin</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-arrow-left"></i>
+            </span>
+            <br>
+            <span class='label'>arrow-left</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-arrow-rd-left"></i>
+            </span>
+            <br>
+            <span class='label'>arrow-rd-left</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-arrow-rd-right"></i>
+            </span>
+            <br>
+            <span class='label'>arrow-rd-right</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-arrow-right"></i>
+            </span>
+            <br>
+            <span class='label'>arrow-right</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-assistant"></i>
+            </span>
+            <br>
+            <span class='label'>assistant</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-avatar"></i>
+            </span>
+            <br>
+            <span class='label'>avatar</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-box"></i>
+            </span>
+            <br>
+            <span class='label'>box</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-chart"></i>
+            </span>
+            <br>
+            <span class='label'>chart</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-clear"></i>
+            </span>
+            <br>
+            <span class='label'>clear</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-client"></i>
+            </span>
+            <br>
+            <span class='label'>client</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-close"></i>
+            </span>
+            <br>
+            <span class='label'>close</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-comment"></i>
+            </span>
+            <br>
+            <span class='label'>comment</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-contact-mail"></i>
+            </span>
+            <br>
+            <span class='label'>contact-mail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-contact_mail"></i>
+            </span>
+            <br>
+            <span class='label'>contact_mail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-currency"></i>
+            </span>
+            <br>
+            <span class='label'>currency</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-dashboard"></i>
+            </span>
+            <br>
+            <span class='label'>dashboard</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-deploy"></i>
+            </span>
+            <br>
+            <span class='label'>deploy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-documentation"></i>
+            </span>
+            <br>
+            <span class='label'>documentation</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-download"></i>
+            </span>
+            <br>
+            <span class='label'>download</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-edit"></i>
+            </span>
+            <br>
+            <span class='label'>edit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-expand-off"></i>
+            </span>
+            <br>
+            <span class='label'>expand-off</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-expand-on"></i>
+            </span>
+            <br>
+            <span class='label'>expand-on</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-filter-b"></i>
+            </span>
+            <br>
+            <span class='label'>filter-b</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-filter"></i>
+            </span>
+            <br>
+            <span class='label'>filter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-flag"></i>
+            </span>
+            <br>
+            <span class='label'>flag</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-folder"></i>
+            </span>
+            <br>
+            <span class='label'>folder</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-globe"></i>
+            </span>
+            <br>
+            <span class='label'>globe</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-ico-arrow-rd-left"></i>
+            </span>
+            <br>
+            <span class='label'>ico-arrow-rd-left</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-ico-arrow-rd-right"></i>
+            </span>
+            <br>
+            <span class='label'>ico-arrow-rd-right</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-info"></i>
+            </span>
+            <br>
+            <span class='label'>info</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-links"></i>
+            </span>
+            <br>
+            <span class='label'>links</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-list"></i>
+            </span>
+            <br>
+            <span class='label'>list</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-location"></i>
+            </span>
+            <br>
+            <span class='label'>location</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-logo-a"></i>
+            </span>
+            <br>
+            <span class='label'>logo-a</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-logo-app"></i>
+            </span>
+            <br>
+            <span class='label'>logo-app</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-logo-monochrome-grey"></i>
+            </span>
+            <br>
+            <span class='label'>logo-monochrome-grey</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-logo.dirq"></i>
+            </span>
+            <br>
+            <span class='label'>logo.dirq</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-mail"></i>
+            </span>
+            <br>
+            <span class='label'>mail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-menu"></i>
+            </span>
+            <br>
+            <span class='label'>menu</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-more"></i>
+            </span>
+            <br>
+            <span class='label'>more</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-off"></i>
+            </span>
+            <br>
+            <span class='label'>off</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-pdf"></i>
+            </span>
+            <br>
+            <span class='label'>pdf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-plus"></i>
+            </span>
+            <br>
+            <span class='label'>plus</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-renault"></i>
+            </span>
+            <br>
+            <span class='label'>renault</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-search-rd"></i>
+            </span>
+            <br>
+            <span class='label'>search-rd</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-search"></i>
+            </span>
+            <br>
+            <span class='label'>search</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-select"></i>
+            </span>
+            <br>
+            <span class='label'>select</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-sets"></i>
+            </span>
+            <br>
+            <span class='label'>sets</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-settings"></i>
+            </span>
+            <br>
+            <span class='label'>settings</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-tag"></i>
+            </span>
+            <br>
+            <span class='label'>tag</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-time"></i>
+            </span>
+            <br>
+            <span class='label'>time</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-toggle"></i>
+            </span>
+            <br>
+            <span class='label'>toggle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-trash"></i>
+            </span>
+            <br>
+            <span class='label'>trash</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-upload"></i>
+            </span>
+            <br>
+            <span class='label'>upload</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-valid-cercle"></i>
+            </span>
+            <br>
+            <span class='label'>valid-cercle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-validation"></i>
+            </span>
+            <br>
+            <span class='label'>validation</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-view-off"></i>
+            </span>
+            <br>
+            <span class='label'>view-off</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-view"></i>
+            </span>
+            <br>
+            <span class='label'>view</span>
+        </div>
+
+
+</body>
+</html>
