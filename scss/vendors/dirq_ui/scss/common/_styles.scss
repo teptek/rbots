@@ -1,0 +1,170 @@
+body {
+  font-family: Read;
+  font-size: $font-size;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+a {
+  color: $blue;
+  font-weight: 500;
+  text-decoration: none;
+  &:hover, &:focus {
+    color: $dark-grey-blue;
+  }
+}
+
+a, button {
+  outline: none;
+  cursor: pointer;
+}
+
+p {
+  color: $dark-grey-blue;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+.country-code {
+  font-weight: 500;
+}
+
+.color-tag {
+  width: 15px;
+  height: 18px;
+  display: inline-block;
+  top: 5px;
+  position: relative;
+  margin-right: 7px;
+  &.color-tag-yellow {
+    background: url('../img/tag/yellow.svg') no-repeat center;
+  }
+  &.color-tag-blue {
+    background: url('../img/tag/blue.svg') no-repeat center;
+  }
+  &.color-tag-orange {
+    background: url('../img/tag/orange.svg') no-repeat center;
+  }
+  &.color-tag-mauve {
+    background: url('../img/tag/mauve.svg') no-repeat center;
+  }
+  &.color-tag-green {
+    background: url('../img/tag/green.svg') no-repeat center;
+  }
+  &.color-tag-black {
+    background: url('../img/tag/black.svg') no-repeat center;
+  }
+  &.color-tag-turk {
+    background: url('../img/tag/turk.svg') no-repeat center;
+  }
+}
+
+@mixin label() {
+  &:not(.checkbox) {
+    font-size: $font-sm;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+}
+
+.label, .rlabel, label {
+  @include label();
+  color: $grey-blue;
+}
+
+.label-red {
+  @include label();
+   color: $red;
+}
+
+.label-green {
+  @include label();
+  color: $green;
+}
+
+.label-blue {
+  @include label();
+  color: $blue;
+}
+
+.rlabel {
+  padding-bottom: 5px;
+  padding-left: 2px;
+  display: block;
+  margin-bottom: 0;
+}
+
+blockquote {
+  border-left: 2px solid $sun-yellow;
+  padding: 15px;
+  margin: 0;
+}
+
+hr {
+  border-top: medium none;
+}
+
+.rounded-icon {
+  background-color: #F5F9FE;
+  height: 45px;
+  width: 45px;
+  @include border-radius(45px);
+  padding-top: 14px;
+  margin: 0 auto 10px;
+}
+
+.h2 {
+  font-size: $font-h2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h4 {
+  & > i.ico-tag {
+    font-size: 18px;
+  }
+}
+
+h5 {
+  font-size: $font-size;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: $font-input;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+.country {
+  h1, h2, h3, h4, h5, h6, strong {
+    display: inline;
+    vertical-align: middle;
+  }
+  span, div, i {
+    &[class*="country-flag-"] {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+}
+
+.strong {
+  font-weight: 500;
+}

@@ -1,0 +1,43 @@
+.mat-card {
+  @include border-radius(6px);
+  border: 1px solid $light-grey;
+  padding: 0 20px;
+  &:hover, &:focus {
+    box-shadow: $box-shadow;
+    border: 1px solid transparent;
+    @include ease(box-shadow);
+    @include ease(border);
+  }
+  .mat-card-header {
+    display: table;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 10px;
+    .country {
+      float: left;
+    }
+    & > button {
+      float: right;
+      padding: 0;
+      & > i[class*="ico-"] {
+        left: -0;
+        padding-right: 0;
+      }
+    }
+  }
+  .mat-card-content {}
+  .mat-card-actions {
+    border-top: 1px solid $light-grey;
+    display: table;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 25px;
+    h6 {
+      float: left;
+      margin-top: 3px;
+    }
+    .toggle {
+      float: right;
+    }
+  }
+}

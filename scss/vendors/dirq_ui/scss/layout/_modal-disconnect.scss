@@ -1,0 +1,19 @@
+.modal-disconnect {
+  .modal-content{
+    .modal-body {
+      min-height: 130px;
+      .ico-bg {
+        margin: 0 auto 15px;
+        display: table;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.mat-dialog-container {
+  overflow: inherit;
+  padding: 0;
+}

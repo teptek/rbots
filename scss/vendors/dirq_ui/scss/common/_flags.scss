@@ -1,0 +1,64 @@
+@mixin country-flag ($country-code) {
+  background: url('../flags/#{$country-code}.svg') no-repeat;
+  width: 24px;
+  height: 20px;
+  display: inline-block;
+  background-size: 100%;
+  background-position: center center;
+}
+
+.country-flag-fr {
+  @include country-flag(FR);
+}
+
+.country-flag-us {
+  @include country-flag(US);
+}
+
+.country-flag-zw {
+  @include country-flag(ZW);
+}
+
+.country-flag-lv {
+  @include country-flag(LV);
+}
+
+.country-flag-ge {
+  @include country-flag(GE);
+}
+
+.country-flag-ro {
+  @include country-flag(RO);
+}
+
+.country-flag-ar {
+  @include country-flag(AR);
+}
+
+.country-flag-br {
+  @include country-flag(BR);
+}
+
+.country-flag-co {
+  @include country-flag(CO);
+}
+
+.country-flag-in {
+  @include country-flag(IN);
+}
+
+.country-flag-ir {
+  @include country-flag(IR);
+}
+
+.country-flag-kr {
+  @include country-flag(KR);
+}
+
+.country-flag-ru {
+  @include country-flag(RU);
+}
+
+.country-flag-tr {
+  @include country-flag(TR);
+}

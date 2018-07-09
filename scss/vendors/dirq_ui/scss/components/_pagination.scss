@@ -1,0 +1,49 @@
+/* scss/modules/_pagination.scss */
+
+.pagination {
+  li {
+    display: inline;
+    padding: 0 5px 4px;
+    color: $warm-grey;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    font-weight: 500;
+    font-size: $font-input;
+    &.active, &:hover, &:focus {
+      border-bottom: 3px solid $sun-yellow;
+      color: #000000;
+    }
+    &.active {
+      cursor: default;
+    }
+    &.p-back {
+      margin-right: 10px;
+      &::before {
+        content:"<";
+        margin-right: 3px;
+      }
+    }
+    &.p-next {
+      margin-left: 10px;
+      &::after {
+        content:">";
+        margin-left: 3px;
+      }
+    }
+    &.p-next, &.p-back {
+      cursor: default;
+      color: $grey;
+      border-bottom: 3px solid transparent;
+      display: none;
+      a {
+        cursor: default;
+      }
+      &.active, &.active a {
+        cursor: pointer;
+        color: #000000;
+        border-bottom: 3px solid transparent;
+        display: inline;
+      }
+    }
+  }
+}

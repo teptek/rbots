@@ -1,0 +1,10 @@
+.main-loader {
+  text-align: center;
+  & > svg {
+    display: block;
+    margin: 0 auto;
+  }
+  #loader-logo {
+    width: 180px;
+  }
+}

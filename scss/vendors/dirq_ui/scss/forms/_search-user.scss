@@ -1,0 +1,54 @@
+.search-user {
+  margin-bottom: 25px;
+  border-bottom: 1px solid $light-grey;
+  &:hover, &:focus {
+    border-bottom: 1px solid $light-blue;
+  }
+  .no-cross-input::-ms-clear {display: none; width:0; height:0;}
+  input[type='text'] {
+    padding: 0 0 0 8px;
+    width: calc(100% - 49px);
+    border: medium none;
+    height: 38px;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    @include font-input;
+    font-family: Read;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-weight: 400;
+    font-style: italic;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-weight: 400;
+    font-style: italic;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-weight: 400;
+    font-style: italic;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-weight: 400;
+    font-style: italic;
+  }
+  .search-button {
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    width: 40px;
+    border: medium none;
+    background: url('../img/search.svg') no-repeat center;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+    background-size: auto;
+  }
+  button {
+    border: medium none;
+    padding: 0;
+    text-align: right;
+    float: right;
+    margin-top: 10px;
+  }
+}

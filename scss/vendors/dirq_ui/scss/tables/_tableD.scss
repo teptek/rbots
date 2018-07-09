@@ -1,0 +1,46 @@
+table.table-d {
+  background-color: $dark;
+  font-size: $font-input;
+  label {
+    color: white;
+  }
+  .checkbox input[type="checkbox"] {
+    margin-right: 15px;
+  }
+  tr:first-child td {
+    border-top: medium none;
+  }
+  td {
+    &:last-child, &:first-child {
+      padding: 0 0 10px 0;
+      border: medium none;
+    }
+  }
+  tr:last-child td:first-child {
+    border-radius: 0;
+    border-left: medium none;
+  }
+}
+
+.table-add {
+  background-color: $dark;
+  .search-user {
+    margin-bottom: 25px;
+    input[type="text"] {
+      background-color: transparent;
+      color: white;
+    }
+    button {
+      background-color: transparent;
+      & > i[class*="ico-"] {
+        left: 0;
+      }
+    }
+  }
+  label {
+    font-size: $font-input;
+    &:hover, &:focus {
+      opacity: 0.75;
+    }
+  }
+}

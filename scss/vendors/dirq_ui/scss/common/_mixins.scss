@@ -1,0 +1,29 @@
+@mixin ease ($css-ease){
+  -webkit-transition: $css-ease 0.3s ease 0s;
+  -moz-transition: $css-ease 0.3s ease 0s;
+  -ms-transition: $css-ease 0.3s ease 0s;
+  -o-transition: $css-ease 0.3s ease 0s;
+  transition: $css-ease 0.3s ease 0s;
+}
+
+@mixin ease-multi($x...){
+  -webkit-transition: $x;
+  -moz-transition: $x;
+  -ms-transition: $x;
+  -o-transition: $x;
+  transition: $x;
+}
+
+@mixin border-radius ($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin image ($image, $width, $height) {
+  background-image: url('../img/#{$image}.svg');
+  background-repeat: no-repeat;
+  display: block;
+  width: $width;
+  height: $height;
+}

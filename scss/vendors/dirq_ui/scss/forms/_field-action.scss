@@ -1,0 +1,79 @@
+/* scss/elements/_field-action.scss */
+
+.field-action {
+  margin-bottom: 25px;
+  input[type='text'] {
+    @include border-radius(3px 0 0 3px);
+    padding: 0 0 0 10px;
+    width: calc(100% - 40px);
+    border: 1px solid #e1e1e1;
+    border-right: medium none;
+    height: 40px;
+    font-family: Read;
+    font-size: $font-input;
+    font-weight: 500;
+    outline: none;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-weight: 400;
+    font-style: italic;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-weight: 400;
+    font-style: italic;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-weight: 400;
+    font-style: italic;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-weight: 400;
+    font-style: italic;
+  }
+  button {
+    @include border-radius(0 3px 3px 0);
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    width: 40px;
+    border: 1px solid $white;
+    padding: 5px 3px 0 0;
+    text-align: right;
+    border-left: medium none;
+    & > i[class*="ico-"] {
+      font-size: 16px;
+      position: relative;
+      padding: 0;
+    }
+  }
+  &.field-action-loading {
+    button {
+      i {
+        display: none;
+      }
+      &:after {
+        background-image: url("../img/motion/spinner.svg");
+        content: '';
+        width: 25px;
+        height: 25px;
+        display: block;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        right: -6px;
+        position: relative;
+        top: -2px
+      }
+    }
+  }
+  &.error {
+    input[type="text"] {
+      border: 1px solid $red;
+      border-right: medium none;
+    }
+    button {
+      border: 1px solid $red;
+      border-left: medium none;
+    }
+  }
+}

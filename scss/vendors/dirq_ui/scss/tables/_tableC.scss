@@ -1,0 +1,65 @@
+table.table-c {
+  @include table();
+  .ico-trash {
+    font-size: 17px;
+    opacity: 0.2;
+    &:hover, &:focus {
+      color: $red;
+      opacity: 1;
+    }
+  }
+  h4 {
+    font-size: $font-size;
+    vertical-align: middle;
+    margin: 0;
+  }
+  thead {
+    margin-bottom: 20px;
+    display: block;
+    tr {
+      &:first-child, &:last-child {
+        td {
+          &:first-child, &:last-child {
+            border: medium none;
+            padding: 0;
+          }
+          &:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:first-child {
+        td {
+          border-top: none;
+        }
+      }
+      &:last-child {
+        td {
+          &:first-child {
+            border-left: none;
+            @include border-radius(0);
+          }
+          &:last-child {
+            @include border-radius(0);
+          }
+        }
+      }
+      td {
+        padding: 8px 0;
+        font-size: $font-size;
+        &:last-child {
+          border-right: none;
+          text-align: right;
+        }
+        &:first-child {
+          border-left: none;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

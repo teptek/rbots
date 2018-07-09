@@ -1,0 +1,15 @@
+.user-profile {
+  text-align: center;
+  border-bottom: 1px solid $light-grey;
+  padding-bottom: 25px;
+  h4 {
+    font-size: $font-h4;
+  }
+  .ico-tag {
+    margin-bottom: 10px;
+    display: block;
+  }
+  a label {
+    cursor: pointer;
+  }
+}

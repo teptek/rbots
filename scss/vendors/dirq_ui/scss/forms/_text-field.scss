@@ -1,0 +1,29 @@
+input[type='text'] {
+  @include border-radius(3px);
+  padding: 0 10px;
+  width: 100%;
+  border: 1px solid $white;
+  height: 40px;
+  font-family: Read;
+  font-size: $font-input;
+  font-weight: 500;
+  outline: none;
+  &:disabled {
+    background-color: $white;
+    cursor: not-allowed;
+  }
+}
+
+.field-text-twin {
+  input[type='text'] {
+    float: left;
+    width: 50%;
+    &:first-of-type {
+      @include border-radius(3px 0 0 3px);
+      border-right: medium none;
+    }
+    &:last-of-type {
+      @include border-radius(0 3px 3px 0);
+    }
+  }
+}

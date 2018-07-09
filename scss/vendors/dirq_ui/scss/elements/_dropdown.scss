@@ -1,0 +1,53 @@
+.dropdown {
+  background-color: $dark;
+  text-align: center;
+  width: auto;
+  display: table;
+  font-size: $font-size;
+  padding-top: 10px;
+  min-width: 120px;
+  @include border-radius(3px);
+  a, div {
+    &.dropdown-item {
+      font-family: RenaultLife;
+      color: white;
+      display: block;
+      padding: 8px 25px;
+      @include ease(background-color);
+      &:hover, &:focus {
+        background-color: rgba(255,255,255,0.12);
+        @include ease(background-color);
+        color: white;
+      }
+      &.dropdown-lang {
+        padding: 25px 0 8px 0;
+        span {
+          padding: 0 5px;
+        }
+        &:hover, &:focus {
+          background-color: $dark;
+        }
+      }
+      .dropdown-item-lang {
+        color: white;
+        opacity: 0.5;
+        &.active {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .dropdown-signout {
+    @include border-radius(0 0 3px 3px);
+    background-color: rgba(255,255,255,0.12);
+    color: white !important;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    @include ease(background-color);
+    &:hover, &:focus {
+      @include ease(background-color);
+      background-color: $light-blue;
+    }
+  }
+}

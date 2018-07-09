@@ -1,0 +1,17 @@
+.table-sm {
+  font-size: $font-input;
+  width: 100%;
+  .table-sm-label {
+    color: $grey-blue;
+    font-weight: 500;
+    width: 70%;
+  }
+  .table-sm-data {
+    font-weight: 600;
+    text-align: right;
+    width: 30%;
+  }
+  td, th {
+    padding: .2rem 0;
+  }
+}

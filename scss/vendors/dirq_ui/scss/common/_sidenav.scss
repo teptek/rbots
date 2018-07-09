@@ -1,0 +1,98 @@
+@mixin sidenav {
+  .sidenav {
+    font-family: RenaultLife;
+    font-size: $font-input;
+    width: $sidebar-width;
+    @include ease(width);
+    position: absolute;
+    padding-top: 15px;
+    ul {
+      margin-bottom: 0;
+    }
+    .sidenav-item {
+      border-left: 3px solid transparent;
+      color: $dark-grey-blue;
+      font-weight: 700;
+      display: table;
+      padding: 6px 0 8px 13px;
+      opacity: 0.65;
+      position: relative;
+      width: 100%;
+      font-size: $font-size;
+      @include ease(opacity);
+      @include ease(color);
+      text-decoration: none;
+      &.active {
+        border-left: 3px solid $dark-grey-blue;
+        opacity: 1;
+        @include ease(opacity);
+      }
+      &:not(.active) {
+        &:hover, &:focus {
+          border-left: 3px solid transparent;
+          opacity: 1;
+          @include ease(opacity);
+        }
+      }
+      &.sidenav-item-sub {
+        &:after {
+          content: '';
+          display: inline-block;
+          text-align: right;
+          position: absolute;
+          top: 17px;
+          background-image: url('../img/expand-off.svg');
+          background-repeat: no-repeat;
+          background-position: center center;
+          width: 8px;
+          height: 5px;
+          right: 10px;
+        }
+      }
+    }
+    .sidenav-submenu {
+      max-height: 0;
+      overflow: hidden;
+      @include ease(max-height);
+      li {
+        &:last-child {
+          padding-bottom: 10px;
+        }
+        &:first-child {
+          padding-top: 5px;
+        }
+      }
+      .sidenav-submenu-item {
+        font-family: Read;
+        color: $dark-grey-blue;
+        opacity: 0.5;
+        font-size: 12px;
+        font-weight: 500;
+        display: table;
+        margin-left: 55px;
+        @include ease(opacity);
+        margin-top: 2px;
+        &.active, &:hover, &:focus {
+          opacity: 1;
+          @include ease(opacity);
+        }
+      }
+    }
+    .open {
+      .sidenav-item.sidenav-item-sub {
+        &:after {
+          background-image: url('../img/expand-on.svg');
+        }
+      }
+      .sidenav-submenu {
+        max-height: 600px;
+        @include ease(max-height);
+      }
+    }
+    i[class*="ico-"] {
+      font-size: 22px;
+      padding-right: 19px;
+      padding-left: 1px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.status {
+  display: table;
+  font-weight:  500;
+  @include border-radius(2px);
+  padding: 6px;
+  line-height: 1;
+  border: medium none;
+  font-size: 10px;
+  text-transform: uppercase;
+  &.status-red {
+    background-color: lighten($red, 55%);
+    color: $red;
+  }
+  &.status-blue {
+    background-color: lighten($blue, 55%);
+    color: $blue;
+  }
+  &.status-green {
+    background-color: lighten($green, 57%);
+    color: $green;
+  }
+  &.status-grey {
+    background-color: $light-grey;
+    color: lighten(black, 65%)
+  }
+}
+

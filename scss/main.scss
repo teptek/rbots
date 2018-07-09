@@ -1,7 +1,19 @@
 //R'BOTS v1
 
-@import "legacy/main";
-@import "legacy/theme-grey";
+@import "vendors/legacy/main";
+@import "vendors/legacy/theme-grey";
+
+
+// import dirq_ui
+
+@import "vendors/dirq_ui/scss/common/variables.scss";
+@import "vendors/dirq_ui/scss/common/mixins.scss";
+@import "vendors/dirq_ui/scss/common/_font";
+
+@import "../font/icons/icons.css";
+
+@import "vendors/dirq_ui/scss/common/_font-icons";
+
 
 //v3
 

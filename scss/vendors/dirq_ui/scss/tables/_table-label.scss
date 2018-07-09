@@ -1,0 +1,52 @@
+@import "../common/styles";
+
+
+.table-label {
+  display: table;
+  width: 100%;
+  font-size: $font-size;
+  th {
+    @extend .label;
+    border-bottom: $border;
+  }
+  tbody {
+    &:before {
+      line-height:0.75em;
+      content:".";
+      color:white;
+      display:block;
+    }
+    tr {
+      td {
+        vertical-align: middle;
+        padding: 8px 0;
+        label.checkbox {
+          margin: 0;
+        }
+        &:first-child {
+          @include border-radius(3px 0 0 3px);
+        }
+        &:last-child {
+          @include border-radius(0 3px 3px 0);
+        }
+      }
+      &:hover, &:focus {
+        td {
+          background-color: darken($cloud-blue, 3%);
+        }
+      }
+      &:first-child {
+        td {
+
+        }
+      }
+    }
+  }
+  tr {
+    td, th {
+      &:first-child {
+        padding-left: 7px;
+      }
+    }
+  }
+}

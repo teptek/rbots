@@ -1,0 +1,93 @@
+.ico {
+  height: 70px;
+  width: 70px;
+  background-color: $light-grey;
+  @include border-radius(70px);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  &.ico-validation {
+    background-image: url('../img/validation.svg');
+  }
+}
+
+@mixin icon($icon) {
+  .ico-#{$icon} {
+    background-image: url('../img/#{$icon}.svg');
+    height: 18px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+    display: block;
+  }
+}
+
+@include icon(trash);
+@include icon(arrow-left);
+@include icon(off);
+@include icon(toggle);
+@include icon(time);
+
+@mixin icon-tag($icon) {
+  .ico-tag-#{$icon} {
+    background-image: url('../img/tag/#{$icon}.svg');
+    height: 16px;
+    width: 19px;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+}
+
+//@include icon-tag(black);
+@include icon-tag(blue);
+@include icon-tag(green);
+@include icon-tag(orange);
+@include icon-tag(turk);
+//@include icon-tag(yellow);
+
+span[class*="ico-tag-"] {
+  width: 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  height: 19px;
+  display: inline-block;
+}
+
+.ico-tag-yellow {
+  background-image: url('../img/tag/yellow.svg');
+}
+
+.ico-tag-black {
+  background-image: url('../img/tag/black.svg');
+}
+
+
+@mixin button-icon($icon) {
+  a, button {
+    &.button-ico-#{$icon} {
+      padding-left: 12px;
+      &:before {
+        background-image: url('../img/#{$icon}.svg');
+        height: 12px;
+        width: 12px;
+        content: '';
+        display: inline-block;
+        background-size: 12px;
+        position: relative;
+        top: 1px;
+        margin-right: 8px;
+      }
+      &[class*="-small"] {
+        padding-left: 8px;
+        top: 1px;
+      }
+    }
+  }
+}
+
+@include button-icon(plus);
+@include button-icon(settings);

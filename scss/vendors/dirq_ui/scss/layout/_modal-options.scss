@@ -1,0 +1,105 @@
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  //background: rgb(111,111,111);
+}
+.modal-dialog, .mat-dialog-container {
+  max-width: 100%;
+  .modal-content-options {
+    width: 800px;
+    @include ease(width);
+    margin: 0 auto;
+    .modal-next, .modal-back {
+      opacity: 0.5;
+      a, button {
+        cursor: not-allowed;
+      }
+    }
+  }
+  .modal-content-main {
+    float: left;
+    width: 500px;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+  }
+  .modal-options-container {
+    @include border-radius(0 6px 6px 0);
+    float: right;
+    width: 300px;
+    background-color: $dark;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  .table-add {
+    .ico-arrow-left-white {
+      float: left;
+      margin-top: 9px;
+    }
+    .table-add-head {
+      & > button {
+        background-color: transparent;
+        padding: 0;
+        top: 9px;
+        position: relative;
+        left: -2px;
+        & > i {
+          font-size: 18px;
+        }
+      }
+      .search-user {
+        margin-bottom: 25px;
+        width: calc(100% - 24px);
+        float: right;
+        button {
+          background-color: transparent;
+          & > i {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .table-add-content {
+      overflow-y: scroll;
+      height: calc(100% - 154px);
+      bottom: 0;
+      position: absolute;
+      top: 84px;
+      width: calc(100% - 40px);
+      right: 20px;
+      &::-webkit-scrollbar {
+        width: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        @include border-radius(10px);
+        background-color: #5F6371;
+      }
+      &::-webkit-scrollbar-track {
+        //background-color: #000;
+      }
+    }
+    .table-add-footer {
+      @include border-radius(0 0 6px 0);
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      left: 0;
+      padding: 15px 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      background-color: $dark;
+      button {
+        width: 100%;
+      }
+    }
+  }
+  .pagination {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}

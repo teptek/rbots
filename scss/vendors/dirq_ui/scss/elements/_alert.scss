@@ -1,0 +1,21 @@
+.alert {
+  display: table;
+  font-weight:  500;
+  @include border-radius(30px);
+  padding: 8px 16px;
+  line-height: 1;
+  border: medium none;
+  &.alert-danger {
+    background-color: lighten($red, 55%);
+    color: $red;
+  }
+  &.alert-info {
+    background-color: lighten($blue, 55%);
+    color: $blue;
+  }
+  &.alert-success {
+    background-color: lighten($green, 57%);
+    color: $green;
+  }
+}
+

@@ -1,0 +1,39 @@
+.table-b {
+  @include table();
+  font-size: $font-input;
+  .table-color-tag {
+    width: 30%;
+    font-size: $font-size;
+  }
+  .table-two-lines {
+    width: 20%;
+    & > a {
+      font-size: $font-size;
+      color: $blue;
+    }
+    & > .light-text {
+      font-size: 12px;
+    }
+  }
+  .table-status {
+    width: 10%;
+  }
+  .table-flag {
+    width: 200px;
+  }
+  td:last-child {
+    text-align: right;
+    width: 20%;
+  }
+  .table-countries {
+    width: 120px;
+    .country-code {
+      visibility: hidden;
+    }
+    &:focus, &:hover {
+      .country-code {
+        visibility: visible;
+      }
+    }
+  }
+}

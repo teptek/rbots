@@ -1,0 +1,100 @@
+@mixin table() {
+  background-color: white;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: inherit;
+  //font-size: $font-input;
+  tr {
+    display: table;
+    width: 100%;
+    &:first-child {
+      td {
+        //border-top: 1px solid $white;
+        &:first-child {
+          //@include border-radius(3px 0 0 0);
+        }
+        &:last-child {
+          //@include border-radius(0 3px 0 0);
+        }
+      }
+    }
+    &:last-child {
+      border-bottom: medium none;
+      td {
+        &:first-child {
+          //@include border-radius(0 0 0 3px);
+          //border-left: 1px solid $white;
+        }
+        &:last-child {
+          //@include border-radius(0 0 3px 0);
+        }
+      }
+    }
+  }
+  td {
+    padding: 10px 0;
+    font-weight: 500;
+    border-bottom: 1px solid $white;
+    &:first-child {
+      padding-left: 2px;
+      //border-left: 1px solid $white;
+    }
+    &:last-child {
+      padding-right: 2px;
+      //border-right: 1px solid $white;
+    }
+  }
+  .table-separator {
+    width: 21px;
+    div {
+      background-color: $white;
+      width: 1px;
+      height: 20px;
+      margin: 0 10px;
+    }
+  }
+}
+
+.table-roles {
+  text-align: left;
+  width: 60px;
+}
+
+.table-countries {
+  display: table-cell;
+  vertical-align: middle;
+  width: 96px;
+  & > div {
+    display: inherit;
+  }
+  .country-code {
+    vertical-align: middle;
+    display: table-cell;
+    height: 18px;
+    padding-left: 7px;
+  }
+}
+
+.table-two-lines {
+  padding: 0 0 0 5px;
+  p {
+    margin: 0;
+  }
+  .light-text {
+    font-weight: 300;
+    line-height: 1;
+  }
+}
+
+.table-option {
+  a {
+    background: url('../img/more.svg') no-repeat center;
+    display: block;
+    float: right;
+    width: 18px;
+    height: 20px;
+    &:hover, &focus {
+      background: url('../img/more.svg') no-repeat center;
+    }
+  }
+}

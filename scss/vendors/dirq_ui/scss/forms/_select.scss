@@ -1,0 +1,48 @@
+/* scss/elements/_select.scss */
+
+
+.rselect {
+  @include border-radius(3px);
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  line-height: 1.5;
+  color: $dark-grey;
+  vertical-align: middle;
+  background: #fff url('../img/select.svg') no-repeat right .55rem center;
+  background-size: 18px;
+  border: 1px solid $white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: $font-input;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: black;
+  option {
+    padding: 0;
+    font-weight: 500;
+    color: black;
+    &.select-placeholder {
+      font-weight: 300;
+      color: $grey;
+    }
+  }
+  &.disabled {
+    cursor: not-allowed;
+  }
+  &.error {
+    border: 1px solid $red;
+  }
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+option:not(:checked) {
+  color: black; /* prevent <option>s from becoming transparent as well */
+}
