@@ -1,3 +1,6 @@
+@import "../font/icons/icons.css";
+
+
 @import "common/_mixins";
 @import "common/_variables";
 @import "common/_styles";
@@ -9,7 +12,7 @@
 
 
 @import "elements/_elements";
-@import "components/components";
-@import "layout/layout";
-@import "tables/tables";
-@import "forms/forms";
+@import "components/_components";
+@import "layout/_layout";
+@import "tables/_tables";
+@import "forms/_forms";

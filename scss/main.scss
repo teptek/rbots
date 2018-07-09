@@ -6,8 +6,8 @@
 
 // import dirq_ui
 
-@import "vendors/dirq_ui/scss/common/variables.scss";
-@import "vendors/dirq_ui/scss/common/mixins.scss";
+@import "vendors/dirq_ui/scss/common/_variables";
+@import "vendors/dirq_ui/scss/common/_mixins";
 @import "vendors/dirq_ui/scss/common/_font";
 
 @import "../font/icons/icons.css";
@@ -17,12 +17,12 @@
 
 //v3
 
-@import "common/mixins";
-@import "common/variables";
-@import "common/styles";
+@import "common/_mixins";
+@import "common/_variables";
+@import "common/_styles";
 
-@import "components/components";
-@import "elements/elements";
+@import "components/_components";
+@import "elements/_elements";
 
 body {
   font-size: $font-input;
