@@ -77,5 +77,8 @@ i[class^="ico-"]:before, i[class*=" ico-"]:before {
   &.ico-reader {
     color: $role-reader;
   }
+  &.ico-deactivated {
+    color: $grey;
+  }
 }
 

@@ -78,7 +78,7 @@ ul {
   }
 }
 
-.label, .rlabel, label {
+.label, .rlabel {
   @include label();
   color: $grey-blue;
 }

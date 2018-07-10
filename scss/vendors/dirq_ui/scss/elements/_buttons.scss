@@ -125,6 +125,15 @@ button {
   }
 }
 
+.button-red {
+  @include button;
+  color: $red;
+  background-color: lighten($red, 55%);
+  &:hover, &:focus {
+    background-color: lighten($red, 50%);
+  }
+}
+
 .button-blue-light {
   @include button;
   color: $blue;
