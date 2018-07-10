@@ -9,6 +9,16 @@
 @import "vendors/dirq_ui/scss/common/_variables";
 @import "vendors/dirq_ui/scss/common/_mixins";
 @import "vendors/dirq_ui/scss/common/_font";
+@import "vendors/dirq_ui/scss/common/_styles";
+@import "vendors/dirq_ui/scss/common/_flags";
+
+
+
+@import "vendors/dirq_ui/scss/elements/_elements";
+@import "vendors/dirq_ui/scss/components/_components";
+@import "vendors/dirq_ui/scss/layout/_layout";
+@import "vendors/dirq_ui/scss/tables/_tables";
+@import "vendors/dirq_ui/scss/forms/_forms";
 
 @import "../font/icons/icons.css";
 
