@@ -1,0 +1,14 @@
+.pagination {
+  li {
+    &:first-child, &:last-child {
+      display: inline;
+    }
+    &.pagination-label {
+      color: black;
+      cursor: default;
+      &:hover, &:focus {
+        border-color: transparent;
+      }
+    }
+  }
+}

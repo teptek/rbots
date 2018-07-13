@@ -1,0 +1,40 @@
+$padding-gutter:    25px;
+$margin-gutter:    15px;
+
+.page-content {
+  background-color: white;
+  @include border-radius(6px);
+  margin: $margin-gutter;
+  padding: $padding-gutter;
+}
+
+.rb-header {
+  margin-bottom: $padding-gutter;
+  & > .grid-x {
+    & .cell {
+      [class*="button-"] {
+        margin-left: 5px;
+      }
+    }
+  }
+  h1 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+  .rb-title-info {
+    font-size: $font-input;
+    color: $dark;
+  }
+  .rb-title {
+    float: left;
+    padding-right: $padding-gutter;
+  }
+  .rb-tabs {
+    border-left: $border;
+    float: left;
+    padding: 5px 0 5px $padding-gutter;
+  }
+}

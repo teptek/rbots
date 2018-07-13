@@ -1,0 +1,61 @@
+.rb-table {
+  @extend .table-label;
+  font-size: $font-input;
+  -webkit-font-smoothing: antialiased;
+  thead {
+    background-color: transparent;
+    border-top: medium none;
+    border-left: medium none;
+    border-right: medium none;
+    border-bottom: $border;
+    th {
+      &.rb-sort-list {
+       & > a {
+         color: $grey-blue;
+         & > i {
+           margin-left: 3px;
+           font-size: 14px;
+         }
+         &:hover, &:focus {
+           color: $blue;
+         }
+       }
+      }
+    }
+  }
+  tbody {
+    border: medium none;
+    background-color: transparent;
+    tr {
+      &:nth-child(even) {
+        border-bottom: 0;
+        background-color: #f8f8f8;
+      }
+      td {
+        padding: 6px 0;
+        &:first-child {
+          font-weight: 500;
+        }
+        & > .rb-link-icon {
+          color: $grey-blue;
+          &:hover, &:focus {
+            color: $blue;
+          }
+        }
+        & > .rb-table-option {
+          visibility: hidden;
+        }
+      }
+      &:hover, &:focus {
+        & > td {
+          &:first-child {
+            color: $blue;
+          }
+          & > .rb-table-option {
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+}

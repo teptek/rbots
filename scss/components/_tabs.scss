@@ -1,0 +1,28 @@
+.rb-tabs {
+  ul {
+    margin-bottom: 0;
+    li {
+      background: transparent;
+      display: inline;
+      @include border-radius(30px);
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 600;
+      padding: 8px 12px;
+      @include ease(background);
+      cursor: pointer;
+      color: black;
+      &.active {
+        background: $sun-yellow;
+        @include ease(background);
+        color: black;
+        &:hover, &:focus {
+          color: black;
+        }
+      }
+      &:hover, &:focus {
+        color: lighten(black, 40%);
+      }
+    }
+  }
+}

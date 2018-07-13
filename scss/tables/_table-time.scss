@@ -1,0 +1,73 @@
+.rb-time-table, .rb-time-table.unstriped {
+  @extend .table-label;
+  font-size: $font-input;
+  -webkit-font-smoothing: antialiased;
+  .status {
+    display: inline-block;
+  }
+  tbody {
+    border: medium none;
+    tr {
+      border: medium none;
+      background-color: transparent;
+      @include border-radius(3px);
+      &:hover, &:focus {
+        box-shadow: $box-shadow;
+        td {
+          background-color: white;
+          &.rb-time-table-hour {
+            background-color: $cloud-blue;
+          }
+        }
+        .rb-table-option {
+          visibility: visible;
+        }
+      }
+      td {
+        &:first-child {
+          @include border-radius(3px);
+          padding-left: 10px;
+        }
+        &:last-child {
+          padding-right: 10px;
+        }
+        &.rb-time-table-date {
+          color: $blue;
+          & > a {
+            font-weight: 600;
+            &:hover, &:focus {
+              color: $blue;
+            }
+            & > i {
+              margin-right: 5px;
+            }
+          }
+        }
+        &.rb-time-table-hour {
+          color: $dark-grey-blue;
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+          & > i {
+            margin-right: 5px;
+          }
+        }
+        &.rb-time-table-link {
+          & > a:first-child {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .rb-table-option {
+    visibility: hidden;
+    button {
+      opacity: 1;
+      background-color: $cloud-blue;
+      &:hover, &:focus {
+        opacity: 1;
+        background-color: lighten($blue, 55%);
+      }
+    }
+  }
+}

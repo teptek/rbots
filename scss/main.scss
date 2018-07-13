@@ -15,10 +15,15 @@
 
 
 @import "vendors/dirq_ui/scss/elements/_elements";
-@import "vendors/dirq_ui/scss/components/_components";
-@import "vendors/dirq_ui/scss/layout/_layout";
-@import "vendors/dirq_ui/scss/tables/_tables";
-@import "vendors/dirq_ui/scss/forms/_forms";
+//@import "vendors/dirq_ui/scss/components/_components";
+//@import "vendors/dirq_ui/scss/layout/_layout";
+//@import "vendors/dirq_ui/scss/forms/_forms";
+
+
+// tables
+@import "vendors/dirq_ui/scss/tables/_common";
+@import "vendors/dirq_ui/scss/tables/_table-label";
+@import "vendors/dirq_ui/scss/components/_pagination";
 
 @import "../font/icons/icons.css";
 
@@ -33,6 +38,8 @@
 
 @import "components/_components";
 @import "elements/_elements";
+@import "tables/_tables";
+@import "layout/_layout";
 
 body {
   font-size: $font-input;

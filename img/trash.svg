@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>trash</title>
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/trash empty</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="trash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ico-trash" transform="translate(3.000000, 2.000000)" fill="#000000" fill-rule="nonzero">
-            <path d="M0.714286,11.4285714 C0.714286,12.2178571 1.353571,12.8571429 2.142857,12.8571429 L7.857143,12.8571429 C8.646429,12.8571429 9.285714,12.2178571 9.285714,11.4285714 L9.285714,2.85714286 L0.714286,2.85714286 L0.714286,11.4285714 Z M10,0.714285714 L7.5,0.714285714 L6.785714,0 L3.214286,0 L2.5,0.714285714 L0,0.714285714 L0,2.14285714 L10,2.14285714 L10,0.714285714 Z" id="Shape"></path>
-        </g>
+    <defs>
+        <path d="M10.479,3.78234148 L10.479,13.953457 L9.497,13.953457 L9.497,3.78234148 L10.479,3.78234148 Z M10.03,1.93994245 L10.03,0.954 L6.998,0.954 L6.998,1.93994245 L10.03,1.93994245 Z M6.492,3.78234148 L7.475,3.78234148 L7.475,13.953457 L6.492,13.953457 L6.492,3.78234148 Z M14.017,4.012 L14.017,16 L3.011,16 L3.011,4.012 L3.994,4.012 L3.994,15.046 L13.034,15.046 L13.034,4.012 L14.017,4.012 Z M2,2.02 L6.015,2.02 L6.015,0 L11.013,0 L11.013,2.02 L15,2.02 L15,2.973 L2,2.973 L2,2.02 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/trash-empty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="a" fill="#000000" xlink:href="#path-1"></use>
     </g>
 </svg>

@@ -1,0 +1,10 @@
+.page-table {
+  .table-footer {
+    border-top: $border;
+    padding-top: $margin-gutter;
+    margin-top: $padding-gutter;
+    .pagination {
+      margin-bottom: 0;
+    }
+  }
+}

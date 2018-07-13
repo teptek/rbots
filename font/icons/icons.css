@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?1fba56c4d3368ab234656e1c1a1c3a62?#iefix") format("embedded-opentype"),
-url("./icons.woff2?1fba56c4d3368ab234656e1c1a1c3a62") format("woff2"),
-url("./icons.woff?1fba56c4d3368ab234656e1c1a1c3a62") format("woff"),
-url("./icons.ttf?1fba56c4d3368ab234656e1c1a1c3a62") format("truetype"),
-url("./icons.svg?1fba56c4d3368ab234656e1c1a1c3a62#icons") format("svg");
+    src: url("./icons.eot?6c6dd224e8efa3f7c994be03a7f230ea?#iefix") format("embedded-opentype"),
+url("./icons.woff2?6c6dd224e8efa3f7c994be03a7f230ea") format("woff2"),
+url("./icons.woff?6c6dd224e8efa3f7c994be03a7f230ea") format("woff"),
+url("./icons.ttf?6c6dd224e8efa3f7c994be03a7f230ea") format("truetype"),
+url("./icons.svg?6c6dd224e8efa3f7c994be03a7f230ea#icons") format("svg");
 }
 
 i {
@@ -49,156 +49,153 @@ i[class^="ico-"]:before, i[class*=" ico-"]:before {
 .ico-box:before {
     content: "\f109";
 }
-.ico-chart:before {
+.ico-calendar:before {
     content: "\f10a";
 }
-.ico-clear:before {
+.ico-chart:before {
     content: "\f10b";
 }
-.ico-client:before {
+.ico-clear:before {
     content: "\f10c";
 }
-.ico-close:before {
+.ico-client:before {
     content: "\f10d";
 }
-.ico-comment:before {
+.ico-close:before {
     content: "\f10e";
 }
-.ico-contact-mail:before {
+.ico-comment:before {
     content: "\f10f";
 }
-.ico-contact_mail:before {
+.ico-contact-mail:before {
     content: "\f110";
 }
-.ico-currency:before {
+.ico-contact_mail:before {
     content: "\f111";
 }
-.ico-dashboard:before {
+.ico-currency:before {
     content: "\f112";
 }
-.ico-deploy:before {
+.ico-dashboard:before {
     content: "\f113";
 }
-.ico-documentation:before {
+.ico-deploy:before {
     content: "\f114";
 }
-.ico-download:before {
+.ico-documentation:before {
     content: "\f115";
 }
-.ico-edit:before {
+.ico-download:before {
     content: "\f116";
 }
-.ico-expand-off:before {
+.ico-edit:before {
     content: "\f117";
 }
-.ico-expand-on:before {
+.ico-expand-off:before {
     content: "\f118";
 }
-.ico-filter-b:before {
+.ico-expand-on:before {
     content: "\f119";
 }
-.ico-filter:before {
+.ico-filter-b:before {
     content: "\f11a";
 }
-.ico-flag:before {
+.ico-filter:before {
     content: "\f11b";
 }
-.ico-folder:before {
+.ico-flag:before {
     content: "\f11c";
 }
-.ico-globe:before {
+.ico-folder:before {
     content: "\f11d";
 }
-.ico-ico-arrow-rd-left:before {
+.ico-globe:before {
     content: "\f11e";
 }
-.ico-ico-arrow-rd-right:before {
+.ico-info:before {
     content: "\f11f";
 }
-.ico-info:before {
+.ico-links:before {
     content: "\f120";
 }
-.ico-links:before {
+.ico-list:before {
     content: "\f121";
 }
-.ico-list:before {
+.ico-location:before {
     content: "\f122";
 }
-.ico-location:before {
+.ico-logo-a:before {
     content: "\f123";
 }
-.ico-logo-a:before {
+.ico-logo-app:before {
     content: "\f124";
 }
-.ico-logo-app:before {
+.ico-logo-monochrome-grey:before {
     content: "\f125";
 }
-.ico-logo-monochrome-grey:before {
+.ico-logo.dirq:before {
     content: "\f126";
 }
-.ico-logo.dirq:before {
+.ico-mail:before {
     content: "\f127";
 }
-.ico-mail:before {
+.ico-menu:before {
     content: "\f128";
 }
-.ico-menu:before {
+.ico-more:before {
     content: "\f129";
 }
-.ico-more:before {
+.ico-off:before {
     content: "\f12a";
 }
-.ico-off:before {
+.ico-pdf:before {
     content: "\f12b";
 }
-.ico-pdf:before {
+.ico-plus:before {
     content: "\f12c";
 }
-.ico-plus:before {
+.ico-renault:before {
     content: "\f12d";
 }
-.ico-renault:before {
+.ico-search-rd:before {
     content: "\f12e";
 }
-.ico-search-rd:before {
+.ico-search:before {
     content: "\f12f";
 }
-.ico-search:before {
+.ico-select:before {
     content: "\f130";
 }
-.ico-select:before {
+.ico-sets:before {
     content: "\f131";
 }
-.ico-sets:before {
+.ico-settings:before {
     content: "\f132";
 }
-.ico-settings:before {
+.ico-tag:before {
     content: "\f133";
 }
-.ico-tag:before {
+.ico-time:before {
     content: "\f134";
 }
-.ico-time:before {
+.ico-toggle:before {
     content: "\f135";
 }
-.ico-toggle:before {
+.ico-trash:before {
     content: "\f136";
 }
-.ico-trash:before {
+.ico-upload:before {
     content: "\f137";
 }
-.ico-upload:before {
+.ico-valid-cercle:before {
     content: "\f138";
 }
-.ico-valid-cercle:before {
+.ico-validation:before {
     content: "\f139";
 }
-.ico-validation:before {
+.ico-view-off:before {
     content: "\f13a";
 }
-.ico-view-off:before {
-    content: "\f13b";
-}
 .ico-view:before {
-    content: "\f13c";
+    content: "\f13b";
 }
