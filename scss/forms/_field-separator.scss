@@ -1,0 +1,30 @@
+.field-separator {
+  position: relative;
+  margin-bottom: 25px;
+  label {
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: white;
+    padding-right: 10px;
+    font-size: $font-input;
+    position: relative;
+    z-index: 1;
+    display: inline;
+  }
+  hr {
+    position: absolute;
+    top: 9px;
+    width: 100%;
+    margin: 0;
+    right: 0;
+    border-color: $white;
+  }
+  i[class*="ico-"] {
+    font-size: 18px;
+    background-color: white;
+    display: inline-table;
+    position: relative;
+    z-index: 1;
+    padding-right: 10px;
+  }
+}

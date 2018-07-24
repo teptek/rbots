@@ -2,18 +2,7 @@
 
 .field-action {
   margin-bottom: 25px;
-  input[type='text'] {
-    @include border-radius(3px 0 0 3px);
-    padding: 0 0 0 10px;
-    width: calc(100% - 40px);
-    border: 1px solid #e1e1e1;
-    border-right: medium none;
-    height: 40px;
-    font-family: Read;
-    font-size: $font-input;
-    font-weight: 500;
-    outline: none;
-  }
+  @include input-text-button;
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-weight: 400;
     font-style: italic;
@@ -31,19 +20,10 @@
     font-style: italic;
   }
   button {
-    @include border-radius(0 3px 3px 0);
-    cursor: pointer;
-    float: right;
-    height: 40px;
-    width: 40px;
-    border: 1px solid $white;
-    padding: 5px 3px 0 0;
-    text-align: right;
-    border-left: medium none;
-    & > i[class*="ico-"] {
-      font-size: 16px;
-      position: relative;
-      padding: 0;
+    &:focus, &:hover {
+      & > i {
+        color: $blue;
+      }
     }
   }
   &.field-action-loading {
@@ -68,12 +48,26 @@
   }
   &.error {
     input[type="text"] {
-      border: 1px solid $red;
+      border: 1px solid lighten($red, 43%);
+      background-color: lighten($red, 57%);
       border-right: medium none;
     }
-    button {
-      border: 1px solid $red;
+    input[type='text']:focus + button {
+      border: 1px solid lighten($red, 43%);
       border-left: medium none;
+    }
+    button {
+      border: 1px solid lighten($red, 43%);
+      background-color: lighten($red, 57%);
+      border-left: medium none;
+    }
+  }
+  input[type*="text"] {
+    &.input-text-error {
+      border-right: medium none;
+      &:focus {
+        border-right: medium none;
+      }
     }
   }
 }

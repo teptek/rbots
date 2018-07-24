@@ -1,0 +1,39 @@
+.button-status {
+  @extend .status;
+  font-weight: 600 !important;
+  font-size: $font-sm !important;
+  cursor: pointer;
+  padding: 3px 4px 5px 10px !important;
+  &:hover, &:focus {
+    opacity: 0.85;
+  }
+  .ico-expand-off {
+    left: 0;
+    padding-right: 0;
+    margin-left: 5px;
+  }
+}
+
+.dropdown-status {
+  background-color: white;
+  box-shadow: $box-shadow;
+  width: initial;
+  margin-top: 10px;
+  @include border-radius(3px);
+  display: table;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      font-weight: 600;
+      cursor: pointer;
+      font-size: $font-input;
+      text-transform: uppercase;
+      padding: 8px 10px;
+      &:hover, &:focus {
+        background-color: $cloud-blue;
+        color: $blue;
+      }
+    }
+  }
+}

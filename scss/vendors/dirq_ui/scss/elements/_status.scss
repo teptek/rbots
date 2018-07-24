@@ -1,5 +1,5 @@
 .status {
-  display: table;
+  display: table-cell;
   font-weight:  500;
   @include border-radius(2px);
   padding: 6px;
@@ -14,6 +14,10 @@
   &.status-blue {
     background-color: lighten($blue, 55%);
     color: $blue;
+  }
+  &.status-orange {
+    background-color: lighten($sun-yellow, 25%);
+    color: $orange;
   }
   &.status-green {
     background-color: lighten($green, 57%);

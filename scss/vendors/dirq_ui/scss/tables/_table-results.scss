@@ -1,0 +1,16 @@
+.search-results {
+  font-style: normal;
+  & > div {
+    display: inline;
+  }
+  .label {
+    padding-right: 10px;
+    font-style: normal;
+  }
+  i {
+    padding-left: 2px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+  }
+}

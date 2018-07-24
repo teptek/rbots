@@ -1,0 +1,21 @@
+.type-label {
+  h3 {
+    font-weight: bold;
+  }
+  i {
+    float: left;
+    margin-right: 10px;
+    height: 33px;
+    vertical-align: middle;
+    display: table;
+    &[class^="ico-"]::before, i[class*=" ico-"]::before {
+      display: table-cell;
+    }
+  }
+  .type-label-txt {
+    display: table;
+    label {
+      padding: 0;
+    }
+  }
+}

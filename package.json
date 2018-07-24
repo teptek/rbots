@@ -9,7 +9,7 @@
   "author": "Tep Tek",
   "license": "ISC",
   "dependencies": {
-    "dirq_ui": "^0.2.7",
+    "dirq_ui": "^1.0.2",
     "foundation-sites": "^6.4.4-rc1"
   },
   "devDependencies": {

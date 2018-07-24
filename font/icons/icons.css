@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?6c6dd224e8efa3f7c994be03a7f230ea?#iefix") format("embedded-opentype"),
-url("./icons.woff2?6c6dd224e8efa3f7c994be03a7f230ea") format("woff2"),
-url("./icons.woff?6c6dd224e8efa3f7c994be03a7f230ea") format("woff"),
-url("./icons.ttf?6c6dd224e8efa3f7c994be03a7f230ea") format("truetype"),
-url("./icons.svg?6c6dd224e8efa3f7c994be03a7f230ea#icons") format("svg");
+    src: url("./icons.eot?32839e257ea4e57a2a10ee4d8c9c130c?#iefix") format("embedded-opentype"),
+url("./icons.woff2?32839e257ea4e57a2a10ee4d8c9c130c") format("woff2"),
+url("./icons.woff?32839e257ea4e57a2a10ee4d8c9c130c") format("woff"),
+url("./icons.ttf?32839e257ea4e57a2a10ee4d8c9c130c") format("truetype"),
+url("./icons.svg?32839e257ea4e57a2a10ee4d8c9c130c#icons") format("svg");
 }
 
 i {
@@ -198,4 +198,7 @@ i[class^="ico-"]:before, i[class*=" ico-"]:before {
 }
 .ico-view:before {
     content: "\f13b";
+}
+.ico-warning:before {
+    content: "\f13c";
 }

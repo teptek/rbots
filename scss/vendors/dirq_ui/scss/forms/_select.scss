@@ -19,7 +19,6 @@
   -moz-appearance: none;
   appearance: none;
   font-size: $font-input;
-  margin-bottom: 25px;
   font-weight: 600;
   color: black;
   option {
@@ -35,7 +34,14 @@
     cursor: not-allowed;
   }
   &.error {
-    border: 1px solid $red;
+    border: 1px solid lighten($red, 43%);
+    background-color: lighten($red, 57%);
+    option {
+      background-color: white;
+    }
+  }
+  &:focus {
+    border: 1px solid lighten($blue, 40%);
   }
 }
 

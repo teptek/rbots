@@ -1,0 +1,116 @@
+.input-datepicker {
+  position: relative;
+  padding: 0;
+  & > input[type="text"] {
+    position: relative;
+  }
+  & > .button-datepicker {
+    background-image: url(../img/calendar-blue.svg);
+    height: 20px;
+    width: 20px;
+    right: 11px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 29px;
+    opacity: 0.6;
+    @include ease(opacity);
+    &:hover, &:focus, &.active {
+      opacity: 1;
+      @include ease(opacity);
+    }
+  }
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  @include border-radius (3px);
+}
+
+.ui-datepicker {
+  box-shadow: $box-shadow;
+  padding: 5px;
+  .ui-datepicker-header {
+    border: medium none;
+  }
+  table {
+    font-size: 9px;
+    margin: 0;
+    thead, tbody, tfoot {
+      border: medium none;
+    }
+    thead {
+      box-shadow: none !important;
+      th {
+        padding: .2em .3em;
+
+        color: $grey-blue;
+      }
+    }
+    tbody {
+      tr:nth-child(2n) {
+        background-color: white;
+      }
+      td {
+        padding: 0;
+        height: 28px;
+      }
+    }
+  }
+  .ui-datepicker-month {
+    text-transform: capitalize;
+  }
+}
+
+.ui-widget-header {
+  background-image: none;
+  background-color: white;
+  color: black;
+  .ui-datepicker-title {
+    font-size: $font-input;
+  }
+}
+
+.ui-widget-content {
+  border: none;
+  span[class*="ui-icon-circle-triangle"] {
+    height: 16px;
+    width: 16px;
+    background-position: center center;
+    opacity: 0.4;
+    &:hover, &:focus {
+      opacity: 1;
+    }
+  }
+  .ui-icon-circle-triangle-w {
+    background-image: url("../img/arrow-rd-left.svg");
+  }
+  .ui-icon-circle-triangle-e {
+    background-image: url("../img/arrow-rd-right.svg");
+  }
+}
+
+.ui-datepicker-week-col {
+  text-align: center;
+  color: $grey-blue;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background: none;
+  border: 1px solid transparent;
+  text-align: center;
+  @include border-radius(30px);
+  font-size: $font-sm;
+  &:hover, &:focus {
+    background-color: $blue;
+    color: white;
+    @include ease(background-color);
+  }
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+  background-color: $blue;
+  color: white;
+  font-weight: bold;
+  @include ease(background-color);
+}
+

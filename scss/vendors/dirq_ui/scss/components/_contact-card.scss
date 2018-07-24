@@ -1,0 +1,44 @@
+.contact-card {
+  border: $border;
+  text-align: center;
+  @include border-radius(6px);
+  padding: 25px 20px 15px 20px;
+  display: table;
+  position: relative;
+  .contact-card-title {
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    padding: 0 5px;
+    @extend .label;
+    color: $dark !important;
+    & > i {
+      padding-right: 7px;
+    }
+  }
+  ul {
+    margin: 0;
+    li {
+      padding: 3px 0;
+      font-size: $font-input;
+    }
+  }
+  .supplier-card-number {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #D78907;
+    font-weight: 500;
+  }
+  .supplier-card-label {
+    @extend .label;
+    color: #D78907 !important;
+  }
+  .supplier-card-code {
+    margin-top: 15px;
+    border: $border;
+    @include border-radius(30px);
+    padding: 5px 10px;
+    @extend .label;
+    color: $dark !important;
+  }
+}

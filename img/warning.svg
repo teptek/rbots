@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons/Set/warning" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.6192,9.40977616 L7.6192,5.00277461 L8.4032,5.00277461 L8.4032,8.8096 L8.336,10.7776 L7.6864,10.7776 L7.6192,8.8096 L7.6192,9.40977616 Z M8,11.56 C8.4032,11.56 8.6048,11.8064 8.6048,12.1864 C8.6048,12.5664 8.4032,12.8128 8,12.8128 C7.6192,12.8128 7.3952,12.544 7.3952,12.1864 C7.3952,11.8288 7.6192,11.56 8,11.56 Z M14.6328,13.6176 L8,1.632 L1.3672,14.2177762 L14.632,14.2177762 L14.6328,13.6176 Z M0,15.0001762 L8,0 L16,15.0001762 L0,15.0001762 Z" id="a" fill="#C60D0F" fill-rule="nonzero"></path>
+    </g>
+</svg>

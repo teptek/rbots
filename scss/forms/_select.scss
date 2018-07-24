@@ -1,0 +1,8 @@
+.rselect {
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 10px 5px;
+  &:focus {
+    box-shadow: none;
+  }
+}

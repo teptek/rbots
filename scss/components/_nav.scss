@@ -141,6 +141,7 @@
           font-size: $font-input;
           color: $dark;
           padding: 10px 20px;
+          border-bottom: medium none;
           &:hover, &:focus {
             background-color: $sun-yellow;
           }

@@ -1,0 +1,84 @@
+tags-input {
+  outline: medium none;
+  &:focus {
+    .tags {
+      border: 1px solid lighten($blue, 40%);
+      outline: medium none;
+    }
+  }
+  .tags {
+    box-shadow: none;
+    @include border-radius(3px);
+    border: 1px solid $white;
+    .tag-item {
+      @include tag-filter;
+      font-family: Read;
+      font-size: $font-input;
+      vertical-align: middle;
+      display: table;
+      font-weight: 600;
+      padding: 0 10px 0 14px;
+      .remove-button {
+        color: $blue;
+        opacity: 0.4;
+        font-weight: 200;
+        font-size: 24px;
+        &:hover, &:focus {
+          opacity: 1;
+        }
+      }
+    }
+    &.focused {
+      outline: medium none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      border: 1px solid lighten($blue, 40%);
+      @include border-radius(3px);
+    }
+    &:focus {
+      border: 1px solid lighten($blue, 40%);
+    }
+  }
+  .input {
+    font-size: $font-input;
+    font-family: Read;
+    height: 30px;
+    &::-webkit-input-placeholder {
+      color: $grey-blue;
+    }
+
+    // Note two colons, NO -input-
+    &::-moz-placeholder {
+      color: $grey-blue;
+    }
+
+    // Note ONE colon, -input-
+    &:-ms-input-placeholder {
+      color: $grey-blue;
+    }
+    &:focus {
+      border: medium none;
+    }
+
+  }
+  .autocomplete {
+    @include border-radius(3px);
+    border: medium none;
+    margin-top: 10px;
+    padding: 0;
+    .suggestion-list {
+      @include border-radius(3px);
+    }
+    .suggestion-item {
+      font-family: Read;
+      font-size: $font-input;
+      &.selected {
+        background-color: $blue;
+      }
+    }
+  }
+  &:hover, &:focus {
+    outline: medium none;
+  }
+}

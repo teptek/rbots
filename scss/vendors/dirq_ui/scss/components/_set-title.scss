@@ -1,0 +1,15 @@
+.set-title {
+  .set-title-number {
+    font-weight: 600;
+    font-size: $font-h2;
+    color: $dark;
+    float: left;
+  }
+  .set-title-status {
+    float: left;
+    margin-left: 25px;
+  }
+  .set-title-label {
+    clear: both;
+  }
+}

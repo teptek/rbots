@@ -1,0 +1,101 @@
+.anchor-nav-template {
+  &#theme-a, &.closed {
+    .main-top-nav {
+      position: fixed;
+      z-index: 2;
+    }
+    .content {
+      .sidenav {
+        position: fixed;
+        top: 123px;
+      }
+      & > .container {
+        top: 267px;
+        margin-bottom: 310px;
+        @include border-radius(0 0 6px 6px);
+      }
+    }
+    .anchor-nav-header {
+      margin-top: 25px;
+      @include border-radius(6px 6px 0 0);
+      position: fixed;
+      z-index: 2;
+      top: 54px;
+      padding: 25px 25px 0 25px;
+      .button-empty-small {
+        position: absolute;
+        left: 0;
+        top: -14px;
+      }
+    }
+    .anchor-nav-container {
+      section {
+        padding-bottom: 70px;
+        & > .row {
+          padding: 0 15px;
+        }
+      }
+      .anchor-nav-title {
+        i, .rlabel {
+          background-color: white;
+          z-index: 1;
+          position: relative;
+          padding-right: 5px;
+        }
+        .rlabel {
+          display: inline;
+          color: black;
+        }
+        hr {
+          background-color: $light-grey;
+          height: 1px;
+          top: -26px;
+          position: relative;
+        }
+      }
+    }
+  }
+  .anchor-nav-header-anchor {
+    ul {
+      margin: 0;
+      li {
+        display: inline-block;
+        margin: 0 20px 0 0;
+        color: $grey-blue;
+        border-bottom: 3px solid transparent;
+        padding-bottom: 10px;
+        a {
+          cursor: pointer;
+          text-decoration: none;
+        }
+        i {
+          margin-right: 5px;
+          color: $grey-blue;
+        }
+        .rlabel {
+          display: inline;
+          cursor: pointer;
+        }
+        &:hover, &:focus {
+          color: black;
+          .rlabel {
+            color: black;
+          }
+          i {
+            color: black;
+          }
+        }
+        &.active {
+          color: black;
+          border-bottom: 3px solid $sun-yellow;
+          .rlabel {
+            color: black;
+          }
+          i {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

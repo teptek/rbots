@@ -1,0 +1,9 @@
+.country-title {
+  span[class*="country-flag-"] {
+    float: left;
+    margin-right: 10px;
+  }
+  h3 {
+    font-weight: bold;
+  }
+}

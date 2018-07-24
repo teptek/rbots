@@ -1,0 +1,15 @@
+.button-alert {
+  background-color: $light-grey;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  @include border-radius(3px);
+  text-align: center;
+  & > i[class*="ico-"] {
+    display: table-cell;
+    padding: 0;
+    left: -4px;
+    color: $blue;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+input {
+  &[type="text"], &[type="number"] {
+    box-shadow: none;
+    margin: 0;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+// Note two colons, -input-
+::-webkit-input-placeholder {
+  color: $grey-blue;
+}
+
+  // Note two colons, NO -input-
+::-moz-placeholder {
+  color: $grey-blue;
+}
+
+  // Note ONE colon, -input-
+:-ms-input-placeholder {
+  color: $grey-blue;
+}

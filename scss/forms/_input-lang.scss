@@ -1,0 +1,28 @@
+.input-lang-field {
+  position: relative;
+  & > input[type="text"] {
+    position: relative;
+  }
+  & > button[class*="input-lang-"] {
+    height: 15px;
+    width: 21px;
+    background-size: 21px 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 32px;
+    opacity: 0.4;
+    @include ease(opacity);
+    &:hover, &:focus, &.active {
+      opacity: 1;
+      @include ease(opacity);
+    }
+  }
+  & > .input-lang-fr {
+    background-image: url(../flags/fr.svg);
+    right: 43px;
+  }
+  & > .input-lang-en {
+    background-image: url(../flags/gb.svg);
+    right: 13px;
+  }
+}

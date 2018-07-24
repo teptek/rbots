@@ -1,0 +1,46 @@
+.edit-content {
+  .edit-content-buttons {
+    float: left;
+    .edit-button-valid, .edit-button-cancel {
+      @include border-radius(3px);
+      height: 30px;
+      width: 30px;
+      margin-left: 2px;
+      i[class*="ico-"] {
+        font-size: 14px;
+        left: 0;
+        padding-right: 0;
+      }
+    }
+    .edit-button-valid {
+      background-color: $green;
+      color: white;
+      &:hover, &:focus {
+        opacity: 0.75;
+      }
+    }
+    .edit-button-cancel {
+      background-color: $light-grey;
+      color: $grey-blue;
+      i[class*="ico-"] {
+        left: -1px;
+      }
+      &:hover, &:focus {
+        background-color: $lighter-grey;
+      }
+    }
+  }
+  input[type="text"], .rselect {
+    float: left;
+    height: 30px;
+    width: initial;
+    margin-right: 3px;
+  }
+  .rselect {
+    padding: 5px 10px 5px 5px;
+    background-position: right 0.25rem center;
+    option {
+      margin-right: 25px;
+    }
+  }
+}

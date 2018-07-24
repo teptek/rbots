@@ -13,7 +13,7 @@ $container-padding: 25px;
   .content {
     display: table;
     width: 100%;
-    .container {
+    .container, .anchor-nav-header {
       position: relative;
       top: -60px;
       @include border-radius(6px);
@@ -36,7 +36,7 @@ $container-padding: 25px;
         & > i[class*="ico-"] {
           &::before {
             color: $dark-grey-blue;
-            content: "\F118";
+            content: "\F128";
           }
         }
       }
@@ -48,7 +48,7 @@ $container-padding: 25px;
         position: absolute;
         @include ease(width);
       }
-      .container {
+      .container, .anchor-nav-header{
         margin-left: 0;
         width: calc(100% - #{55px + $main-space});
         @include ease-multi(width 0.3s, left 0.3s);
