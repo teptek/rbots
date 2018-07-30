@@ -1,0 +1,66 @@
+.rb-sidebar {
+  .rb-sidebar-back {
+    position: relative;
+    top: -13px;
+    left: -15px;
+  }
+  .rb-sidebar-title {
+    margin: 8px 0;
+    cursor: pointer;
+    .hover-link {
+      h1 {
+        font-family: Read;
+        font-weight: bold;
+        display: inline;
+      }
+      span {
+        display: none;
+        margin-left: 10px;
+        color: $blue;
+      }
+      &:hover, &:focus {
+        h1 {
+          color: $dark-grey-blue;
+        }
+        span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .rb-sidebar-description {
+    margin: 25px 0;
+  }
+  .rb-sidebar-links {
+    ul {
+      position: relative;
+      left: -13px;
+      & > li {
+        @include border-radius(30px);
+        display: table;
+        padding: 5px 18px 5px 10px;
+        margin: 8px 0;
+        & > a {
+          color: black;
+          & > i {
+            padding-right: 10px;
+            width: 28px;
+            display: inline-table;
+            text-align: center;
+            font-size: 16px;
+          }
+        }
+        &.active {
+          background-color: $sun-yellow;
+        }
+        &:hover, &:focus {
+          background-color: lighten( $sun-yellow, 25% );
+          cursor: pointer;
+        }
+      }
+    }
+    .ico-list {
+      padding-right: 14px;
+    }
+  }
+}

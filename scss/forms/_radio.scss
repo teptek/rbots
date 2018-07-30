@@ -14,10 +14,10 @@
   input[type="radio"] {
     display: none;
     &:checked ~ .checkmark {
-      border: 1px solid $sun-yellow;
+      border: 1px solid lighten($blue, 30%);
     }
     &:checked ~ .checkmark:after {
-      background-color: $sun-yellow;
+      background-color: $blue;
       content: "";
       position: absolute;
       height: 8px;
@@ -29,12 +29,19 @@
     }
   }
   .checkmark {
-    border: 1px solid $sun-yellow;
+    border: 1px solid lighten($blue, 30%);
     position: absolute;
     top: 0;
     left: 0;
     width: 14px;
     height: 14px;
     border-radius: 30px;
+  }
+}
+
+.field-radio {
+  & > label {
+    margin-bottom: 10px;
+    white-space: nowrap;
   }
 }

@@ -1,0 +1,8 @@
+textarea {
+  @include input-text();
+  padding: 10px;
+  box-shadow: none;
+  &:hover, &:focus {
+    box-shadow: none;
+  }
+}

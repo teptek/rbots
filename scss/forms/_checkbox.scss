@@ -2,3 +2,16 @@
   font-size: $font-input;
   font-weight: 500;
 }
+
+.field-checkbox {
+  & > label {
+    margin-bottom: 9px;
+  }
+  & > .checkbox {
+    display: inline;
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

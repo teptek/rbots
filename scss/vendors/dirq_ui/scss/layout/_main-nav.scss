@@ -34,9 +34,10 @@ $container-padding: 25px;
         color: transparent;
         @include ease(color);
         & > i[class*="ico-"] {
+          //@extend .ico-menu:before;
           &::before {
             color: $dark-grey-blue;
-            content: "\F128";
+            content: "\F12a";
           }
         }
       }

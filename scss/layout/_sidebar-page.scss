@@ -1,0 +1,16 @@
+$sidebar-px: 320px;
+
+.page-content-sidebar {
+  display: table;
+  .rb-sidebar {
+    width: $sidebar-px;
+    border-right: $border;
+    padding-right: 25px;
+    float: left;
+  }
+  .rb-container {
+    margin-left: 25px;
+    float: right;
+    width: calc(100% - (#{$sidebar-px} + 25px);
+  }
+}

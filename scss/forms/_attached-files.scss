@@ -1,7 +1,15 @@
 .attached-files {
+  & > label {
+    margin-bottom: 9px;
+  }
   & > a {
     & > i {
       margin-right: 3px;
+    }
+    &:hover, &:focus {
+      & > i {
+        color: $dark-grey-blue;
+      }
     }
   }
 }

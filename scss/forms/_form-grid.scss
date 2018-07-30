@@ -1,0 +1,18 @@
+.form-grid {
+  margin-bottom: 25px;
+  & > .grid-x {
+    margin: 0 0 0.3rem 0;
+  }
+  .field {
+    margin: 0 0 1rem 0;
+  }
+  & > .grid-x {
+    & > .cell {
+      & > .grid-x {
+        & > .cell {
+
+        }
+      }
+    }
+  }
+}

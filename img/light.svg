@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/Set/Light</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.042,4.977 C9.958,3.712 9.197,2.953 7.986,2.953 L7.986,2.025 C9.816,2.025 11,3.178 11,4.977 L10.042,4.977 Z M5.986,15.607 L5.986,15.016 L10.014,15.016 L10.014,15.606 C9.48,15.86 8.746,16 7.986,16 C7.226,16 6.521,15.86 5.986,15.606 L5.986,15.607 Z M9.986,14.004 L5.985,14.004 L5.985,13.047 L9.985,13.047 L9.985,14.004 L9.986,14.004 Z M12.014,4.977 C12.014,2.503 10.464,0.957 7.959,0.957 C5.507,0.956 3.985,2.502 3.985,4.976 C3.985,7.732 5.873,8.238 6.69,11.022 L9.31,11.022 C10.127,8.238 12.014,7.732 12.014,4.976 L12.014,4.977 Z M10.014,11.979 L5.986,11.979 C5.169,8.605 3,8.239 3,4.977 C3,2.053 5.056,0 7.959,0 C10.915,0 13,2.053 13,4.977 C13,8.239 10.831,8.605 10.014,11.979 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons/Set/Light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,6 +1,7 @@
 .field-separator {
   position: relative;
   margin-bottom: 25px;
+  width: 100%;
   label {
     text-transform: uppercase;
     font-weight: 600;
@@ -18,13 +19,40 @@
     margin: 0;
     right: 0;
     border-color: $white;
+    max-width: 100%;
   }
-  i[class*="ico-"] {
+  & > i[class*="ico-"] {
     font-size: 18px;
     background-color: white;
     display: inline-table;
     position: relative;
     z-index: 1;
     padding-right: 10px;
+  }
+  & > button {
+    z-index: 1;
+    position: absolute;
+    top: -5px;
+    margin-left: 25px;
+    &::before {
+      content: '';
+      display: block;
+      height: 30px;
+      position: absolute;
+      background-color: white;
+      width: 10px;
+      top: 0;
+      left: -10px;
+    }
+    &::after {
+      content: '';
+      display: block;
+      height: 30px;
+      position: absolute;
+      background-color: white;
+      width: 10px;
+      top: 0;
+      right: -10px;
+    }
   }
 }

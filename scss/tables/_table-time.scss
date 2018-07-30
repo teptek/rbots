@@ -36,7 +36,10 @@
           & > a {
             font-weight: 600;
             &:hover, &:focus {
-              color: $blue;
+              color: $dark-grey-blue;
+              & > i {
+                color: $dark-grey-blue;
+              }
             }
             & > i {
               margin-right: 5px;
@@ -49,11 +52,17 @@
           border-right: 20px solid transparent;
           & > i {
             margin-right: 5px;
+            font-size: 14px;
           }
         }
         &.rb-time-table-link {
           & > a:first-child {
             margin-right: 5px;
+          }
+        }
+        & > a > i {
+          &:hover, &:focus {
+            color: $dark-grey-blue;
           }
         }
       }

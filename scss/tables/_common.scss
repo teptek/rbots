@@ -3,17 +3,28 @@
   & > a {
     & > i {
       margin-left: 10px;
+      &.ico-edit {
+        opacity: 1;
+      }
     }
     &:hover, &:focus {
-      opacity: 0.7;
+      color: $dark-grey-blue;
+      & > i {
+        color: $dark-grey-blue;
+      }
     }
   }
   button {
     background-color: transparent;
     margin-left: 15px;
+    white-space: nowrap;
     &:hover, &:focus {
       background-color: transparent;
-      opacity: 0.7;
+      opacity: 1;
+      color: $dark-grey-blue;
+      & > i {
+        color: $dark-grey-blue;
+      }
     }
   }
 }

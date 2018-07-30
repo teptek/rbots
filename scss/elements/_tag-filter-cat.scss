@@ -1,0 +1,26 @@
+ul {
+  display: inline-block;
+  &.rb-listfilters {
+    margin-bottom:0;
+    li {
+      list-style-type: none;
+      display: inline;
+      .label-filter {
+        display: inline-block;
+      }
+      &:first-child {
+        .label-filter {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.label-filter {
+  @extend .rlabel;
+  background-color: transparent;
+  margin-left: 15px;
+}
+
+ 
