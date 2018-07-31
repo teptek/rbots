@@ -2,15 +2,19 @@ $sidebar-px: 320px;
 
 .page-content-sidebar {
   display: table;
+  position: relative;
   .rb-sidebar {
     width: $sidebar-px;
     border-right: $border;
     padding-right: 25px;
     float: left;
+    position: absolute;
+    bottom: $padding-gutter;
+    top: $padding-gutter;
   }
   .rb-container {
     margin-left: 25px;
     float: right;
-    width: calc(100% - (#{$sidebar-px} + 25px);
+    width: calc(100% - (#{$sidebar-px} + 25px));
   }
 }
