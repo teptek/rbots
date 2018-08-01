@@ -1,7 +1,7 @@
 .page-content {
   background-color: white;
   @include border-radius(6px);
-  margin: $margin-gutter;
+  margin: 0 $margin-gutter $margin-gutter $margin-gutter;
   padding: $padding-gutter;
 }
 

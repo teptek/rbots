@@ -15,4 +15,14 @@
       }
     }
   }
+  &.form-grid-highlight {
+    padding: $padding-gutter;
+    margin-bottom: $padding-gutter;
+    border: $border;
+    @include border-radius(6px);
+    &:hover, &:focus {
+      box-shadow: $box-shadow;
+      border: 1px solid transparent;
+    }
+  }
 }

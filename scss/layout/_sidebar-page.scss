@@ -1,20 +1,66 @@
 $sidebar-px: 320px;
+$sidebar-top: 132px;
+$sidebar-top-break: 42px;
+
+
+.sticky-sidebar {
+  .topbar {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+  }
+  .page-content-sidebar {
+    top: $sidebar-top;
+    position: relative;
+    margin-bottom: $sidebar-top + $margin-gutter;
+    width: calc( 100% - 30px );
+    margin-left: $margin-gutter;
+    margin-right: $margin-gutter;
+  }
+}
 
 .page-content-sidebar {
   display: table;
   position: relative;
   .rb-sidebar {
+    position: fixed;
+    background-color: white;
     width: $sidebar-px;
     border-right: $border;
-    padding-right: 25px;
+    padding: $padding-gutter;
     float: left;
-    position: absolute;
-    bottom: $padding-gutter;
-    top: $padding-gutter;
+    bottom: $margin-gutter;
+    top: $sidebar-top;
+    @include border-radius(6px 0 0 6px);
   }
   .rb-container {
-    margin-left: 25px;
+    @include border-radius(0 6px 6px 0);
+    background-color: white;
+    position: fixed;
+    bottom: $margin-gutter;
+    top: $sidebar-top;
     float: right;
-    width: calc(100% - (#{$sidebar-px} + 25px));
+    right: $margin-gutter;
+    width: calc(100% - ( #{$sidebar-px + $margin-gutter + $padding-gutter} - 10px ) );
+    padding: 6px 0;
+    .rb-container-header {
+      margin-bottom: $padding-gutter + $margin-gutter;
+    }
+    .rb-container-content {
+      padding: $padding-gutter;
+      overflow-y: scroll;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page-content-sidebar {
+    .rb-sidebar {
+      top: $sidebar-top-break + $margin-gutter;
+    }
+    .rb-container {
+      top: $sidebar-top-break + $margin-gutter;
+    }
   }
 }

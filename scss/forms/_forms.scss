@@ -11,7 +11,17 @@
 @import "_radio";
 @import "_textarea";
 @import "_form-grid";
+@import "_submit";
 
+
+.main-top-nav {
+  .search-user {
+    margin-bottom: 0;
+    &:hover, &:focus {
+      border-bottom: 1px solid $sun-yellow;
+    }
+  }
+}
 
 .field {
   margin: 0 0 1rem 0;

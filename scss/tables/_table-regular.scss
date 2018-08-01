@@ -31,7 +31,7 @@
     tr {
       &:nth-child(even) {
         border-bottom: 0;
-        background-color: #f8f8f8;
+        background-color: rgba(0,0,0,0.03);
       }
       td {
         padding: 6px 5px 6px 0;
@@ -71,7 +71,7 @@
         }
       }
       &:hover, &:focus {
-        //box-shadow: $box-shadow;
+        box-shadow: $box-shadow;
         background-color: $cloud-blue;
         & > td {
           &:first-child {
