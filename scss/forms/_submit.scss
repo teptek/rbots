@@ -2,8 +2,9 @@
   border-top: $border;
   padding-top: $padding-gutter;
   text-align: right;
-  float: right;
   width: 100%;
+  //box-shadow: $box-shadow;
+  @include border-radius(6px);
   button {
     margin-left: 5px;
   }

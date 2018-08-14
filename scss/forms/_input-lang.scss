@@ -8,9 +8,10 @@
     width: 21px;
     background-size: 21px 15px;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 32px;
+    position: relative;
+    top: -28px;
     opacity: 0.4;
+    float: right;
     @include ease(opacity);
     &:hover, &:focus, &.active {
       opacity: 1;
@@ -19,10 +20,10 @@
   }
   & > .input-lang-fr {
     background-image: url(../flags/fr.svg);
-    right: 53px;
+    right: 22px;
   }
   & > .input-lang-en {
     background-image: url(../flags/gb.svg);
-    right: 23px;
+    right: 12px;
   }
 }

@@ -1,0 +1,52 @@
+.tooltip {
+  @include border-radius(3px);
+  background-color: $darker;
+  font-weight: 500;
+  font-size: $font-input;
+  outline: none;
+  &.top {
+    &::before {
+      border-color: $darker transparent transparent;
+    }
+  }
+}
+
+.has-tip {
+  border: none;
+  & > .rlabel {
+    padding-bottom: 0;
+  }
+}
+
+[data-tooltip] > .rlabel, .rlabel-info {
+  @extend .rlabel;
+  cursor: help;
+  outline: medium none;
+  float: left;
+  &::after {
+    content: "i";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: $blue;
+    @include border-radius(30px);
+    margin-left: 6px;
+    text-align: center;
+    color: white;
+    text-transform: initial;
+    font-weight: bold;
+    outline: medium none;
+    font-size: 11px;
+  }
+  &:hover, &:focus {
+    color: darken($blue, 15%);
+    outline: medium none;
+    &::after {
+      background-color: darken($blue, 15%);
+    }
+  }
+}
+
+span[data-tooltip] {
+  outline: medium none;
+}

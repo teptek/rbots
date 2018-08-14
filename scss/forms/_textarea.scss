@@ -6,4 +6,7 @@ textarea {
   &:hover, &:focus {
     box-shadow: none;
   }
+  &[rows="4"] {
+    min-height: 128px;
+  }
 }

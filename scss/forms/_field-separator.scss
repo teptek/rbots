@@ -6,7 +6,18 @@ hr {
   position: relative;
   margin-bottom: 25px;
   width: 100%;
-  label {
+  float: left;
+  span[data-tooltip] {
+    & > .rlabel {
+      top: 3px;
+    }
+    &:hover, &:focus {
+      & > .rlabel {
+        color: darken($blue, 15%);
+      }
+    }
+  }
+  label, span[data-tooltip] > .rlabel {
     text-transform: uppercase;
     font-weight: 600;
     background-color: white;
@@ -15,6 +26,7 @@ hr {
     position: relative;
     z-index: 1;
     display: inline;
+    color: black;
   }
   hr {
     position: absolute;
@@ -32,6 +44,7 @@ hr {
     position: relative;
     z-index: 1;
     padding-right: 10px;
+    float: left;
   }
   & > button {
     z-index: 1;
@@ -58,5 +71,16 @@ hr {
       top: 0;
       right: -10px;
     }
+  }
+  .rlabel-info {
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: white;
+    padding-right: 10px;
+    font-size: $font-input;
+    position: relative;
+    z-index: 1;
+    display: inline;
+    color: black;
   }
 }

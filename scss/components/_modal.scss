@@ -1,0 +1,16 @@
+.reveal-overlay {
+  .reveal {
+    @include border-radius(6px);
+    border: medium none;
+    outline: none;
+    box-shadow: $box-shadow-black;
+    h1 {
+      font-family: Read;
+      font-size: $font-h4;
+      font-weight: 500;
+    }
+    .lead {
+      line-height: 1.4;
+    }
+  }
+}

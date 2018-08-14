@@ -1,0 +1,13 @@
+@-webkit-keyframes rotating {
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+#crant {
+  -webkit-animation: rotating 3s linear infinite;
+  transform-origin: 50% 72%;
+}

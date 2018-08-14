@@ -1,0 +1,13 @@
+input[type], select, textarea {
+  &:disabled {
+    background-color: #F6F6F6;
+    border: 1px solid transparent;
+  }
+}
+
+input {
+  &::placeholder {
+    color: black;
+    opacity: 1;
+  }
+}

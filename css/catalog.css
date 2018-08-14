@@ -84,6 +84,14 @@ div.catalog-4g86b3-Page-Page {
     color: #333;
 }
 
+.preview.preview-button {
+    width: auto;
+}
+
+.preview.preview-button > .inner {
+    padding: 15px;
+}
+
 .label-class {
     display: inline-block;
     width: 100%;

@@ -7,29 +7,48 @@
   .rb-sidebar-title {
     margin: 8px 0;
     cursor: pointer;
-    .hover-link {
+    & > a, & > div {
+      cursor: initial;
       h1 {
         font-family: Read;
         font-weight: bold;
         display: inline;
       }
-      span {
-        display: none;
-        margin-left: 10px;
-        color: $blue;
+      .status {
+        position: relative;
+        top: -5px;
+        margin-left: 15px;
+        display: inline-table;
       }
-      &:hover, &:focus {
-        h1 {
-          color: $dark-grey-blue;
-        }
+      &.hover-link {
+        cursor: pointer;
         span {
-          display: inline-block;
+          display: none;
+          margin-left: 10px;
+          color: $blue;
+        }
+        &:hover, &:focus {
+          h1 {
+            color: $dark-grey-blue;
+          }
+          span {
+            display: inline-block;
+          }
         }
       }
     }
   }
   .rb-sidebar-description {
-    margin: 25px 0;
+    margin: 15px 0 25px;
+    & > .strong, & > .rlabel {
+      display: inline;
+    }
+    .status-color {
+      margin-right: 15px;
+    }
+    .toggle-view-button {
+      margin-top: 15px;
+    }
   }
   .rb-sidebar-links {
     ul {

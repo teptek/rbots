@@ -1,0 +1,17 @@
+.drag-and-drop {
+  display: block;
+  width: 100%;
+  background-color: #F6F6F6;
+  @include border-radius(6px);
+  padding: 25px;
+  text-align: center;
+  border: 2px dotted #dddddd;
+  font-weight: 500;
+  font-size: $font-size;
+  color: $grey-blue;
+  & > i {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 2px;
+  }
+}

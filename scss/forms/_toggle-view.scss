@@ -1,0 +1,22 @@
+.toggle-view-button {
+  display: table;
+  padding: 0 10px 0 4px;
+  @include border-radius(3px);
+  border: 1px solid $blue;
+  @include ease-multi(background-color 0.3s, color 0.3s);
+  &:hover, &focus {
+    background-color: $blue;
+    @include ease-multi(background-color 0.3s, color 0.3s);
+    .rlabel {
+      color: white;
+    }
+  }
+  .rlabel {
+    color: $blue;
+    & > i {
+      margin-right: 8px;
+      position: relative;
+      top: 2px;
+    }
+  }
+}

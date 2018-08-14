@@ -1,0 +1,43 @@
+.status-color {
+  font-weight: bold;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    @include border-radius(30px);
+    position: relative;
+    top: 1px;
+    margin-right: 4px;
+  }
+  &.green {
+    color: $green;
+    &::before {
+      background-color: $green;
+    }
+  }
+  &.orange {
+    color: $orange;
+    &::before {
+      background-color: $orange;
+    }
+  }
+  &.blue {
+    color: $blue;
+    &::before {
+      background-color: $blue;
+    }
+  }
+  &.grey {
+    color: $grey;
+    &::before {
+      background-color: $grey;
+    }
+  }
+  &.red {
+    color: $red;
+    &::before {
+      background-color: $red;
+    }
+  }
+}
