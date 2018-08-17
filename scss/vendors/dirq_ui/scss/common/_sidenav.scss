@@ -1,6 +1,6 @@
 @mixin sidenav {
   .sidenav {
-    font-family: RenaultLife;
+    font-family: $title-font;
     font-size: $font-input;
     width: $sidebar-width;
     @include ease(width);
@@ -63,7 +63,7 @@
         }
       }
       .sidenav-submenu-item {
-        font-family: Read;
+        font-family: $main-font;
         color: $dark-grey-blue;
         opacity: 0.5;
         font-size: 12px;

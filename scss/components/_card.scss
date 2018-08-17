@@ -1,0 +1,72 @@
+.card {
+  padding: $padding-gutter;
+  margin-bottom: $padding-gutter;
+  border: $border;
+  @include border-radius(6px);
+  &:hover, &:focus {
+    box-shadow: $box-shadow;
+    border: 1px solid transparent;
+    .field-separator {
+      & > button[class*="button-"] {
+        display: inline-block;
+      }
+    }
+  }
+  .field-separator {
+    & > button[class*="button-"] {
+      display: none;
+    }
+  }
+}
+
+.form-grid {
+  .grid-x {
+    & > .large-6 {
+      &:nth-child(odd) {
+        padding-right: 9px;
+        padding-left: 0;
+      }
+      &:nth-child(even) {
+        padding-right: 0;
+        padding-left: 9px;
+      }
+    }
+    & > .large-4 {
+      &:nth-child(3) {
+        padding-right: 0;
+        padding-left: 12px;
+      }
+      &:nth-child(4) {
+        padding-right: 12px;
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .form-grid {
+    .grid-x {
+      & > .large-6 {
+        &:nth-child(odd) {
+          padding-right: 0;
+          padding-left: 0;
+        }
+        &:nth-child(even) {
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
+      & > .large-4 {
+        &:nth-child(3) {
+          padding-right: 0;
+          padding-left: 0;
+        }
+        &:nth-child(4) {
+          padding-right: 0;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

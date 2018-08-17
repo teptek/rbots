@@ -14,7 +14,7 @@
     box-shadow: none;
     border-color: transparent;
     @include font-input;
-    font-family: Read;
+    font-family: $main-font;
   }
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-weight: 400;

@@ -15,7 +15,7 @@
       @include ease(border-color);
       border-bottom: 3px solid transparent;
       &.active {
-        border-bottom: 3px solid $sun-yellow;
+        border-bottom: 3px solid $brand-color;
         @include ease(border-color);
       }
       &:not(.active) {
@@ -23,7 +23,7 @@
         cursor: pointer;
         &:hover, &:focus {
           color: #000;
-          border-bottom: 3px solid $sun-yellow;
+          border-bottom: 3px solid $brand-color;
           @include ease(border-color);
         }
       }

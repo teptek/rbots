@@ -9,7 +9,7 @@
   @include border-radius(3px);
   a, div {
     &.dropdown-item {
-      font-family: RenaultLife;
+      font-family: $title-font;
       color: white;
       display: block;
       padding: 8px 25px;

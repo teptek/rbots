@@ -1,0 +1,28 @@
+.form-grid {
+  margin-bottom: 25px;
+  & > .row {
+    margin: 0 0 0.3rem 0;
+  }
+  .field {
+    margin: 0 0 1rem 0;
+    padding: 0 15px 0 0;
+  }
+  &.form-grid-highlight {
+    padding: $padding-gutter;
+    margin-bottom: $padding-gutter;
+    border: $border;
+    @include border-radius(6px);
+    &:hover, &:focus {
+      box-shadow: $box-shadow;
+      border: 1px solid transparent;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form-grid {
+    .field {
+      padding: 0;
+    }
+  }
+}

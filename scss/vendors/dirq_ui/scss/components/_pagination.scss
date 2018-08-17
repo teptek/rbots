@@ -10,7 +10,7 @@
     font-weight: 500;
     font-size: $font-input;
     &.active, &:hover, &:focus {
-      border-bottom: 3px solid $sun-yellow;
+      border-bottom: 3px solid $brand-color;
       color: #000000;
     }
     &.active {

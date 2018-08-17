@@ -1,3 +1,9 @@
+$main-font: 'Read';
+$title-font: 'RenaultLife';
+$brand-color: #ffcc33;
+
+
+
 //RD zeplin
 
 $white:           #e1e1e1;
@@ -38,6 +44,7 @@ $dark-grey-blue:  #2b4768;
 $light-blue:      #2985F6;
 
 $cloud-blue:      #F6FAFE;
+$cloud-blue-2:      #EDF3FC;
 
 //green
 $green:           #10AD2C;
@@ -75,5 +82,10 @@ $role-reader:       #8F4D52;
 
 //border
 
-$border:          1px solid $light-grey;
+$border:          1px solid $white;
+
+// margin + padding
+
+$padding-gutter:    25px;
+$margin-gutter:    15px;
 

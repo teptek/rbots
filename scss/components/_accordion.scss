@@ -1,0 +1,40 @@
+.accordion {
+  width: 100%;
+  & > .accordion-item {
+    &.is-active, &:focus {
+      & > a {
+        color: black;
+        background-color: transparent;
+      }
+    }
+    &:first-child {
+      & > a {
+        @include border-radius(6px 6px 0 0);
+      }
+    }
+    &:last-child {
+      & > a {
+        @include border-radius(0 0 6px 6px);
+        border-bottom: $border;
+      }
+    }
+    & > a {
+      text-transform: uppercase;
+      color: $grey-blue;
+      span {
+        color: #000;
+        position: relative;
+        float: right;
+        right: 30px;
+      }
+      &:hover {
+        background-color: $white;
+      }
+      &::before {
+        color: $blue;
+        font-size: 18px;
+        font-weight: 300;
+      }
+    }
+  }
+}

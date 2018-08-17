@@ -59,7 +59,7 @@
     font-family: initial;
   }
   &:hover, &:focus {
-    border: 1px solid $sun-yellow;
+    border: 1px solid $brand-color;
   }
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $dark-grey;
@@ -104,11 +104,16 @@
       font-size: $font-size;
       border-bottom: 3px solid transparent;
       text-align: left;
+      &:hover, &:focus {
+        i {
+          color: white;
+        }
+      }
     }
     &.active {
       & > a {
         background-color: transparent;
-        border-bottom: 3px solid $sun-yellow;
+        border-bottom: 3px solid $brand-color;
         color: white;
       }
     }
@@ -144,7 +149,7 @@
           padding: 10px 20px;
           border-bottom: medium none;
           &:hover, &:focus {
-            background-color: $sun-yellow;
+            background-color: $brand-color;
           }
         }
       }

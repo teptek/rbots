@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?7cf904bd359dfafcd3bd1a6e17e41550?#iefix") format("embedded-opentype"),
-url("./icons.woff2?7cf904bd359dfafcd3bd1a6e17e41550") format("woff2"),
-url("./icons.woff?7cf904bd359dfafcd3bd1a6e17e41550") format("woff"),
-url("./icons.ttf?7cf904bd359dfafcd3bd1a6e17e41550") format("truetype"),
-url("./icons.svg?7cf904bd359dfafcd3bd1a6e17e41550#icons") format("svg");
+    src: url("./icons.eot?cfcafa1620aebf5aceb43741d6cedea0?#iefix") format("embedded-opentype"),
+url("./icons.woff2?cfcafa1620aebf5aceb43741d6cedea0") format("woff2"),
+url("./icons.woff?cfcafa1620aebf5aceb43741d6cedea0") format("woff"),
+url("./icons.ttf?cfcafa1620aebf5aceb43741d6cedea0") format("truetype"),
+url("./icons.svg?cfcafa1620aebf5aceb43741d6cedea0#icons") format("svg");
 }
 
 i {
@@ -115,102 +115,114 @@ i[class^="ico-"]:before, i[class*=" ico-"]:before {
 .ico-globe:before {
     content: "\f11f";
 }
-.ico-info:before {
+.ico-home:before {
     content: "\f120";
 }
-.ico-light:before {
+.ico-info:before {
     content: "\f121";
 }
-.ico-links:before {
+.ico-key:before {
     content: "\f122";
 }
-.ico-list:before {
+.ico-light:before {
     content: "\f123";
 }
-.ico-location:before {
+.ico-links:before {
     content: "\f124";
 }
-.ico-lock:before {
+.ico-list:before {
     content: "\f125";
 }
-.ico-logo-a:before {
+.ico-location:before {
     content: "\f126";
 }
-.ico-logo-app:before {
+.ico-lock:before {
     content: "\f127";
 }
-.ico-logo-monochrome-grey:before {
+.ico-logo-a:before {
     content: "\f128";
 }
-.ico-logo.dirq:before {
+.ico-logo-app:before {
     content: "\f129";
 }
-.ico-mail:before {
+.ico-logo-monochrome-grey:before {
     content: "\f12a";
 }
-.ico-menu:before {
+.ico-logo.dirq:before {
     content: "\f12b";
 }
-.ico-more:before {
+.ico-mail:before {
     content: "\f12c";
 }
-.ico-off:before {
+.ico-menu-burger:before {
     content: "\f12d";
 }
-.ico-pdf:before {
+.ico-menu:before {
     content: "\f12e";
 }
-.ico-plus:before {
+.ico-more:before {
     content: "\f12f";
 }
-.ico-renault:before {
+.ico-off:before {
     content: "\f130";
 }
-.ico-save:before {
+.ico-pdf:before {
     content: "\f131";
 }
-.ico-search-rd:before {
+.ico-plus:before {
     content: "\f132";
 }
-.ico-search:before {
+.ico-renault:before {
     content: "\f133";
 }
-.ico-select:before {
+.ico-save:before {
     content: "\f134";
 }
-.ico-sets:before {
+.ico-search-rd:before {
     content: "\f135";
 }
-.ico-settings:before {
+.ico-search:before {
     content: "\f136";
 }
-.ico-tag:before {
+.ico-select:before {
     content: "\f137";
 }
-.ico-time:before {
+.ico-sets:before {
     content: "\f138";
 }
-.ico-toggle:before {
+.ico-setting-full:before {
     content: "\f139";
 }
-.ico-trash:before {
+.ico-settings:before {
     content: "\f13a";
 }
-.ico-upload:before {
+.ico-tag:before {
     content: "\f13b";
 }
-.ico-valid-cercle:before {
+.ico-time:before {
     content: "\f13c";
 }
-.ico-validation:before {
+.ico-toggle:before {
     content: "\f13d";
 }
-.ico-view-off:before {
+.ico-trash:before {
     content: "\f13e";
 }
-.ico-view:before {
+.ico-upload:before {
     content: "\f13f";
 }
-.ico-warning:before {
+.ico-valid-cercle:before {
     content: "\f140";
+}
+.ico-validation:before {
+    content: "\f141";
+}
+.ico-view-off:before {
+    content: "\f142";
+}
+.ico-view:before {
+    content: "\f143";
+}
+.ico-warning:before {
+    content: "\f144";
 }

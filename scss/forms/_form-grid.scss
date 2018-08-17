@@ -1,78 +1,81 @@
 .form-grid {
-  margin-bottom: 25px;
-  max-width: 1000px;
-  display: table;
-  width: 100%;
-  .grid-x {
-    margin: 0 0 0.3rem 0;
-    clear: both;
-    & ~ .field {
-      margin: 1em 0 0 0;
-    }
-    & > .field {
-      margin: 0 0 1rem 0;
-      & > .grid-x {
-        & > .field {
-          margin-bottom: 0;
-        }
-      }
-    }
+   margin-bottom: 25px;
+   max-width: 1000px;
+   display: table;
+   width: 100%;
+  &.full {
+    max-width: 100%;
+  }
+   .grid-x {
+     margin: 0 0 0.3rem 0;
+     clear: both;
+     & ~ .field {
+       margin: 1em 0 0 0;
+     }
+     & > .field {
+       margin: 0 0 1rem 0;
+       & > .grid-x {
+         & > .field {
+           margin-bottom: 0;
+         }
+       }
+     }
 
-  }
-  & > .field {
-    margin: 0 0 1rem 0;
-    & > .grid-x {
-      & > .field {
-        margin-bottom: 0;
-      }
-    }
-  }
-  &.form-grid-highlight {
-    padding: $padding-gutter;
-    margin-bottom: $padding-gutter;
-    border: $border;
-    @include border-radius(6px);
-    &:hover, &:focus {
-      box-shadow: $box-shadow;
-      border: 1px solid transparent;
-    }
-  }
-  div {
-    &.field-separator + div[class*="large-"] {
-      padding-right: 12px;
-      padding-left: 0;
-    }
-    &[class*="large-"] {
-      padding-right: 6px;
-      padding-left: 6px;
-      &:first-child {
-        padding-right: 12px;
-        padding-left: 0;
-      }
-      &:last-child {
-        padding-left: 12px;
-        padding-right: 0;
-      }
-      & > .field {
-        padding: 0;
-      }
-      & > .grid-x {
-        & > div {
-          &[class*="large-"] {
-            &:first-child {
-              padding-right: 7px;
-              padding-left: 0;
-            }
-            &:last-child {
-              padding-left: 7px;
-              padding-right: 0;
-            }
-          }
-        }
-      }
-    }
-  }
-}
+   }
+   & > .field {
+     margin: 0 0 1rem 0;
+     & > .grid-x {
+       & > .field {
+         margin-bottom: 0;
+       }
+     }
+   }
+   &.form-grid-highlight {
+     padding: $padding-gutter;
+     margin-bottom: $padding-gutter;
+     border: $border;
+     @include border-radius(6px);
+     &:hover, &:focus {
+       box-shadow: $box-shadow;
+       border: 1px solid transparent;
+     }
+   }
+   div {
+     &.field-separator + div[class*="large-"] {
+       padding-right: 12px;
+       padding-left: 0;
+     }
+     &[class*="large-"] {
+       padding-right: 6px;
+       padding-left: 6px;
+       &:first-child {
+         padding-right: 12px;
+         padding-left: 0;
+       }
+       &:last-child {
+         padding-left: 12px;
+         padding-right: 0;
+       }
+       & > .field {
+         padding: 0;
+       }
+       & > .grid-x {
+         & > div {
+           &[class*="large-"] {
+             &:first-child {
+               padding-right: 7px;
+               padding-left: 0;
+             }
+             &:last-child {
+               padding-left: 7px;
+               padding-right: 0;
+             }
+           }
+         }
+       }
+     }
+   }
+ }
 
 @media screen and (max-width: 1024px) {
   .form-grid > .grid-x > .field > .grid-x > .field {

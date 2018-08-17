@@ -8,11 +8,6 @@
   th {
     @extend .label;
     border-bottom: $border;
-    text-transform: uppercase;
-    font-weight: 500;
-    line-height: 1.2;
-    vertical-align: bottom;
-    padding-bottom: 8px;
     a:not([href]) {
       color: $grey-blue;
       position: relative;

@@ -1,0 +1,10 @@
+.submit {
+  border-top: $border;
+  padding-top: $padding-gutter;
+  text-align: right;
+  float: right;
+  width: 100%;
+  button {
+    margin-left: 5px;
+  }
+}

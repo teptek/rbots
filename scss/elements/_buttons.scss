@@ -1,0 +1,17 @@
+button[class*="button-"] {
+  padding-top: 14px;
+  & > i[class*="ico-"] {
+    padding-right: 9px;
+    top: -4px;
+    float: left;
+  }
+}
+
+button[class*="-small"] {
+  padding: 0 10px;
+  & > i[class*="ico-"] {
+    padding-right: 5px;
+    top: initial;
+    float: initial;
+  }
+}

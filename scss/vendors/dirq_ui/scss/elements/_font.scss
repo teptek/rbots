@@ -1,5 +1,5 @@
 h1 {
-  font-family: RenaultLife;
+  font-family: $title-font;
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-  font-family: Read;
+  font-family: $main-font;
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-family: Read;
+  font-family: $main-font;
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
@@ -35,7 +35,7 @@ h3 {
 }
 
 strong, b {
-  font-family: Read;
+  font-family: $main-font;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -46,7 +46,7 @@ strong, b {
 }
 
 label {
-  font-family: Read;
+  font-family: $main-font;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -57,7 +57,7 @@ label {
 }
 
 .error-txt {
-  font-family: Read;
+  font-family: $main-font;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -68,7 +68,7 @@ label {
 }
 
 p {
-  font-family: Read;
+  font-family: $main-font;
   color: #000000;
   letter-spacing: 0;
   &.light-text {

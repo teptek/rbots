@@ -10,7 +10,7 @@
     & > a, & > div {
       cursor: initial;
       h1 {
-        font-family: Read;
+        font-family: $main-font;
         font-weight: bold;
         display: inline;
       }
@@ -54,6 +54,7 @@
     ul {
       position: relative;
       left: -13px;
+      width: calc(100% + 13px);
       & > li {
 
         display: table;
@@ -72,10 +73,15 @@
             text-align: center;
             font-size: 16px;
           }
+          &:hover, &:focus {
+            i {
+              color: inherit;
+            }
+          }
         }
         &:hover, &:focus, &.active {
           & > a {
-            background-color: $sun-yellow;
+            background-color: $brand-color;
           }
         }
       }

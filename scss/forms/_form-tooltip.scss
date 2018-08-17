@@ -18,7 +18,7 @@
   }
 }
 
-[data-tooltip] > .rlabel, .rlabel-info {
+[data-tooltip] > .rlabel, [data-tooltip] > label, .rlabel-info {
   @extend .rlabel;
   cursor: help;
   outline: medium none;

@@ -50,6 +50,11 @@ $sidebar-top-break: 42px;
       padding: $padding-gutter;
       overflow-y: scroll;
       height: 100%;
+      &.full {
+        & > .form-grid {
+          max-width: 100%;
+        }
+      }
     }
   }
 }

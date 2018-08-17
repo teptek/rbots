@@ -1,0 +1,192 @@
+@import "../common/sidenav-2";
+
+$main-space: 15px;
+$container-padding: 25px;
+
+#theme-a {
+  background-color: $cloud-blue-2;
+  display: table;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  .content {
+    display: table;
+    width: 100%;
+    .container, .anchor-nav-header {
+      position: relative;
+      @include border-radius(6px);
+      background-color: white;
+      padding: $container-padding;
+      margin: $main-space;
+      width: calc(100% - #{$sidebar-width + $main-space*2});
+      //box-shadow: $box-shadow;
+      @include ease-multi(width 0.3s, left 0.3s);
+      margin-bottom: -45px;
+      left: $sidebar-width;
+      min-height: 600px;
+    }
+    @include sidenav();
+    .sidenav {
+      top: $sidebar-width;
+      border-top: 1px solid $cloud-blue-2;
+      position: absolute;
+      @include ease(top);
+      @include ease(width);
+    }
+  }
+  &.closed {
+    .content {
+      .sidenav {
+        box-shadow: none;
+        @include ease(width);
+        width: $sidebar-width;
+        overflow: hidden;
+      }
+    }
+    .sidenav {
+      .sidenav-item {
+        @include ease(color);
+        color: transparent;
+        &.active, &:hover, &:focus {
+          @include ease(color);
+          color: transparent;
+        }
+      }
+    }
+  }
+  .main-top-nav {
+    background-color: white;
+    width: 100%;
+    display: table;
+    padding: 0 #{$main-space} 0 0;
+    position: relative;
+    height: $sidebar-width;
+    z-index: 2;
+    .top-nav-settings {
+      cursor: pointer;
+      float: right;
+      text-align: right;
+      line-height: 0;
+      top: 8px;
+      position: relative;
+      @include border-radius(6px);
+      padding: 6px 5px 10px 12px;
+      border: 1px solid transparent;
+      @include ease(border-color);
+      &:hover, &:focus {
+        border: $border;
+        @include ease(border-color);
+        & > .top-nav-settings-ico {
+          opacity: 1;
+          @include ease(opacity);
+          & > .ico-setting-full, & > .ico-expand-off {
+            color: $blue-grey;
+            @include ease(color);
+          }
+        }
+      }
+      .top-nav-settings-profile {
+        float: left;
+      }
+      .top-nav-settings-ico {
+        float: right;
+        top: 10px;
+        padding-left: 13px;
+        opacity: 0.5;
+        @include ease(opacity);
+        position: relative;
+        & > .ico-setting-full, & > .ico-expand-off {
+          @include ease(color);
+        }
+      }
+      .ico-expand-off {
+        font-size: 16px;
+      }
+      .ico-settings {
+        font-size: 20px;
+      }
+      span[class*="country-flag-"] {
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        width: 15px;
+        background-size: 15px;
+        background-position: center;
+        top: 5px;
+        position: relative;
+        margin-left: 5px;
+      }
+      strong {
+        color: $grey-blue;
+        font-size: 11px;
+        display: inline-block;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
+      h4 {
+        font-size: 12px;
+        color: $dark-grey-blue;
+        margin: 0;
+        line-height: 0;
+        margin-top: 12px;
+      }
+      &:hover, &:focus {
+        //opacity: 0.7;
+      }
+    }
+    .dropdown {
+      position: absolute;
+      z-index: 1;
+      right: 15px;
+      top: 66px;
+      display: none;
+    }
+    &.active {
+      .dropdown {
+        display: block;
+      }
+    }
+  }
+  .menu-button {
+    display: inline-table;
+    text-align: center;
+    height: $sidebar-width;
+    width: $sidebar-width;
+    @include ease(color);
+    color: $dark-grey-blue;
+    font-size: 10px;
+    opacity: 0.4;
+    @include ease(opacity);
+    & > i[class*="ico-"] {
+      font-size: 17px;
+      padding: 0;
+      position: relative;
+      top: 1px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    &:focus, &:hover {
+      opacity: 1;
+      @include ease(opacity);
+      @include ease(color);
+    }
+  }
+  .main-logo {
+    background-image: url('../img/logo-a.svg');
+    width: 125px;
+    height: 39px;
+    display: inline-table;
+    background-repeat: no-repeat;
+    top: 12px;
+    position: relative;
+  }
+  .hidden-top {
+    display: none;
+    width: $sidebar-width-open;
+    .main-logo {
+      width: 112px;
+      top: 14px;
+      left: -3px;
+    }
+  }
+}

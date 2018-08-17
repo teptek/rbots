@@ -89,3 +89,25 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'RenaultLife';
+  src: url('../font/renault-life/renaultlife-light.eot');
+  src: url('../font/renault-life/renaultlife-light.eot?#iefix') format('embedded-opentype'),
+  url('../font/renault-life/renaultlife-light.woff') format('woff'),
+  url('../font/renault-life/renaultlife-light.ttf') format('truetype'),
+  url('../font/renault-life/renaultlife-light.svg#renault_lifelight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RenaultLife';
+  src: url('../font/renault-life/renaultlife-bold.eot');
+  src: url('../font/renault-life/renaultlife-bold.eot?#iefix') format('embedded-opentype'),
+  url('../font/renault-life/renaultlife-bold.woff') format('woff'),
+  url('../font/renault-life/renaultlife-bold.ttf') format('truetype'),
+  url('../font/renault-life/renaultlife-bold.svg#renault_lifebold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

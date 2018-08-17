@@ -1,0 +1,228 @@
+//R'BOTS v1
+
+//@import "vendors/legacy/main";
+//@import "vendors/legacy/theme-grey";
+
+
+// import dirq_ui
+
+@import "vendors/dirq_ui/scss/common/_variables";
+
+
+$al-bg-color: #303030;
+$al-font-color: #222222;
+$al-grey: rgb(127, 127, 127);
+$al-orange: #ff5f00;
+$al-black: #06090f;
+
+$main-font: Read, sans-serif;
+$title-font: Read, sans-serif;
+$brand-color: $al-orange;
+
+$box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2);
+
+
+
+@import "vendors/dirq_ui/scss/common/_mixins";
+//@import "vendors/dirq_ui/scss/common/_font";
+@import "vendors/dirq_ui/scss/common/_styles";
+@import "vendors/dirq_ui/scss/common/_flags";
+
+
+
+@import "vendors/dirq_ui/scss/elements/_elements";
+
+@import "vendors/dirq_ui/scss/layout/_main-nav";
+@import "vendors/dirq_ui/scss/layout/_logout";
+
+
+//@import "vendors/dirq_ui/scss/components/_components";
+//@import "vendors/dirq_ui/scss/layout/_layout";
+//@import "vendors/dirq_ui/scss/forms/_forms";
+
+
+@import "../font/icons/icons.css";
+
+@import "vendors/dirq_ui/scss/common/_font-icons";
+
+
+//v3
+
+@import "common/_mixins";
+@import "common/_variables";
+@import "common/_alliance-font";
+@import "common/_styles";
+
+@import "components/_components";
+@import "elements/_elements";
+@import "tables/_tables";
+@import "forms/_forms";
+@import "layout/_layout";
+
+
+body {
+  font-size: $font-input;
+  background-color: $al-black;
+  font-family: $main-font;
+  color: $al-font-color;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+input {
+  &[type="color"], &[type="date"], &[type="datetime-local"], &[type="datetime"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="search"], &[type="tel"], &[type="text"], &[type="time"], &[type="url"], &[type="week"] {
+    color: $al-font-color;
+  }
+}
+
+.main-top-nav .search-user:hover, .main-top-nav .search-user:focus {
+  border-bottom: 1px solid $brand-color;
+}
+
+button, input, optgroup, select, textarea, label {
+  color: $al-font-color;
+}
+
+.field {
+  & > label, & > .rlabel, span[data-tooltip] label {
+    &:not(.checkbox) {
+      color: $al-grey;
+      line-height: 1.3em;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
+    &.radio {
+      font-family: $main-font;
+      color: $al-font-color;
+      font-size: $font-input;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+  }
+}
+
+.field-separator {
+  label, span[data-tooltip] label {
+    font-family: $title-font;
+    font-weight: 500;
+    color: $brand-color;
+    letter-spacing: 2px;
+    font-size: $font-sm;
+  }
+  span[data-tooltip] {
+
+  }
+}
+
+
+button[class*="button-"] {
+  font-weight: 600;
+}
+
+.button-yellow, .button-yellow-small {
+  background-color: $al-orange;
+  color: white;
+  &:hover, &:focus {
+    background-color: lighten($al-orange, 10%);
+  }
+}
+
+h1 {
+  color: $brand-color;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: sweetsans;
+}
+
+.rb-sidebar .rb-sidebar-title > a h1, .rb-sidebar .rb-sidebar-title > div h1 {
+  color: $al-font-color;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.rb-sidebar {
+  .rb-sidebar-links {
+    ul {
+      width: 100%;
+      left: inherit;
+      & > li {
+        display: table;
+        margin: 8px 0;
+        &:hover, &:focus {
+          -webkit-transition: none;
+          -moz-transition: none;
+          -ms-transition: none;
+          -o-transition: none;
+          transition: none;
+          & > a {
+            color: $al-black;
+            background-color: darken(#f6f5f3, 10%);
+            @include border-radius(3px);
+          }
+        }
+        &.active {
+          & > a {
+            color: white;
+            font-weight: 600;
+            background-color: $brand-color;
+            cursor: text;
+          }
+          &:hover, &:focus {
+            & > a {
+              background-color: $brand-color;
+            }
+          }
+        }
+        & > a {
+          background-color: #f6f5f3;
+          padding: 8px 15px 8px 6px;
+          width: 100%;
+          display: table;
+          @include border-radius(3px);
+          font-size: $font-input;
+          font-weight: 400;
+          color: $al-black;
+        }
+      }
+    }
+  }
+}
+
+.rselect {
+  font-weight: 500;
+}
+
+.field-separator > i[class*="ico-"] {
+  color: $brand-color;
+}
+
+
+
+.dropdown.menu > li {
+  a {
+    font-weight: 500;
+    padding: 20px 5px 19px;
+    &:hover, &:focus {
+      i {
+        color: white;
+      }
+    }
+  }
+  .submenu {
+    & > li {
+      & > a {
+        font-weight: 400;
+        letter-spacing: 0;
+        font-size: 13px;
+        &:hover, &:focus {
+          color: $brand-color;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

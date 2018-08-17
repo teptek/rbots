@@ -2,7 +2,7 @@
 
 @mixin button {
   @include border-radius(3px);
-  font-family: Read;
+  font-family: $main-font;
   @include font-input;
   font-style: normal;
   font-stretch: normal;

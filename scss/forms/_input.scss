@@ -5,6 +5,26 @@ input {
     &:focus {
       box-shadow: none;
     }
+    // Note two colons, -input-
+    &::-webkit-input-placeholder {
+      color: $grey-blue;
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    // Note two colons, NO -input-
+    &::-moz-placeholder {
+      color: $grey-blue;
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    // Note ONE colon, -input-
+    &:-ms-input-placeholder {
+      color: $grey-blue;
+      font-style: italic;
+      font-weight: normal;
+    }
   }
 }
 

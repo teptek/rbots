@@ -1,0 +1,238 @@
+//R'BOTS v1
+
+//@import "vendors/legacy/main";
+//@import "vendors/legacy/theme-grey";
+
+
+// import dirq_ui
+
+@import "vendors/dirq_ui/scss/common/_variables";
+
+
+$av-bg-color: #303030;
+$av-font-color: #222222;
+$av-grey: rgb(127, 127, 127);
+$av-orange: rgb(237, 107, 33);
+
+$main-font: Arial, Helvetica;
+$title-font: 'bebas_neue';
+$brand-color: $av-orange;
+
+$box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2);
+
+
+
+@import "vendors/dirq_ui/scss/common/_mixins";
+//@import "vendors/dirq_ui/scss/common/_font";
+@import "vendors/dirq_ui/scss/common/_styles";
+@import "vendors/dirq_ui/scss/common/_flags";
+
+
+
+@import "vendors/dirq_ui/scss/elements/_elements";
+
+@import "vendors/dirq_ui/scss/layout/_main-nav";
+@import "vendors/dirq_ui/scss/layout/_logout";
+
+
+//@import "vendors/dirq_ui/scss/components/_components";
+//@import "vendors/dirq_ui/scss/layout/_layout";
+//@import "vendors/dirq_ui/scss/forms/_forms";
+
+
+@import "../font/icons/icons.css";
+
+@import "vendors/dirq_ui/scss/common/_font-icons";
+
+
+//v3
+
+@import "common/_mixins";
+@import "common/_variables";
+@import "common/_avtovaz-font";
+@import "common/_styles";
+
+@import "components/_components";
+@import "elements/_elements";
+@import "tables/_tables";
+@import "forms/_forms";
+@import "layout/_layout";
+
+
+body {
+  font-size: $font-input;
+  background-color: $av-bg-color;
+  font-family: $main-font;
+  color: $av-font-color;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+a {
+  font-weight: 600;
+}
+
+input {
+  &[type="color"], &[type="date"], &[type="datetime-local"], &[type="datetime"], &[type="email"], &[type="month"], &[type="number"], &[type="password"], &[type="search"], &[type="tel"], &[type="text"], &[type="time"], &[type="url"], &[type="week"] {
+    color: $av-font-color;
+  }
+}
+
+.main-top-nav .search-user:hover, .main-top-nav .search-user:focus {
+  border-bottom: 1px solid $brand-color;
+}
+
+button, input, optgroup, select, textarea, label {
+  color: $av-font-color;
+}
+
+.field {
+  & > label, & > .rlabel, span[data-tooltip] label {
+    &:not(.checkbox) {
+      font-family: $title-font;
+      color: $av-grey;
+      font-size: 16px;
+      line-height: 1.0em;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+    &.radio {
+      font-family: $main-font;
+      color: $av-font-color;
+      font-size: $font-input;
+      font-weight: 600;
+    }
+  }
+}
+
+.field-separator {
+  label, span[data-tooltip] label {
+    font-family: $title-font;
+    font-weight: 500;
+    font-size: 18px;
+    color: $brand-color;
+    letter-spacing: 0.02em;
+  }
+  span[data-tooltip] {
+    top: -2px;
+    label::after {
+      top: -3px;
+      position: relative;
+    }
+  }
+}
+
+.dropdown.menu > li {
+  a {
+    font-family: $title-font;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 22px 5px 15px;
+    &:hover, &:focus {
+      i {
+        color: white;
+      }
+    }
+  }
+  i {
+    top: -4px;
+    position: relative;
+  }
+}
+
+.dropdown.menu > li .submenu {
+  background-color: #F0F0F0;
+  & > li {
+    & > a {
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      color: $av-grey;
+      border-bottom: 1px dotted #cccccc;
+      &:hover, &:focus {
+        background-color: transparent;
+        color: $av-font-color;
+      }
+    }
+    &:last-child > a {
+      border-bottom: none;
+    }
+  }
+}
+
+button[class*="button-"] {
+  font-weight: 600;
+}
+
+.button-yellow, .button-yellow-small {
+  background-color: $av-orange;
+  color: white;
+  &:hover, &:focus {
+    background-color: $av-bg-color;
+  }
+}
+
+h1 {
+  color: $av-orange;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.rb-sidebar .rb-sidebar-title > a h1, .rb-sidebar .rb-sidebar-title > div h1 {
+  color: $av-font-color;
+  font-size: 22px;
+}
+
+.rb-sidebar .rb-sidebar-links ul {
+  width: calc(100% + 25px);
+  & > li {
+    & > a {
+      font-weight: 500;
+      border-bottom: 1px dotted #ccc;
+      border-radius: 0;
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: 0.01em;
+      color: #7f7f7f;
+      font-family: $title-font;
+      i {
+        top: -3px;
+        position: relative;
+      }
+    }
+    &:last-child {
+      & > a {
+        border-bottom: medium none;
+      }
+    }
+    &:hover, &:focus {
+      & > a {
+        background-color: transparent;
+        color: #222;
+      }
+    }
+    &.active {
+      & > a {
+        background-color: transparent;
+        color: $av-orange;
+      }
+    }
+  }
+}
+
+.rb-sidebar .rb-sidebar-links ul > li:hover > a, .rb-sidebar .rb-sidebar-links ul > li:focus > a, .rb-sidebar .rb-sidebar-links ul > li.active > a {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.rselect {
+  font-weight: 500;
+}
+
+.field-separator > i[class*="ico-"] {
+  color: $brand-color;
+}

@@ -1,5 +1,9 @@
+body, html {
+  height: 100%;
+}
+
 body {
-  font-family: Read;
+  font-family: $main-font;
   font-size: $font-size;
   color: #000000;
   letter-spacing: 0;
@@ -14,6 +18,9 @@ a {
   &:hover, &:focus {
     color: $dark-grey-blue;
     text-decoration: none;
+    & > i {
+      color: $dark-grey-blue;
+    }
   }
 }
 
@@ -107,7 +114,7 @@ ul {
 }
 
 blockquote {
-  border-left: 2px solid $sun-yellow;
+  border-left: 2px solid $brand-color;
   padding: 15px;
   margin: 0;
 }
