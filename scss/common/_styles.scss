@@ -16,8 +16,16 @@ ul {
 
 h1 {
   text-transform: initial;
+  font-weight: bold;
+  letter-spacing: -0.02em;
 }
 
 .required {
   color: $red;
+}
+
+.page-content {
+  .rb-header h1 {
+    letter-spacing: -0.03em;
+  }
 }

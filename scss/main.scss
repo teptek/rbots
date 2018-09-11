@@ -9,6 +9,9 @@
 @import "vendors/dirq_ui/scss/common/_variables";
 @import "vendors/dirq_ui/scss/common/_mixins";
 @import "vendors/dirq_ui/scss/common/_font";
+
+$title-font: 'Read';
+
 @import "vendors/dirq_ui/scss/common/_styles";
 @import "vendors/dirq_ui/scss/common/_flags";
 
@@ -41,6 +44,8 @@
 @import "tables/_tables";
 @import "forms/_forms";
 @import "layout/_layout";
+
+
 
 body {
   font-size: $font-input;

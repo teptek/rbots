@@ -1,0 +1,35 @@
+@import "../vendors/dirq_ui/scss/elements/_dropdown.scss";
+
+.dropdown-button {
+  @extend .dropdown;
+  &.menu {
+    margin: 0;
+    & > li {
+      padding: 0;
+      & > button > i {
+        margin-right: inherit;
+      }
+      a {
+        white-space: nowrap;
+        i {
+          margin-right: 10px;
+        }
+        &:hover, &:focus {
+          i {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .submenu {
+    left: 0;
+  }
+  .is-dropdown-submenu-parent.opens-right > .is-dropdown-submenu {
+    left: 0;
+  }
+}
+
+
+
+
