@@ -8,6 +8,7 @@ hr {
   width: 100%;
   float: left;
   span[data-tooltip] {
+    display: inline-block;
     & > .rlabel {
       top: 3px;
     }

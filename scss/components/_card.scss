@@ -19,7 +19,7 @@
   }
 }
 
-.form-grid {
+.form-grid.form-grid-card {
   .grid-x {
     & > .large-6 {
       &:nth-child(odd) {
@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .form-grid {
+  .form-grid.form-grid-card {
     .grid-x {
       & > .large-6 {
         &:nth-child(odd) {

@@ -11,6 +11,8 @@
     border-bottom: $border;
     th {
       padding-right: 5px;
+      line-height: 1.2;
+      padding-bottom: 5px;
       &.rb-sort-list {
        & > a {
          color: $grey-blue;

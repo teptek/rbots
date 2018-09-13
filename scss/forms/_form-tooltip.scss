@@ -13,6 +13,8 @@
 
 .has-tip {
   border: none;
+  display: table;
+  padding-bottom: 5px;
   & > .rlabel {
     padding-bottom: 0;
   }
