@@ -10,5 +10,19 @@
         border-color: transparent;
       }
     }
+    &.unavailable {
+      &:first-child, &:last-child {
+        display: none;
+      }
+    }
+  }
+  .unavailable {
+    display: none;
+  }
+}
+
+.designV3 ul.pagination li.unavailable {
+  &:first-child, &:last-child {
+    display: none;
   }
 }

@@ -1,0 +1,20 @@
+.widget-status {
+  h1 {
+    display: inline;
+  }
+  .status {
+    display: inline;
+    position: relative;
+    top: -5px;
+    margin-left: 15px;
+  }
+  .widget-status-infos {
+    margin: 5px 0 20px;
+    & > .status-color {
+      margin-left: 15px;
+    }
+  }
+  button {
+    display: block;
+  }
+}

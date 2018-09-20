@@ -1,3 +1,5 @@
+@import "../vendors/dirq_ui/scss/elements/buttons";
+
 button[class*="button-"] {
   //padding-top: 14px;
   & > i[class*="ico-"] {
@@ -13,5 +15,20 @@ button[class*="-small"] {
     padding-right: 5px;
     top: initial;
     float: initial;
+  }
+}
+
+.button-blue-empty-small {
+  @include button;
+  color: $blue;
+  border: 1px solid $blue;
+  height: 30px;
+  padding: 0 10px;
+  &:hover, &:focus {
+    background-color: $blue;
+    color: white;
+    & > i[class*="ico-"] {
+      color: white;
+    }
   }
 }
