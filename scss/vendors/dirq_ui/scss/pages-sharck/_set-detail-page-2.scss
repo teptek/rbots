@@ -1,0 +1,65 @@
+.anchor-nav-header {
+  position: absolute;
+  @include border-radius(6px 6px 0 0);
+  background-color: white;
+  padding: $container-padding $container-padding 0 $container-padding;
+  margin: $main-space;
+  width: calc(100% - #{$sidebar-width + $main-space*2});
+  box-shadow: $box-shadow;
+  @include ease-multi(width 0.3s, left 0.3s);
+  margin-bottom: -45px;
+  left: $sidebar-width;
+}
+
+.type-label {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+.table-sm {
+  margin-top: 70px;
+  .table-sm-label {
+    text-transform: uppercase;
+    font-size: $font-sm;
+    width: inherit;
+  }
+  .table-sm-data {
+    font-weight: 400;
+    text-align: left;
+    width: inherit;
+  }
+}
+.set-title-container {
+  display: table;
+  height: 130px;
+  padding-top: 35px;
+  .set-title {
+    vertical-align: middle;
+    display: table-cell;
+  }
+}
+.contact-card {
+  margin-top: 15px;
+}
+#global-info {
+  .comment {
+    margin-bottom: 25px;
+    i {
+      float: left;
+      margin-right: 25px;
+    }
+    & > div {
+      display: table;
+      max-width: 750px;
+    }
+  }
+  .contact-card {
+    float: left;
+    margin-right: 15px;
+  }
+}
+section {
+  & > .row {
+    width: 100%;
+  }
+}

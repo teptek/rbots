@@ -12,7 +12,7 @@ $container-padding: 25px;
   .content {
     display: table;
     width: 100%;
-    .container, .anchor-nav-header {
+    .container {
       position: relative;
       @include border-radius(6px);
       background-color: white;
@@ -21,7 +21,7 @@ $container-padding: 25px;
       width: calc(100% - #{$sidebar-width + $main-space*2});
       //box-shadow: $box-shadow;
       @include ease-multi(width 0.3s, left 0.3s);
-      margin-bottom: -45px;
+      //margin-bottom: -45px;
       left: $sidebar-width;
       min-height: 600px;
     }
@@ -61,7 +61,7 @@ $container-padding: 25px;
     padding: 0 #{$main-space} 0 0;
     position: relative;
     height: $sidebar-width;
-    z-index: 2;
+    z-index: 5;
     .top-nav-settings {
       cursor: pointer;
       float: right;
@@ -140,10 +140,13 @@ $container-padding: 25px;
       right: 15px;
       top: 66px;
       display: none;
+      opacity: 0;
     }
     &.active {
       .dropdown {
         display: block;
+        opacity: 1;
+        animation: fade 1s;
       }
     }
   }
@@ -180,6 +183,17 @@ $container-padding: 25px;
     top: 12px;
     position: relative;
   }
+  .renault-logo {
+    background-image: url('../img/logos/renault-logo.svg');
+    width: 110px;
+    height: 34px;
+    display: inline-table;
+    background-repeat: no-repeat;
+    top: 18px;
+    position: relative;
+    float: right;
+    margin-right: 15px;
+  }
   .hidden-top {
     display: none;
     width: $sidebar-width-open;
@@ -188,5 +202,15 @@ $container-padding: 25px;
       top: 14px;
       left: -3px;
     }
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
   }
 }

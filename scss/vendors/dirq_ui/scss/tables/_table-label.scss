@@ -4,7 +4,7 @@
 .table-label {
   display: table;
   width: 100%;
-  font-size: $font-size;
+  font-size: $font-input;
   th {
     @extend .label;
     border-bottom: $border;
@@ -13,10 +13,16 @@
       position: relative;
       &:hover, &:focus {
         color: $blue;
+        & > i.ico-select {
+          opacity: 0.75;
+        }
       }
       & > i {
         position: absolute;
         top: -4px;
+        &.ico-select {
+          opacity: 0.5;
+        }
       }
     }
   }

@@ -53,6 +53,23 @@
   }
 }
 
+#theme-a {
+  .content {
+    .anchor-nav-header {
+      @include border-radius(6px 6px 0 0);
+      background-color: white;
+      padding: $container-padding;
+      margin: $main-space;
+      width: calc(100% - #{$sidebar-width + $main-space*2});
+      box-shadow: $box-shadow;
+      @include ease-multi(width 0.3s, left 0.3s);
+      margin-bottom: -45px;
+      left: $sidebar-width;
+    }
+  }
+}
+
+
 .type-label {
   float: left;
   margin-right: 40px;

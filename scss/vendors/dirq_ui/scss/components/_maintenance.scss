@@ -1,0 +1,11 @@
+.maintenance {
+  text-align: center;
+  i[class*="ico-"] {
+    font-size: 54px;
+    opacity: 0.5;
+  }
+  p {
+    max-width: 680px;
+    margin: 10px auto 0;
+  }
+}

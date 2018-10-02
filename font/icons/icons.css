@@ -1,10 +1,10 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?0e5a5d23ae36c70efd80302d5b0e58ef?#iefix") format("embedded-opentype"),
-url("./icons.woff2?0e5a5d23ae36c70efd80302d5b0e58ef") format("woff2"),
-url("./icons.woff?0e5a5d23ae36c70efd80302d5b0e58ef") format("woff"),
-url("./icons.ttf?0e5a5d23ae36c70efd80302d5b0e58ef") format("truetype"),
-url("./icons.svg?0e5a5d23ae36c70efd80302d5b0e58ef#icons") format("svg");
+    src: url("./icons.eot?a2b829b624d15c6dc0cec95c255a1641?#iefix") format("embedded-opentype"),
+url("./icons.woff2?a2b829b624d15c6dc0cec95c255a1641") format("woff2"),
+url("./icons.woff?a2b829b624d15c6dc0cec95c255a1641") format("woff"),
+url("./icons.ttf?a2b829b624d15c6dc0cec95c255a1641") format("truetype"),
+url("./icons.svg?a2b829b624d15c6dc0cec95c255a1641#icons") format("svg");
 }
 
 i {
@@ -85,153 +85,162 @@ i[class^="ico-"]:before, i[class*=" ico-"]:before {
 .ico-dashboard:before {
     content: "\f115";
 }
-.ico-deploy:before {
+.ico-database:before {
     content: "\f116";
 }
-.ico-documentation:before {
+.ico-deploy:before {
     content: "\f117";
 }
-.ico-download:before {
+.ico-documentation:before {
     content: "\f118";
 }
-.ico-edit:before {
+.ico-download:before {
     content: "\f119";
 }
-.ico-expand-off:before {
+.ico-edit:before {
     content: "\f11a";
 }
-.ico-expand-on:before {
+.ico-expand-off:before {
     content: "\f11b";
 }
-.ico-filter-b:before {
+.ico-expand-on:before {
     content: "\f11c";
 }
-.ico-filter:before {
+.ico-filter-b:before {
     content: "\f11d";
 }
-.ico-flag:before {
+.ico-filter:before {
     content: "\f11e";
 }
-.ico-folder:before {
+.ico-flag:before {
     content: "\f11f";
 }
-.ico-globe:before {
+.ico-folder:before {
     content: "\f120";
 }
-.ico-home:before {
+.ico-globe:before {
     content: "\f121";
 }
-.ico-info:before {
+.ico-home:before {
     content: "\f122";
 }
-.ico-key:before {
+.ico-info:before {
     content: "\f123";
 }
-.ico-light:before {
+.ico-key:before {
     content: "\f124";
 }
-.ico-links:before {
+.ico-keys2:before {
     content: "\f125";
 }
-.ico-list:before {
+.ico-light:before {
     content: "\f126";
 }
-.ico-location:before {
+.ico-links:before {
     content: "\f127";
 }
-.ico-lock:before {
+.ico-list:before {
     content: "\f128";
 }
-.ico-logo-a:before {
+.ico-location:before {
     content: "\f129";
 }
-.ico-logo-app:before {
+.ico-lock:before {
     content: "\f12a";
 }
-.ico-logo-monochrome-grey:before {
+.ico-logo-a:before {
     content: "\f12b";
 }
-.ico-logo.dirq:before {
+.ico-logo-app:before {
     content: "\f12c";
 }
-.ico-mail:before {
+.ico-logo-monochrome-grey:before {
     content: "\f12d";
 }
-.ico-menu-burger:before {
+.ico-logo.dirq:before {
     content: "\f12e";
 }
-.ico-menu:before {
+.ico-mail:before {
     content: "\f12f";
 }
-.ico-more:before {
+.ico-menu-burger:before {
     content: "\f130";
 }
-.ico-off:before {
+.ico-menu:before {
     content: "\f131";
 }
-.ico-pdf:before {
+.ico-more:before {
     content: "\f132";
 }
-.ico-plus:before {
+.ico-off:before {
     content: "\f133";
 }
-.ico-ppt:before {
+.ico-pdf:before {
     content: "\f134";
 }
-.ico-renault:before {
+.ico-plus:before {
     content: "\f135";
 }
-.ico-save:before {
+.ico-ppt:before {
     content: "\f136";
 }
-.ico-search-rd:before {
+.ico-renault:before {
     content: "\f137";
 }
-.ico-search:before {
+.ico-save:before {
     content: "\f138";
 }
-.ico-select:before {
+.ico-search-rd:before {
     content: "\f139";
 }
-.ico-sets:before {
+.ico-search:before {
     content: "\f13a";
 }
-.ico-setting-full:before {
+.ico-select:before {
     content: "\f13b";
 }
-.ico-settings:before {
+.ico-sets:before {
     content: "\f13c";
 }
-.ico-tag:before {
+.ico-setting-full:before {
     content: "\f13d";
 }
-.ico-time:before {
+.ico-settings:before {
     content: "\f13e";
 }
-.ico-toggle:before {
+.ico-tag:before {
     content: "\f13f";
 }
-.ico-trash:before {
+.ico-time:before {
     content: "\f140";
 }
-.ico-upload:before {
+.ico-timeout:before {
     content: "\f141";
 }
-.ico-valid-cercle:before {
+.ico-toggle:before {
     content: "\f142";
 }
-.ico-validation:before {
+.ico-trash:before {
     content: "\f143";
 }
-.ico-view-off:before {
+.ico-upload:before {
     content: "\f144";
 }
-.ico-view:before {
+.ico-valid-cercle:before {
     content: "\f145";
 }
-.ico-warning:before {
+.ico-validation:before {
     content: "\f146";
 }
-.ico-word:before {
+.ico-view-off:before {
     content: "\f147";
+}
+.ico-view:before {
+    content: "\f148";
+}
+.ico-warning:before {
+    content: "\f149";
+}
+.ico-word:before {
+    content: "\f14a";
 }

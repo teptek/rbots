@@ -11,6 +11,10 @@ body {
   font-weight: 300;
 }
 
+.container {
+  max-width: 100%;
+}
+
 a {
   color: $blue;
   font-weight: 500;
@@ -111,6 +115,7 @@ ul {
   padding-left: 2px;
   display: block;
   margin-bottom: 0;
+  line-height: 1.2;
 }
 
 blockquote {

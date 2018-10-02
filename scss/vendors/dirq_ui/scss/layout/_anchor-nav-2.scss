@@ -1,0 +1,106 @@
+#theme-a, .closed {
+  .content {
+    .anchor-nav-header {
+      padding: 25px 25px 0 25px;
+      margin-top: $main-space;
+      @include border-radius(6px 6px 0 0);
+      //position: fixed;
+      @include ease-multi(margin 0.3s, width 0.3s, top 0.3s);
+      z-index: 3;
+      box-shadow: 0px 5px 6px -3px rgba(102,133,173,0.3);
+      .button-empty-small {
+        position: absolute;
+        left: 0;
+        top: -14px;
+      }
+      &.anchor-nav-sticky {
+        position: fixed;
+        top: 0;
+        @include ease-multi(margin 0.3s, width 0.3s, top 0.3s);
+      }
+    }
+    .anchor-nav-container {
+      top: 200px;
+      margin-bottom: 45px;
+      @include border-radius(0 0 6px 6px);
+      section {
+        padding-bottom: 70px;
+        & > .row {
+          padding: 0 15px;
+        }
+      }
+      .anchor-nav-title {
+        i, .rlabel {
+          background-color: white;
+          z-index: 1;
+          position: relative;
+          padding-right: 5px;
+        }
+        .rlabel {
+          display: inline;
+          color: black;
+        }
+        hr {
+          background-color: $light-grey;
+          height: 1px;
+          top: -26px;
+          position: relative;
+        }
+      }
+      &::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: calc(#{$main-space} + 6px);
+        background-color: $cloud-blue-2;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        left: 0;
+      }
+    }
+  }
+}
+.anchor-nav-header-anchor {
+  ul {
+    margin: 0;
+    li {
+      display: inline-block;
+      margin: 0 20px 0 0;
+      color: $grey-blue;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 10px;
+      a {
+        cursor: pointer;
+        text-decoration: none;
+      }
+      i {
+        margin-right: 5px;
+        color: $grey-blue;
+      }
+      .rlabel {
+        display: inline;
+        cursor: pointer;
+      }
+      &:hover, &:focus {
+        color: black;
+        .rlabel {
+          color: black;
+        }
+        i {
+          color: black;
+        }
+      }
+      &.active {
+        color: black;
+        border-bottom: 3px solid $brand-color;
+        .rlabel {
+          color: black;
+        }
+        i {
+          color: black;
+        }
+      }
+    }
+  }
+}

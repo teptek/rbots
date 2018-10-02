@@ -20,7 +20,7 @@
 
 @mixin input-text-button () {
   input {
-    &[type='text'], &[type='number'] {
+    &[type='text'], &[type='number'], &[type='date'] {
       @include input-text;
       @include border-radius(3px 0 0 3px);
       padding: 0 0 0 10px;
@@ -48,7 +48,7 @@
     }
   }
   input {
-    &[type='text'], &[type='number'] {
+    &[type='text'], &[type='number'], input[type='date'] {
       &:focus + button {
         border: 1px solid lighten($blue, 40%);
         border-left: medium none;
@@ -57,12 +57,12 @@
   }
 }
 
-input[type='text'], input[type='number'] {
+input[type='text'], input[type='number'], input[type='date'] {
   @include input-text;
 }
 
 .field-text-twin {
-  input[type='text'], &[type='number'] {
+  input[type='text'], &[type='number'], &[type='date'] {
     float: left;
     width: 50%;
     &:first-of-type {

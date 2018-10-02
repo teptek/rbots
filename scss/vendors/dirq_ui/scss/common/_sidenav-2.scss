@@ -13,16 +13,15 @@ $sidebar-width-open: 240px;
     position: absolute;
     top: 0;
     bottom: 0;
-    z-index: 1;
+    z-index: 4;
     box-shadow: $box-shadow;
-    overflow: hidden;
     & > ul {
       margin-bottom: 0;
-      width: $sidebar-width-open;
+      overflow: hidden;
       padding-top: $main-space;
       & > li {
+        width: $sidebar-width-open;
         display: table;
-        width: 100%;
         &.show {
           .sidenav-item {
             opacity: 1;
@@ -57,6 +56,7 @@ $sidebar-width-open: 240px;
         opacity: 1;
         @include ease(opacity);
         color: $dark-grey-blue;
+        cursor: default;
         & > i[class*="ico-"] {
           color: $dark-grey-blue;
         }
@@ -81,7 +81,7 @@ $sidebar-width-open: 240px;
         color: $grey-blue;
         font-size: 22px;
         display: inline-table;
-        width: calc(#{$sidebar-width} - 3px);
+        width: $sidebar-width;
         padding-left: 0;
         text-align: center;
         left: -3px;
@@ -107,7 +107,7 @@ $sidebar-width-open: 240px;
         & > i[class*="ico-"].ico-small {
           font-size: 16px;
           margin-right: 10px;
-          width: 16px;
+          width: 18px;
           display: inline-table;
           position: relative;
           text-align: center;
@@ -120,6 +120,11 @@ $sidebar-width-open: 240px;
       border: none;
       box-shadow: $box-shadow;
       padding: $margin-gutter;
+      opacity: 0;
+      &.show {
+        opacity: 1;
+        animation: fade 1s;
+      }
     }
     &.sidenav-sticky {
       position: fixed;
@@ -137,5 +142,15 @@ $sidebar-width-open: 240px;
     &.sidenav-overflow {
       overflow: unset;
     }
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
   }
 }
