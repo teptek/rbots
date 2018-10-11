@@ -1,12 +1,16 @@
 .tooltip {
   @include border-radius(3px);
-  background-color: $darker;
+  background-color: white;
   font-weight: 500;
-  font-size: $font-input;
+  font-size: $font-sm;
   outline: none;
+  color: $blue;
+  line-height: 1.5;
+  box-shadow: $box-shadow;
   &.top {
     &::before {
-      border-color: $darker transparent transparent;
+      //border-color: $darker transparent transparent;
+      display: none;
     }
   }
 }
