@@ -15,9 +15,8 @@
     }
   }
   h1 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
     letter-spacing: 0.02em;
     margin: 0;
   }
@@ -32,6 +31,6 @@
   .rb-tabs {
     border-left: $border;
     float: left;
-    padding: 5px 0 5px $padding-gutter;
+    padding: 8px 0 8px $padding-gutter;
   }
 }

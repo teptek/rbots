@@ -13,8 +13,23 @@
     }
   }
   .field-separator {
-    & > button[class*="button-"] {
-      display: none;
+    position: relative;
+    margin-bottom: 20px;
+    &__delete {
+      position: absolute;
+      right: -5px;
+      background-color: white;
+      top: 1px;
+      & > i {
+        color: $red;
+        opacity: 0.5;
+        padding: 0 0 0 5px;
+      }
+      &:hover, &:focus {
+        & > i {
+          opacity: 1;
+        }
+      }
     }
   }
 }

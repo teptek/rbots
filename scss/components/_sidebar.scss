@@ -22,6 +22,8 @@
       }
       &.hover-link {
         cursor: pointer;
+        line-height: 1.4;
+        display: block;
         span {
           display: none;
           margin-left: 10px;

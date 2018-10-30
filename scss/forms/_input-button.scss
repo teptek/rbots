@@ -1,0 +1,9 @@
+.input-text-button {
+  position: relative;
+  & > button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 23px 20px 0;
+  }
+}

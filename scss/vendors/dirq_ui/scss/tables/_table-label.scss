@@ -78,9 +78,10 @@
         }
       }
       &.ico-trash {
-        opacity: 0.3;
+        opacity: 0.5;
         &:hover, &:focus {
           opacity: 1;
+          color: $red;
         }
       }
     }

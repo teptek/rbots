@@ -58,7 +58,7 @@ $table-line-bg: #F7F7F7;
         & > .rb-table-option {
           //visibility: hidden;
           display: none;
-          margin-right: 5px;
+          //margin-right: 5px;
           position: absolute;
           right: 0;
           background-color: transparent;
@@ -71,6 +71,18 @@ $table-line-bg: #F7F7F7;
                 color: $red;
               }
             }
+          }
+          & > button[class*="button"] {
+            margin-right: 4px;
+            height: 25px;
+            @include border-radius(3px);
+           &:hover, &:focus {
+             box-shadow: 0 3px 4px 0 rgba(102,133,173,0.4);
+             color: $blue;
+             & > i {
+               color: $blue;
+             }
+           }
           }
         }
       }

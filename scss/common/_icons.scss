@@ -1,0 +1,23 @@
+.ico-notification {
+  position: relative;
+  &[class*="ico-"] {
+    &::after {
+      content: "!";
+      display: block;
+      position: absolute;
+      background-color: $orange;
+      width: 11px;
+      height: 11px;
+      font-family: Read;
+      font-style: normal;
+      font-size: 10px;
+      font-weight: bold;
+      @include border-radius(30px);
+      color: white;
+      text-align: center;
+      padding: 1px;
+      top: 10px;
+      right: -4px;
+    }
+  }
+}
