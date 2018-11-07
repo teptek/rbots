@@ -1,0 +1,35 @@
+.homepage {
+  h1 {
+    font-family: Read;
+    font-weight: 500;
+    color: $grey-blue;
+    text-align: center;
+    margin: 45px 0;
+  }
+  span {
+    display: block;
+    color: $dark;
+    text-align: center;
+  }
+  .homepage-info {
+    margin: 0 auto;
+    width: 400px;
+    box-shadow: $box-shadow;
+    @include border-radius(6px);
+    padding: 25px 15px;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    &--label {
+      color: $grey-blue;
+      font-weight: 500;
+      font-size: $font-sm;
+    }
+    &--data {
+      font-weight: 500;
+      font-size: $font-sm;
+      text-align: right;
+    }
+  }
+}

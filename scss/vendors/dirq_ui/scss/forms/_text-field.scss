@@ -59,6 +59,9 @@
 
 input[type='text'], input[type='number'], input[type='date'] {
   @include input-text;
+  &.loader {
+    @include loader(blue);
+  }
 }
 
 .field-text-twin {
@@ -71,6 +74,20 @@ input[type='text'], input[type='number'], input[type='date'] {
     }
     &:last-of-type {
       @include border-radius(0 3px 3px 0);
+    }
+  }
+}
+
+.field {
+  &--input-loader {
+    position: relative;
+    & > input[type="text"] {
+      padding-right: 40px;
+    }
+    & > .ico-spinner {
+      position: absolute;
+      top: 25px;
+      right: 13px;
     }
   }
 }

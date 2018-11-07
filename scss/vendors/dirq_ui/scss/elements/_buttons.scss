@@ -48,16 +48,16 @@ button {
   }
   &.loader {
     & > i[class*="ico-"] {
-      &:before {
-        content: '';
-        background-size: 20px;
-        background-repeat: no-repeat;
-        background-position: center left -2px;
-        background-image: url("../img/motion/spinner-black.svg");
-        height: 16px;
-        width: 16px;
-        display: inline-block;
-      }
+        &:before {
+          content: '';
+          background-size: 20px;
+          background-repeat: no-repeat;
+          background-position: center left -2px;
+          background-image: url("../img/motion/spinner-black.svg");
+          height: 16px;
+          width: 16px;
+          display: inline-block;
+        }
     }
     & > .ico-blue:before {
       background-image: url("../img/motion/spinner-blue.svg");

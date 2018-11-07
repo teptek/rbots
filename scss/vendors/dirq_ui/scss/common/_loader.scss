@@ -1,4 +1,4 @@
-.main-loader {
+.main-loader-old {
   text-align: center;
   & > svg {
     display: block;
@@ -7,4 +7,85 @@
   #loader-logo {
     width: 180px;
   }
+}
+
+.main-loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  &__darklayer {
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    top: 0;
+  }
+  &__container {
+    text-align: center;
+    z-index: 99;
+    position: relative;
+    top: 15%;
+    & > #logo-mono {
+      width: 160px;
+      display: block;
+      margin: 0 auto 15px;
+    }
+    &__spinner {
+      background-image: url('../img/motion/ripple.svg');
+      width: 100px;
+      height: 100px;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+    }
+    &__text {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  &--table {
+    & > .main-loader__darklayer {
+      opacity: 0.65;
+    }
+    & > .main-loader__container {
+      top: 30%;
+    }
+  }
+}
+
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+.img-sample {
+  width: 100%;
+  background-image: url('../img/png/table-example.png');
+  display: block;
+  height: 400px;
+  background-size: 100%;
 }

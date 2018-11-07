@@ -9,7 +9,15 @@
   @include ease-multi(width 0.3s, left 0.3s);
   margin-bottom: -45px;
   left: $sidebar-width;
+  .contact-card {
+    &--with-link {
+      margin-top: -5px;
+      position: relative;
+      margin-bottom: -15px;
+    }
+  }
 }
+
 
 .type-label {
   float: left;
@@ -37,9 +45,6 @@
     vertical-align: middle;
     display: table-cell;
   }
-}
-.contact-card {
-  margin-top: 15px;
 }
 #global-info {
   .comment {

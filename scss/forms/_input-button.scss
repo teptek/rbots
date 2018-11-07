@@ -3,7 +3,35 @@
   & > button {
     position: absolute;
     right: 0;
-    top: 0;
+    bottom: 5px;
+    top: inherit;
     margin: 23px 20px 0;
+    width: 30px;
+    padding: 0;
+    & > i[class*="ico-"] {
+      padding-right: 0;
+      left: 0;
+    }
+  }
+  &.input-datepicker > .button-datepicker {
+    right: 42px;
+    position: absolute;
+    top: 5px;
+  }
+  &--disabled {
+    & > button {
+      background-color: $ultra-light-grey;
+      cursor: not-allowed;
+      & > i[class*="ico-"] {
+        color: $grey-blue;
+      }
+      &:hover, &:focus {
+        background-color: $ultra-light-grey;
+        cursor: not-allowed;
+        & > i[class*="ico-"] {
+          color: $grey-blue;
+        }
+      }
+    }
   }
 }

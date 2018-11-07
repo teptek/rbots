@@ -1,0 +1,23 @@
+.modal-status {
+  .modal-content{
+    .modal-body {
+      min-height: 130px;
+      .ico-bg {
+        margin: 0 auto 15px;
+        display: table;
+      }
+      h4 {
+        text-align: center;
+        font-size: $font-h4;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.mat-dialog-container {
+  overflow: inherit;
+  padding: 0;
+}

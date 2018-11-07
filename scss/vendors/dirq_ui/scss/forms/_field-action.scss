@@ -20,6 +20,7 @@
     font-style: italic;
   }
   button {
+    padding: 0 3px 0 0;
     &:focus, &:hover {
       & > i {
         color: $blue;
@@ -32,7 +33,7 @@
         display: none;
       }
       &:after {
-        background-image: url("../img/motion/spinner.svg");
+        background-image: url("../img/motion/spinner-blue.svg");
         content: '';
         width: 25px;
         height: 25px;

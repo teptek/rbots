@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>panel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.8784561,6.28571429 C11.8002338,5.76397516 12.6739187,5.16770186 13.5458225,4.49689441 C12.6739187,3.80124224 11.8002338,3.20496894 10.8784561,2.68322981 L2.87368496,2.68322981 L2.87368496,6.28571429 L10.8784561,6.28571429 Z M7.76133337,7.13043478 L7.76133337,16 L6.88853901,16 L6.88853901,7.13043478 L2,7.13043478 L2,1.83850932 L6.88853901,1.83850932 L6.88853901,0 L7.76133337,0 L7.76133337,1.83850932 L11.2017462,1.83850932 C12.5242969,2.65838509 13.5208855,3.35403727 14.4444444,4.09937888 L14.4444444,4.86956522 C13.5208855,5.61490683 12.5242969,6.31055901 11.2017462,7.13043478 L7.76133337,7.13043478 Z" id="path-1"></path>
+    </defs>
+    <g id="panel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Panel" fill="#000000" xlink:href="#path-1"></use>
+    </g>
+</svg>
