@@ -14,18 +14,18 @@
       }
     }
     &:hover, &:focus {
-      background-color: white;
-      box-shadow: 0 3px 5px 0 rgba(102,133,173,0.75);
+      //background-color: white;
+      //box-shadow: 0 3px 5px 0 rgba(102,133,173,0.75);
       border-radius: 3px;
       & > i {
-        color: $blue;
+        color: darken($blue, 30%);
       }
     }
     &:active {
       box-shadow: 0 3px 3px 0 rgba(102,133,173,0.4);
     }
   }
-  button {
+  button[class*="button-blue"] {
     background-color: transparent;
     margin-left: 15px;
     white-space: nowrap;
@@ -38,7 +38,7 @@
       }
     }
     &:active {
-      box-shadow: 0 2px 3px 0 rgba(102,133,173,0.4);
+      //box-shadow: 0 2px 3px 0 rgba(102,133,173,0.4);
     }
   }
 }

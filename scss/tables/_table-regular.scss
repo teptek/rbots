@@ -38,7 +38,7 @@ $table-line-bg: #F7F7F7;
         background-color: rgba(0,0,0,0.03);
       }
       td {
-        padding: 6px 5px 6px 0;
+        padding: 5px 5px 5px 0;
         &:first-child {
           font-weight: 500;
         }
@@ -72,18 +72,23 @@ $table-line-bg: #F7F7F7;
               }
             }
           }
-          & > button[class*="button"] {
+          & > button[class*="button-blue"] {
             margin-right: 4px;
             height: 25px;
             @include border-radius(3px);
            &:hover, &:focus {
-             box-shadow: 0 3px 4px 0 rgba(102,133,173,0.4);
-             color: $blue;
+             //box-shadow: 0 3px 4px 0 rgba(102,133,173,0.4);
+             color: darken($blue, 30%);
              & > i {
-               color: $blue;
+               color: darken($blue, 30%);
              }
            }
           }
+        }
+        & > .rselect {
+          padding: 4px;
+          height: inherit;
+          background-position: right 0.2rem center;
         }
       }
       &:hover, &:focus {
@@ -118,6 +123,38 @@ $table-line-bg: #F7F7F7;
             }
           }
         }
+      }
+    }
+  }
+  .ico-validation {
+    &::before {
+      font-size: 12px;
+    }
+  }
+  .ico-warning-custom {
+    background-color: $orange;
+    width: 14px;
+    height: 14px;
+    display: block;
+    @include border-radius(20px);
+    //position: relative;
+    &::before {
+      content: '!';
+      display: block;
+      //position: absolute;
+      color: white;
+      font-size: 11px;
+      font-weight: bold;
+      text-align: center;
+      font-family: Arial black !important;
+      top: 1px;
+      position: relative;
+    }
+  }
+  .button-yellow-small {
+    .ico-validation {
+      &::before {
+        font-size: 10px;
       }
     }
   }
