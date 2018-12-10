@@ -43,9 +43,9 @@ $table-line-bg: #F7F7F7;
           font-weight: 500;
         }
         & > .rb-link-icon {
-          color: $grey-blue;
+          //color: $grey-blue;
           &:hover, &:focus {
-            color: $blue;
+            //color: $blue;
           }
         }
         &.rb-table-option-col {
@@ -53,10 +53,10 @@ $table-line-bg: #F7F7F7;
           //right: calc(#{$padding-gutter*2} + #{$margin-gutter});
           padding: 0;
           right: 0;
-          //margin: 10px 10px 0 0;
+          margin-right: 5px;
         }
         & > .rb-table-option {
-          //visibility: hidden;
+          padding-right: 4px;
           display: none;
           //margin-right: 5px;
           position: absolute;
@@ -73,16 +73,7 @@ $table-line-bg: #F7F7F7;
             }
           }
           & > button[class*="button-blue"] {
-            margin-right: 4px;
-            height: 25px;
             @include border-radius(3px);
-           &:hover, &:focus {
-             //box-shadow: 0 3px 4px 0 rgba(102,133,173,0.4);
-             color: darken($blue, 30%);
-             & > i {
-               color: darken($blue, 30%);
-             }
-           }
           }
         }
         & > .rselect {
@@ -157,5 +148,8 @@ $table-line-bg: #F7F7F7;
         font-size: 10px;
       }
     }
+  }
+  .rb-table-option {
+    @include button-shadow;
   }
 }

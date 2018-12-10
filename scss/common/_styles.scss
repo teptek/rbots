@@ -29,3 +29,41 @@ h1 {
     letter-spacing: -0.03em;
   }
 }
+
+.ico-trash {
+  &:before {
+    color: $red;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+button {
+  margin: 0;
+}
+
+.tags-input .tags {
+  padding: 0;
+  -webkit-appearance: inherit;
+  -moz-appearance: inherit;
+  appearance: inherit;
+  .input {
+    margin: 0 0 0 5px;
+    height: inherit !important;
+    padding: 12px 5px;
+    font: inherit;
+  }
+  .tag-item {
+    margin: 5px 0 0 5px;
+  }
+}
+
+.material-inputV3 .main-input {
+  padding: 10px;
+  @include border-radius(3px);
+  & > .margin-5 {
+    margin: 0;
+  }
+}

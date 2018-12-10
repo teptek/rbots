@@ -39,6 +39,7 @@
               color: $dark-grey-blue;
               & > i {
                 color: $dark-grey-blue;
+                box-shadow: none;
               }
             }
             & > i {
@@ -70,18 +71,6 @@
   }
   .rb-table-option {
     visibility: hidden;
-    button {
-      opacity: 1;
-      background-color: $cloud-blue;
-      &:hover, &:focus {
-        opacity: 1;
-        //background-color: lighten($blue, 55%);
-        box-shadow: 0 3px 4px 0 rgba(102,133,173,0.6);
-        color: $blue;
-        & > i {
-          color: $blue;
-        }
-      }
-    }
+    @include button-shadow;
   }
 }

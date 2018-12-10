@@ -15,6 +15,7 @@
   .field-separator {
     position: relative;
     margin-bottom: 20px;
+    @include button-shadow;
     &__delete {
       position: absolute;
       right: -5px;
@@ -26,7 +27,9 @@
         padding: 0 0 0 5px;
       }
       &:hover, &:focus {
+        box-shadow: none !important;
         & > i {
+          color: $red !important;
           opacity: 1;
         }
       }

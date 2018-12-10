@@ -1,12 +1,13 @@
 .rb-table-option {
   text-align: right;
+  padding-left: 10px;
+  //border-left: $border;
   a {
-    padding: 3px 5px;
     display: inline-block;
     margin-left: 6px;
     margin-bottom: 2px;
     & > i[class*="ico-"]{
-      padding: 0;
+      padding: 5px;
       margin-top: 1px;
       display: block;
       &.ico-edit {
@@ -16,9 +17,9 @@
     &:hover, &:focus {
       //background-color: white;
       //box-shadow: 0 3px 5px 0 rgba(102,133,173,0.75);
-      border-radius: 3px;
+      //border-radius: 3px;
       & > i {
-        color: darken($blue, 30%);
+        color: $blue;
       }
     }
     &:active {
@@ -32,9 +33,9 @@
     &:hover, &:focus {
       background-color: transparent;
       opacity: 1;
-      color: $dark-grey-blue;
+      //color: $dark-grey-blue;
       & > i {
-        color: $dark-grey-blue;
+        //color: $dark-grey-blue;
       }
     }
     &:active {
@@ -42,3 +43,4 @@
     }
   }
 }
+

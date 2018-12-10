@@ -26,3 +26,37 @@
     }
   }
 }
+
+@mixin button-shadow {
+  a, button:not([class*="button-"]) {
+    &:hover, &:focus {
+      & > i[class*="ico-"] {
+        background-color: white;
+        box-shadow: $box-shadow-black;
+        @include border-radius(3px);
+        padding: 5px;
+        color: darken($blue, 30%);
+      }
+    }
+    & > i[class*="ico-"] {
+      padding: 5px;
+    }
+  }
+  button {
+    opacity: 1;
+    &:hover, &:focus {
+      opacity: 1;
+      box-shadow: $box-shadow-black;
+    }
+  }
+  button[class*="button-blue"] {
+    opacity: 1;
+    &:hover, &:focus {
+      color: darken($blue, 30%);
+      background-color: white;
+      & > i {
+        color: darken($blue, 30%);
+      }
+    }
+  }
+}

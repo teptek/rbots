@@ -42,6 +42,8 @@ fieldset {
   margin-bottom: 40px;
 }
 
-.rlabel {
-  //white-space: nowrap;
+select, textarea, [type="text"], [type="date"], [type="number"] {
+  &:hover, &:focus {
+    border-color: lighten($blue, 40%);
+  }
 }

@@ -1,4 +1,4 @@
-textarea {
+textarea, textarea[rows] {
   @include input-text();
   padding: 10px;
   box-shadow: none;

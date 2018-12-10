@@ -1,11 +1,8 @@
 @import "../vendors/dirq_ui/scss/elements/buttons";
 
 button[class*="button-"] {
-  //padding-top: 14px;
-  & > i[class*="ico-"] {
-    //padding-right: 9px;
-    //top: -4px;
-    //float: left;
+  &:hover, &:focus {
+    box-shadow: $box-shadow-black;
   }
 }
 
@@ -30,5 +27,35 @@ button[class*="-small"] {
     & > i[class*="ico-"] {
       color: white;
     }
+  }
+}
+
+.button-yellow {
+  &:hover, &:focus {
+    background-color: lighten( $sun-yellow, 0 );
+  }
+}
+
+.button-red {
+  &:hover, &:focus {
+    background-color: lighten($red, 0);
+  }
+}
+
+.button-blue-light {
+  &:hover, &:focus {
+    background-color: lighten($blue, 55%);
+  }
+}
+
+.button-empty {
+  &:hover, &:focus {
+    background-color: white;
+  }
+}
+
+.button-red {
+  &:hover, &:focus {
+    background-color: lighten($red, 55%);
   }
 }
