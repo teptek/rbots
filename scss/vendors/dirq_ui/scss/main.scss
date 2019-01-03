@@ -1,16 +1,13 @@
-@import "../font/icons/icons.css";
+@import "../font/dirq-icons/dirq-icons.css";
 
 
 @import "common/_mixins";
 @import "common/_variables";
 @import "common/_styles";
-@import "common/_flags";
-@import "common/_loader";
 
 @import "common/_font.scss";
-@import "common/_font-icons";
 
-
+@import "assets/_assets.scss";
 @import "elements/_elements";
 @import "components/_components";
 @import "layout/_layout";

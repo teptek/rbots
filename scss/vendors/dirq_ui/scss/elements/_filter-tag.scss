@@ -1,0 +1,33 @@
+.filter-tag {
+  &__item {
+    background-color: $cloud-blue-2;
+    @include border-radius(30px);
+    color: $blue;
+    font-weight: 500;
+    display: inline-table;
+    text-align: center;
+    padding: 3px 9px 3px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    &::after {
+      content: "\F111";
+      font-family: icons !important;
+      font-style: normal;
+      font-weight: normal !important;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      margin-left: 10px;
+      position: relative;
+      top: 2px;
+      opacity: 0.5;
+    }
+    &:hover, &:focus {
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}

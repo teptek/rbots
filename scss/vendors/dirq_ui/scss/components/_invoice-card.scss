@@ -1,0 +1,24 @@
+.invoice-card {
+  border: $border;
+  display: table;
+  @include border-radius(6px);
+  &__label {
+    padding: 15px 25px;
+    font-weight: bold;
+    border-bottom: 3px solid $sun-yellow;
+  }
+  &__supplier {
+    text-align: center;
+    color: $dark-grey-blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 25px;
+    background-color: $cloud-blue-2;
+    &__label {
+      font-size: 11px;
+    }
+    &__code {
+      font-size: 18px;
+    }
+  }
+}

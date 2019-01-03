@@ -1,21 +1,25 @@
 .alert {
   display: table;
-  font-weight:  500;
-  @include border-radius(30px);
-  padding: 8px 16px;
+  font-weight:  300;
+  @include border-radius(3px);
+  padding: 8px 10px;
   line-height: 1;
-  border: medium none;
+  font-size: $font-input;
+  border: 1px solid;
   &.alert-danger {
     background-color: lighten($red, 55%);
     color: $red;
+    border-color: lighten($red, 45%);
   }
   &.alert-info {
     background-color: lighten($blue, 55%);
     color: $blue;
+    border-color: lighten($blue, 40%);
   }
   &.alert-success {
     background-color: lighten($green, 57%);
     color: $green;
+    border-color: lighten($green, 35%);
   }
 }
 

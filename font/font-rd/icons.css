@@ -1,0 +1,1020 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?589e4563b1fa06591ff9d42456376448?#iefix") format("embedded-opentype"),
+url("./icons.woff2?589e4563b1fa06591ff9d42456376448") format("woff2"),
+url("./icons.woff?589e4563b1fa06591ff9d42456376448") format("woff"),
+url("./icons.ttf?589e4563b1fa06591ff9d42456376448") format("truetype"),
+url("./icons.svg?589e4563b1fa06591ff9d42456376448#icons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="ico-"]:before, i[class*=" ico-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-commercial-agreement:before {
+    content: "\f101";
+}
+.ico-commercial-bag:before {
+    content: "\f102";
+}
+.ico-commercial-calculator:before {
+    content: "\f103";
+}
+.ico-commercial-car-delivery:before {
+    content: "\f104";
+}
+.ico-commercial-coins:before {
+    content: "\f105";
+}
+.ico-commercial-copyright:before {
+    content: "\f106";
+}
+.ico-commercial-credit-card:before {
+    content: "\f107";
+}
+.ico-commercial-dealer-dacia:before {
+    content: "\f108";
+}
+.ico-commercial-dealer-dealer-flag:before {
+    content: "\f109";
+}
+.ico-commercial-dealer-renault:before {
+    content: "\f10a";
+}
+.ico-commercial-dealer-rental:before {
+    content: "\f10b";
+}
+.ico-commercial-dealer-upgrade:before {
+    content: "\f10c";
+}
+.ico-commercial-euro:before {
+    content: "\f10d";
+}
+.ico-commercial-goal:before {
+    content: "\f10e";
+}
+.ico-commercial-key-delivery:before {
+    content: "\f10f";
+}
+.ico-commercial-money:before {
+    content: "\f110";
+}
+.ico-commercial-promo:before {
+    content: "\f111";
+}
+.ico-commercial-refund:before {
+    content: "\f112";
+}
+.ico-commercial-sale:before {
+    content: "\f113";
+}
+.ico-commercial-shopping-cart:before {
+    content: "\f114";
+}
+.ico-commercial-stat-bar:before {
+    content: "\f115";
+}
+.ico-commercial-stat-circle:before {
+    content: "\f116";
+}
+.ico-commercial-timer-4min:before {
+    content: "\f117";
+}
+.ico-factory-factory:before {
+    content: "\f118";
+}
+.ico-factory-foundry:before {
+    content: "\f119";
+}
+.ico-factory-gear:before {
+    content: "\f11a";
+}
+.ico-factory-graph:before {
+    content: "\f11b";
+}
+.ico-factory-mechanical:before {
+    content: "\f11c";
+}
+.ico-factory-paint-bucket:before {
+    content: "\f11d";
+}
+.ico-factory-painting:before {
+    content: "\f11e";
+}
+.ico-factory-repair:before {
+    content: "\f11f";
+}
+.ico-factory-sonde:before {
+    content: "\f120";
+}
+.ico-factory-synoptique:before {
+    content: "\f121";
+}
+.ico-factory-toolbox:before {
+    content: "\f122";
+}
+.ico-nav-action-adjustement-filter-az:before {
+    content: "\f123";
+}
+.ico-nav-action-adjustement-filter-za:before {
+    content: "\f124";
+}
+.ico-nav-action-adjustement-font-increase:before {
+    content: "\f125";
+}
+.ico-nav-action-adjustement-font-reduce:before {
+    content: "\f126";
+}
+.ico-nav-action-adjustement-full-screen:before {
+    content: "\f127";
+}
+.ico-nav-action-adjustement-less:before {
+    content: "\f128";
+}
+.ico-nav-action-adjustement-more:before {
+    content: "\f129";
+}
+.ico-nav-action-adjustement-pip:before {
+    content: "\f12a";
+}
+.ico-nav-action-adjustement-reduce-screen:before {
+    content: "\f12b";
+}
+.ico-nav-action-adjustement-zoom-in:before {
+    content: "\f12c";
+}
+.ico-nav-action-adjustement-zoom-out:before {
+    content: "\f12d";
+}
+.ico-nav-action-call:before {
+    content: "\f12e";
+}
+.ico-nav-action-cross:before {
+    content: "\f12f";
+}
+.ico-nav-action-drop-files:before {
+    content: "\f130";
+}
+.ico-nav-action-edit:before {
+    content: "\f131";
+}
+.ico-nav-action-export:before {
+    content: "\f132";
+}
+.ico-nav-action-filter:before {
+    content: "\f133";
+}
+.ico-nav-action-header-burger-menu:before {
+    content: "\f134";
+}
+.ico-nav-action-header-disconnect:before {
+    content: "\f135";
+}
+.ico-nav-action-header-exit:before {
+    content: "\f136";
+}
+.ico-nav-action-header-galaxy:before {
+    content: "\f137";
+}
+.ico-nav-action-header-home:before {
+    content: "\f138";
+}
+.ico-nav-action-header-search:before {
+    content: "\f139";
+}
+.ico-nav-action-header-web-call:before {
+    content: "\f13a";
+}
+.ico-nav-action-hidden:before {
+    content: "\f13b";
+}
+.ico-nav-action-like:before {
+    content: "\f13c";
+}
+.ico-nav-action-link:before {
+    content: "\f13d";
+}
+.ico-nav-action-list-ok:before {
+    content: "\f13e";
+}
+.ico-nav-action-list:before {
+    content: "\f13f";
+}
+.ico-nav-action-loading:before {
+    content: "\f140";
+}
+.ico-nav-action-lock:before {
+    content: "\f141";
+}
+.ico-nav-action-mail:before {
+    content: "\f142";
+}
+.ico-nav-action-more-action:before {
+    content: "\f143";
+}
+.ico-nav-action-network:before {
+    content: "\f144";
+}
+.ico-nav-action-point:before {
+    content: "\f145";
+}
+.ico-nav-action-print:before {
+    content: "\f146";
+}
+.ico-nav-action-refresh:before {
+    content: "\f147";
+}
+.ico-nav-action-reload:before {
+    content: "\f148";
+}
+.ico-nav-action-save:before {
+    content: "\f149";
+}
+.ico-nav-action-show:before {
+    content: "\f14a";
+}
+.ico-nav-action-tick:before {
+    content: "\f14b";
+}
+.ico-nav-action-to-do:before {
+    content: "\f14c";
+}
+.ico-nav-action-trash:before {
+    content: "\f14d";
+}
+.ico-nav-action-unlike:before {
+    content: "\f14e";
+}
+.ico-nav-action-unlock:before {
+    content: "\f14f";
+}
+.ico-nav-action-upload:before {
+    content: "\f150";
+}
+.ico-nav-action-wifi:before {
+    content: "\f151";
+}
+.ico-nav-arrows-down-left:before {
+    content: "\f152";
+}
+.ico-nav-arrows-down:before {
+    content: "\f153";
+}
+.ico-nav-arrows-left-:before {
+    content: "\f154";
+}
+.ico-nav-arrows-right-:before {
+    content: "\f155";
+}
+.ico-nav-arrows-up-left:before {
+    content: "\f156";
+}
+.ico-nav-arrows-up-right:before {
+    content: "\f157";
+}
+.ico-nav-arrows-up:before {
+    content: "\f158";
+}
+.ico-nav-favorite-favorite-full:before {
+    content: "\f159";
+}
+.ico-nav-favorite-favorite-item:before {
+    content: "\f15a";
+}
+.ico-nav-favorite-favorite:before {
+    content: "\f15b";
+}
+.ico-nav-favorite-love:before {
+    content: "\f15c";
+}
+.ico-nav-favorite-wish-list:before {
+    content: "\f15d";
+}
+.ico-nav-files-archive:before {
+    content: "\f15e";
+}
+.ico-nav-files-book:before {
+    content: "\f15f";
+}
+.ico-nav-files-favorite-page:before {
+    content: "\f160";
+}
+.ico-nav-files-internet-page:before {
+    content: "\f161";
+}
+.ico-nav-files-pdf:before {
+    content: "\f162";
+}
+.ico-nav-files-product-page:before {
+    content: "\f163";
+}
+.ico-nav-files-sheet:before {
+    content: "\f164";
+}
+.ico-nav-files-specificity-page:before {
+    content: "\f165";
+}
+.ico-nav-gestures-double-click-1-finger:before {
+    content: "\f166";
+}
+.ico-nav-gestures-double-click-2-fingers:before {
+    content: "\f167";
+}
+.ico-nav-gestures-double-click-3-fingers:before {
+    content: "\f168";
+}
+.ico-nav-gestures-extend-2-hands:before {
+    content: "\f169";
+}
+.ico-nav-gestures-extend-diagonally:before {
+    content: "\f16a";
+}
+.ico-nav-gestures-extend-horizontally:before {
+    content: "\f16b";
+}
+.ico-nav-gestures-extend-vertically:before {
+    content: "\f16c";
+}
+.ico-nav-gestures-long-press-1-finger:before {
+    content: "\f16d";
+}
+.ico-nav-gestures-long-press-2-fingers:before {
+    content: "\f16e";
+}
+.ico-nav-gestures-long-press-3-fingers:before {
+    content: "\f16f";
+}
+.ico-nav-gestures-move-1-finger:before {
+    content: "\f170";
+}
+.ico-nav-gestures-move-2-fingers:before {
+    content: "\f171";
+}
+.ico-nav-gestures-move-3-fingers:before {
+    content: "\f172";
+}
+.ico-nav-gestures-rotation-2-fingers:before {
+    content: "\f173";
+}
+.ico-nav-gestures-rotation-2-hands:before {
+    content: "\f174";
+}
+.ico-nav-gestures-scroll-1-finger:before {
+    content: "\f175";
+}
+.ico-nav-gestures-scroll-2-fingers:before {
+    content: "\f176";
+}
+.ico-nav-gestures-scroll-3-fingers:before {
+    content: "\f177";
+}
+.ico-nav-gestures-simple-click-1-finger:before {
+    content: "\f178";
+}
+.ico-nav-gestures-simple-click-2-fingers:before {
+    content: "\f179";
+}
+.ico-nav-gestures-simple-click-3-fingers:before {
+    content: "\f17a";
+}
+.ico-nav-gestures-slide-1-finger:before {
+    content: "\f17b";
+}
+.ico-nav-gestures-slide-2-fingers:before {
+    content: "\f17c";
+}
+.ico-nav-gestures-slide-3-fingers:before {
+    content: "\f17d";
+}
+.ico-nav-help-bubble-empty:before {
+    content: "\f17e";
+}
+.ico-nav-help-bubble-focus:before {
+    content: "\f17f";
+}
+.ico-nav-help-bubble-unfocused:before {
+    content: "\f180";
+}
+.ico-nav-help-contact:before {
+    content: "\f181";
+}
+.ico-nav-help-hint:before {
+    content: "\f182";
+}
+.ico-nav-help-information:before {
+    content: "\f183";
+}
+.ico-nav-help-question:before {
+    content: "\f184";
+}
+.ico-nav-help-warning:before {
+    content: "\f185";
+}
+.ico-nav-location-compass:before {
+    content: "\f186";
+}
+.ico-nav-location-flag:before {
+    content: "\f187";
+}
+.ico-nav-location-panel:before {
+    content: "\f188";
+}
+.ico-nav-location-pin:before {
+    content: "\f189";
+}
+.ico-nav-location-target:before {
+    content: "\f18a";
+}
+.ico-nav-media-backward:before {
+    content: "\f18b";
+}
+.ico-nav-media-cookie:before {
+    content: "\f18c";
+}
+.ico-nav-media-documents:before {
+    content: "\f18d";
+}
+.ico-nav-media-emit:before {
+    content: "\f18e";
+}
+.ico-nav-media-forward:before {
+    content: "\f18f";
+}
+.ico-nav-media-medal:before {
+    content: "\f190";
+}
+.ico-nav-media-movie-camera:before {
+    content: "\f191";
+}
+.ico-nav-media-music:before {
+    content: "\f192";
+}
+.ico-nav-media-pad:before {
+    content: "\f193";
+}
+.ico-nav-media-pause:before {
+    content: "\f194";
+}
+.ico-nav-media-picture:before {
+    content: "\f195";
+}
+.ico-nav-media-play:before {
+    content: "\f196";
+}
+.ico-nav-media-pod:before {
+    content: "\f197";
+}
+.ico-nav-media-qr-code:before {
+    content: "\f198";
+}
+.ico-nav-media-stop:before {
+    content: "\f199";
+}
+.ico-nav-media-trophy:before {
+    content: "\f19a";
+}
+.ico-nav-media-volume-high:before {
+    content: "\f19b";
+}
+.ico-nav-media-volume-low:before {
+    content: "\f19c";
+}
+.ico-nav-media-volume-mute:before {
+    content: "\f19d";
+}
+.ico-nav-notification-alarm-clock:before {
+    content: "\f19e";
+}
+.ico-nav-notification-alarm:before {
+    content: "\f19f";
+}
+.ico-nav-notification-calendar:before {
+    content: "\f1a0";
+}
+.ico-nav-notification-sandglass:before {
+    content: "\f1a1";
+}
+.ico-nav-notification-timer:before {
+    content: "\f1a2";
+}
+.ico-nav-pad-down-left-:before {
+    content: "\f1a3";
+}
+.ico-nav-pad-down-right:before {
+    content: "\f1a4";
+}
+.ico-nav-pad-down:before {
+    content: "\f1a5";
+}
+.ico-nav-pad-end:before {
+    content: "\f1a6";
+}
+.ico-nav-pad-horizontally:before {
+    content: "\f1a7";
+}
+.ico-nav-pad-left:before {
+    content: "\f1a8";
+}
+.ico-nav-pad-right:before {
+    content: "\f1a9";
+}
+.ico-nav-pad-up-left:before {
+    content: "\f1aa";
+}
+.ico-nav-pad-up-right:before {
+    content: "\f1ab";
+}
+.ico-nav-pad-up:before {
+    content: "\f1ac";
+}
+.ico-nav-pad-vertically:before {
+    content: "\f1ad";
+}
+.ico-nav-users-community:before {
+    content: "\f1ae";
+}
+.ico-nav-users-group:before {
+    content: "\f1af";
+}
+.ico-nav-users-user:before {
+    content: "\f1b0";
+}
+.ico-others-box:before {
+    content: "\f1b1";
+}
+.ico-others-devices-app:before {
+    content: "\f1b2";
+}
+.ico-others-devices-desktop:before {
+    content: "\f1b3";
+}
+.ico-others-devices-laptop:before {
+    content: "\f1b4";
+}
+.ico-others-devices-smartphone:before {
+    content: "\f1b5";
+}
+.ico-others-devices-tablet:before {
+    content: "\f1b6";
+}
+.ico-others-devices-tv:before {
+    content: "\f1b7";
+}
+.ico-others-emojis-angry:before {
+    content: "\f1b8";
+}
+.ico-others-emojis-chill:before {
+    content: "\f1b9";
+}
+.ico-others-emojis-confused:before {
+    content: "\f1ba";
+}
+.ico-others-emojis-disappointed:before {
+    content: "\f1bb";
+}
+.ico-others-emojis-fine:before {
+    content: "\f1bc";
+}
+.ico-others-emojis-happy:before {
+    content: "\f1bd";
+}
+.ico-others-emojis-surprised:before {
+    content: "\f1be";
+}
+.ico-others-handicap:before {
+    content: "\f1bf";
+}
+.ico-others-luggage:before {
+    content: "\f1c0";
+}
+.ico-others-organisation:before {
+    content: "\f1c1";
+}
+.ico-others-usb:before {
+    content: "\f1c2";
+}
+.ico-vehicles-cars-berline:before {
+    content: "\f1c3";
+}
+.ico-vehicles-cars-break:before {
+    content: "\f1c4";
+}
+.ico-vehicles-cars-campervan:before {
+    content: "\f1c5";
+}
+.ico-vehicles-cars-cdv:before {
+    content: "\f1c6";
+}
+.ico-vehicles-cars-chassis-cab:before {
+    content: "\f1c7";
+}
+.ico-vehicles-cars-city-car:before {
+    content: "\f1c8";
+}
+.ico-vehicles-cars-compact-van:before {
+    content: "\f1c9";
+}
+.ico-vehicles-cars-configurator:before {
+    content: "\f1ca";
+}
+.ico-vehicles-cars-convertible:before {
+    content: "\f1cb";
+}
+.ico-vehicles-cars-coupe:before {
+    content: "\f1cc";
+}
+.ico-vehicles-cars-dump-truck:before {
+    content: "\f1cd";
+}
+.ico-vehicles-cars-emergency:before {
+    content: "\f1ce";
+}
+.ico-vehicles-cars-f1:before {
+    content: "\f1cf";
+}
+.ico-vehicles-cars-family:before {
+    content: "\f1d0";
+}
+.ico-vehicles-cars-hatchback:before {
+    content: "\f1d1";
+}
+.ico-vehicles-cars-large-van:before {
+    content: "\f1d2";
+}
+.ico-vehicles-cars-minibus:before {
+    content: "\f1d3";
+}
+.ico-vehicles-cars-mpv:before {
+    content: "\f1d4";
+}
+.ico-vehicles-cars-passenger-cdv:before {
+    content: "\f1d5";
+}
+.ico-vehicles-cars-pick-up:before {
+    content: "\f1d6";
+}
+.ico-vehicles-cars-shuttle:before {
+    content: "\f1d7";
+}
+.ico-vehicles-cars-suv:before {
+    content: "\f1d8";
+}
+.ico-vehicles-cars-tow-truck:before {
+    content: "\f1d9";
+}
+.ico-vehicles-cockpit-air-conditioning:before {
+    content: "\f1da";
+}
+.ico-vehicles-cockpit-automatic-gear:before {
+    content: "\f1db";
+}
+.ico-vehicles-cockpit-automatic-stick:before {
+    content: "\f1dc";
+}
+.ico-vehicles-cockpit-interior:before {
+    content: "\f1dd";
+}
+.ico-vehicles-cockpit-key:before {
+    content: "\f1de";
+}
+.ico-vehicles-cockpit-manual-gear:before {
+    content: "\f1df";
+}
+.ico-vehicles-cockpit-manual-stick:before {
+    content: "\f1e0";
+}
+.ico-vehicles-cockpit-seat:before {
+    content: "\f1e1";
+}
+.ico-vehicles-cockpit-speedometer:before {
+    content: "\f1e2";
+}
+.ico-vehicles-cockpit-steering-wheel:before {
+    content: "\f1e3";
+}
+.ico-vehicles-energy-battery-level-0:before {
+    content: "\f1e4";
+}
+.ico-vehicles-energy-battery-level-1:before {
+    content: "\f1e5";
+}
+.ico-vehicles-energy-battery-level-2:before {
+    content: "\f1e6";
+}
+.ico-vehicles-energy-battery-level-3:before {
+    content: "\f1e7";
+}
+.ico-vehicles-energy-battery-level-4:before {
+    content: "\f1e8";
+}
+.ico-vehicles-energy-battery-pricing:before {
+    content: "\f1e9";
+}
+.ico-vehicles-energy-battery:before {
+    content: "\f1ea";
+}
+.ico-vehicles-energy-charge:before {
+    content: "\f1eb";
+}
+.ico-vehicles-energy-data-emission:before {
+    content: "\f1ec";
+}
+.ico-vehicles-energy-electric-vehicle:before {
+    content: "\f1ed";
+}
+.ico-vehicles-energy-fast-charging-port-:before {
+    content: "\f1ee";
+}
+.ico-vehicles-energy-fuel-pump:before {
+    content: "\f1ef";
+}
+.ico-vehicles-energy-green-emission:before {
+    content: "\f1f0";
+}
+.ico-vehicles-energy-hybrid:before {
+    content: "\f1f1";
+}
+.ico-vehicles-energy-no-battery:before {
+    content: "\f1f2";
+}
+.ico-vehicles-energy-plug-connected:before {
+    content: "\f1f3";
+}
+.ico-vehicles-energy-plug-disconnected:before {
+    content: "\f1f4";
+}
+.ico-vehicles-energy-plug-hybrid:before {
+    content: "\f1f5";
+}
+.ico-vehicles-energy-plug:before {
+    content: "\f1f6";
+}
+.ico-vehicles-energy-standart-charging-port:before {
+    content: "\f1f7";
+}
+.ico-vehicles-energy-wall-charging-port:before {
+    content: "\f1f8";
+}
+.ico-vehicles-exterior-brake:before {
+    content: "\f1f9";
+}
+.ico-vehicles-exterior-car-body:before {
+    content: "\f1fa";
+}
+.ico-vehicles-exterior-car-hood:before {
+    content: "\f1fb";
+}
+.ico-vehicles-exterior-door:before {
+    content: "\f1fc";
+}
+.ico-vehicles-exterior-fog-lamp:before {
+    content: "\f1fd";
+}
+.ico-vehicles-exterior-high-beam:before {
+    content: "\f1fe";
+}
+.ico-vehicles-exterior-hubcap:before {
+    content: "\f1ff";
+}
+.ico-vehicles-exterior-low-beam:before {
+    content: "\f200";
+}
+.ico-vehicles-exterior-no-light:before {
+    content: "\f201";
+}
+.ico-vehicles-exterior-roof-bar:before {
+    content: "\f202";
+}
+.ico-vehicles-exterior-roof-box:before {
+    content: "\f203";
+}
+.ico-vehicles-exterior-snow-box:before {
+    content: "\f204";
+}
+.ico-vehicles-exterior-spare-parts:before {
+    content: "\f205";
+}
+.ico-vehicles-exterior-tow-ball:before {
+    content: "\f206";
+}
+.ico-vehicles-exterior-transmission:before {
+    content: "\f207";
+}
+.ico-vehicles-exterior-wheel:before {
+    content: "\f208";
+}
+.ico-vehicles-exterior-windshield:before {
+    content: "\f209";
+}
+.ico-vehicles-exterior-wiper:before {
+    content: "\f20a";
+}
+.ico-vehicles-maintenance-antifreeze:before {
+    content: "\f20b";
+}
+.ico-vehicles-maintenance-check-oil:before {
+    content: "\f20c";
+}
+.ico-vehicles-maintenance-draining:before {
+    content: "\f20d";
+}
+.ico-vehicles-maintenance-exchange:before {
+    content: "\f20e";
+}
+.ico-vehicles-maintenance-oil-ok:before {
+    content: "\f20f";
+}
+.ico-vehicles-maintenance-reparation:before {
+    content: "\f210";
+}
+.ico-vehicles-maintenance-replace:before {
+    content: "\f211";
+}
+.ico-vehicles-maintenance-return:before {
+    content: "\f212";
+}
+.ico-vehicles-maintenance-tire-pressure:before {
+    content: "\f213";
+}
+.ico-vehicles-maintenance-wheel-ok:before {
+    content: "\f214";
+}
+.ico-vehicles-maintenance-wiper-ok:before {
+    content: "\f215";
+}
+.ico-vehicles-motor-electric:before {
+    content: "\f216";
+}
+.ico-vehicles-motor-emptying:before {
+    content: "\f217";
+}
+.ico-vehicles-motor-engine-belt:before {
+    content: "\f218";
+}
+.ico-vehicles-motor-exhaust-pipe:before {
+    content: "\f219";
+}
+.ico-vehicles-motor-horn:before {
+    content: "\f21a";
+}
+.ico-vehicles-motor-kilowatts:before {
+    content: "\f21b";
+}
+.ico-vehicles-motor-mecanical-link:before {
+    content: "\f21c";
+}
+.ico-vehicles-motor-motor-boost:before {
+    content: "\f21d";
+}
+.ico-vehicles-motor-motor-sport:before {
+    content: "\f21e";
+}
+.ico-vehicles-motor-motor:before {
+    content: "\f21f";
+}
+.ico-vehicles-motor-no-oil:before {
+    content: "\f220";
+}
+.ico-vehicles-motor-oil-compare:before {
+    content: "\f221";
+}
+.ico-vehicles-motor-oil-level-0:before {
+    content: "\f222";
+}
+.ico-vehicles-motor-oil-level-1:before {
+    content: "\f223";
+}
+.ico-vehicles-motor-oil-level-2:before {
+    content: "\f224";
+}
+.ico-vehicles-motor-oil-level-3:before {
+    content: "\f225";
+}
+.ico-vehicles-motor-oil-level-4:before {
+    content: "\f226";
+}
+.ico-vehicles-motor-oil-motor:before {
+    content: "\f227";
+}
+.ico-vehicles-motor-piston:before {
+    content: "\f228";
+}
+.ico-vehicles-motor-pistons:before {
+    content: "\f229";
+}
+.ico-vehicles-others-city-road:before {
+    content: "\f22a";
+}
+.ico-vehicles-others-country-road:before {
+    content: "\f22b";
+}
+.ico-vehicles-others-cycle:before {
+    content: "\f22c";
+}
+.ico-vehicles-others-favorite-car:before {
+    content: "\f22d";
+}
+.ico-vehicles-others-helmet:before {
+    content: "\f22e";
+}
+.ico-vehicles-others-highway:before {
+    content: "\f22f";
+}
+.ico-vehicles-others-parking:before {
+    content: "\f230";
+}
+.ico-vehicles-others-weight:before {
+    content: "\f231";
+}
+.ico-vehicles-status-braking:before {
+    content: "\f232";
+}
+.ico-vehicles-status-cars-park:before {
+    content: "\f233";
+}
+.ico-vehicles-status-collision:before {
+    content: "\f234";
+}
+.ico-vehicles-status-detection:before {
+    content: "\f235";
+}
+.ico-vehicles-status-driving:before {
+    content: "\f236";
+}
+.ico-vehicles-status-fleet:before {
+    content: "\f237";
+}
+.ico-vehicles-status-no-signal:before {
+    content: "\f238";
+}
+.ico-vehicles-status-progression:before {
+    content: "\f239";
+}
+.ico-vehicles-status-signal-down:before {
+    content: "\f23a";
+}
+.ico-vehicles-status-signal-ok:before {
+    content: "\f23b";
+}
+.ico-vehicles-status-signal-up:before {
+    content: "\f23c";
+}
+.ico-weather-cloudy-1:before {
+    content: "\f23d";
+}
+.ico-weather-cloudy-2:before {
+    content: "\f23e";
+}
+.ico-weather-lightning:before {
+    content: "\f23f";
+}
+.ico-weather-partly-cloudy-1:before {
+    content: "\f240";
+}
+.ico-weather-partly-cloudy-2:before {
+    content: "\f241";
+}
+.ico-weather-partly-lightning-1:before {
+    content: "\f242";
+}
+.ico-weather-partly-lightning:before {
+    content: "\f243";
+}
+.ico-weather-partly-raining-1:before {
+    content: "\f244";
+}
+.ico-weather-partly-raining-2:before {
+    content: "\f245";
+}
+.ico-weather-partly-snowing:before {
+    content: "\f246";
+}
+.ico-weather-raining-1:before {
+    content: "\f247";
+}
+.ico-weather-raining-2:before {
+    content: "\f248";
+}
+.ico-weather-raining-snowing:before {
+    content: "\f249";
+}
+.ico-weather-snowing:before {
+    content: "\f24a";
+}
+.ico-weather-sunny:before {
+    content: "\f24b";
+}
+.ico-weather-windy:before {
+    content: "\f24c";
+}

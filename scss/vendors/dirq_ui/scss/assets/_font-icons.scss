@@ -1,0 +1,87 @@
+i[class*="ico-"] {
+  font-size: 24px;
+  &.ico-xsmall {
+    font-size: 14px;
+  }
+  &.ico-small {
+    font-size: 18px;
+  }
+  &.ico-large {
+    font-size: 32px;
+  }
+}
+
+i[class^="ico-"]:before, i[class*=" ico-"]:before {
+  vertical-align: middle;
+}
+
+.ico-blue {
+  color: $blue;
+}
+
+.ico-dark-blue {
+  color: $dark-grey-blue;
+}
+
+.ico-red {
+  color: $red;
+}
+
+.ico-white {
+  color: #FFFFFF;
+}
+
+.ico-grey {
+  color: $dark-grey;
+}
+
+.ico-orange {
+  color: $orange;
+}
+
+.ico-green {
+  color: $green;
+}
+
+.ico-bg {
+  height: 70px;
+  width: 70px;
+  background-color: lighten($grey, 15%);
+  @include border-radius(70px);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  & > i[class*=ico] {
+    margin: 0 auto;
+    display: table;
+    padding-top: 25px;
+    font-size: 22px;
+  }
+}
+
+
+/// colors tag
+
+.ico-tag, .preview .inner i {
+  &.ico-chargeback {
+    color: $role-chargeback;
+  }
+  &.ico-system {
+    color: $role-system;
+  }
+  &.ico-functional {
+    color: $role-functional;
+  }
+  &.ico-ots {
+    color: $role-ots;
+  }
+  &.ico-supplier {
+    color: $role-supplier;
+  }
+  &.ico-reader {
+    color: $role-reader;
+  }
+  &.ico-deactivated {
+    color: $grey;
+  }
+}

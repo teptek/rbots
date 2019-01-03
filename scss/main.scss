@@ -28,7 +28,29 @@ $title-font: 'Read';
 //@import "vendors/dirq_ui/scss/forms/_forms";
 
 
-@import "../font/icons/icons.css";
+
+@import "../font/font-rd/icons.css";
+@import "../font/dirq-icons/dirq-icons.css";
+
+i {
+  &[class^="ico-commercial"],
+  &[class^="ico-factory"],
+  &[class^="ico-commercial"],
+  &[class^="ico-nav-action"],
+  &[class^="ico-nav-gestures"],
+  &[class^="ico-nav-help"],
+  &[class^="ico-nav-media"],
+  &[class^="ico-nav-pad"],
+  &[class^="ico-nav-users"],
+  &[class^="ico-others"],
+  &[class^="ico-vehicules"],
+  &[class^="ico-weather"]
+  {
+    &:before {
+      font-family: icons !important;
+    }
+  }
+}
 
 @import "vendors/dirq_ui/scss/common/_font-icons";
 

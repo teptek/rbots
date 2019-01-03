@@ -1,0 +1,28 @@
+.page-title {
+  font-weight: 500;
+  font-size: $font-h4;
+  display: inline-block;
+  & > i[class*="ico-"] {
+    margin-right: 8px;
+    &::before {
+      font-size: 16px;
+      color: $grey-blue;
+    }
+  }
+}
+
+.page-title-back {
+  &:not([href]):not([tabindex]) {
+    display: inline-block;
+    color: $grey-blue;
+    font-size: $font-input;
+    margin-left: 10px;
+    &:hover, &:focus {
+      color: $blue;
+    }
+    & > i[class*="ico-"] {
+      font-size: 16px;
+      margin-right: 2px;
+    }
+  }
+}

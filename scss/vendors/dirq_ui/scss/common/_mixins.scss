@@ -27,16 +27,3 @@
   width: $width;
   height: $height;
 }
-
-@mixin loader ($color) {
-  &:before {
-    content: '';
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: center left -2px;
-    background-image: url("../img/motion/spinner-#{$color}.svg");
-    height: 16px;
-    width: 16px;
-    display: inline-block;
-  }
-}

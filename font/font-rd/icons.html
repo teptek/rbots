@@ -1,0 +1,4073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>icons</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .preview .inner i {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+
+        @font-face {
+    font-family: "icons";
+    src: url("./icons.eot?0750b4f8551fa1d393100b061b8880d6?#iefix") format("embedded-opentype"),
+url("./icons.woff2?0750b4f8551fa1d393100b061b8880d6") format("woff2"),
+url("./icons.woff?0750b4f8551fa1d393100b061b8880d6") format("woff"),
+url("./icons.ttf?0750b4f8551fa1d393100b061b8880d6") format("truetype"),
+url("./icons.svg?0750b4f8551fa1d393100b061b8880d6#icons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="ico-"]:before, i[class*=" ico-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-commercial-agreement:before {
+    content: "\f101";
+}
+.ico-commercial-bag:before {
+    content: "\f102";
+}
+.ico-commercial-calculator:before {
+    content: "\f103";
+}
+.ico-commercial-car-delivery:before {
+    content: "\f104";
+}
+.ico-commercial-coins:before {
+    content: "\f105";
+}
+.ico-commercial-copyright:before {
+    content: "\f106";
+}
+.ico-commercial-credit-card:before {
+    content: "\f107";
+}
+.ico-commercial-dealer-dacia:before {
+    content: "\f108";
+}
+.ico-commercial-dealer-dealer-flag:before {
+    content: "\f109";
+}
+.ico-commercial-dealer-renault:before {
+    content: "\f10a";
+}
+.ico-commercial-dealer-rental:before {
+    content: "\f10b";
+}
+.ico-commercial-dealer-upgrade:before {
+    content: "\f10c";
+}
+.ico-commercial-euro:before {
+    content: "\f10d";
+}
+.ico-commercial-goal:before {
+    content: "\f10e";
+}
+.ico-commercial-key-delivery:before {
+    content: "\f10f";
+}
+.ico-commercial-money:before {
+    content: "\f110";
+}
+.ico-commercial-promo:before {
+    content: "\f111";
+}
+.ico-commercial-refund:before {
+    content: "\f112";
+}
+.ico-commercial-sale:before {
+    content: "\f113";
+}
+.ico-commercial-shopping-cart:before {
+    content: "\f114";
+}
+.ico-commercial-stat-bar:before {
+    content: "\f115";
+}
+.ico-commercial-stat-circle:before {
+    content: "\f116";
+}
+.ico-commercial-timer-4min:before {
+    content: "\f117";
+}
+.ico-factory-factory:before {
+    content: "\f118";
+}
+.ico-factory-foundry:before {
+    content: "\f119";
+}
+.ico-factory-gear:before {
+    content: "\f11a";
+}
+.ico-factory-graph:before {
+    content: "\f11b";
+}
+.ico-factory-mechanical:before {
+    content: "\f11c";
+}
+.ico-factory-paint-bucket:before {
+    content: "\f11d";
+}
+.ico-factory-painting:before {
+    content: "\f11e";
+}
+.ico-factory-repair:before {
+    content: "\f11f";
+}
+.ico-factory-sonde:before {
+    content: "\f120";
+}
+.ico-factory-synoptique:before {
+    content: "\f121";
+}
+.ico-factory-toolbox:before {
+    content: "\f122";
+}
+.ico-nav-action-adjustement-filter-az:before {
+    content: "\f123";
+}
+.ico-nav-action-adjustement-filter-za:before {
+    content: "\f124";
+}
+.ico-nav-action-adjustement-font-increase:before {
+    content: "\f125";
+}
+.ico-nav-action-adjustement-font-reduce:before {
+    content: "\f126";
+}
+.ico-nav-action-adjustement-full-screen:before {
+    content: "\f127";
+}
+.ico-nav-action-adjustement-less:before {
+    content: "\f128";
+}
+.ico-nav-action-adjustement-more:before {
+    content: "\f129";
+}
+.ico-nav-action-adjustement-pip:before {
+    content: "\f12a";
+}
+.ico-nav-action-adjustement-reduce-screen:before {
+    content: "\f12b";
+}
+.ico-nav-action-adjustement-zoom-in:before {
+    content: "\f12c";
+}
+.ico-nav-action-adjustement-zoom-out:before {
+    content: "\f12d";
+}
+.ico-nav-action-call:before {
+    content: "\f12e";
+}
+.ico-nav-action-cross:before {
+    content: "\f12f";
+}
+.ico-nav-action-drop-files:before {
+    content: "\f130";
+}
+.ico-nav-action-edit:before {
+    content: "\f131";
+}
+.ico-nav-action-export:before {
+    content: "\f132";
+}
+.ico-nav-action-filter:before {
+    content: "\f133";
+}
+.ico-nav-action-header-burger-menu:before {
+    content: "\f134";
+}
+.ico-nav-action-header-disconnect:before {
+    content: "\f135";
+}
+.ico-nav-action-header-exit:before {
+    content: "\f136";
+}
+.ico-nav-action-header-galaxy:before {
+    content: "\f137";
+}
+.ico-nav-action-header-home:before {
+    content: "\f138";
+}
+.ico-nav-action-header-search:before {
+    content: "\f139";
+}
+.ico-nav-action-header-web-call:before {
+    content: "\f13a";
+}
+.ico-nav-action-hidden:before {
+    content: "\f13b";
+}
+.ico-nav-action-like:before {
+    content: "\f13c";
+}
+.ico-nav-action-link:before {
+    content: "\f13d";
+}
+.ico-nav-action-list-ok:before {
+    content: "\f13e";
+}
+.ico-nav-action-list:before {
+    content: "\f13f";
+}
+.ico-nav-action-loading:before {
+    content: "\f140";
+}
+.ico-nav-action-lock:before {
+    content: "\f141";
+}
+.ico-nav-action-mail:before {
+    content: "\f142";
+}
+.ico-nav-action-more-action:before {
+    content: "\f143";
+}
+.ico-nav-action-network:before {
+    content: "\f144";
+}
+.ico-nav-action-point:before {
+    content: "\f145";
+}
+.ico-nav-action-print:before {
+    content: "\f146";
+}
+.ico-nav-action-refresh:before {
+    content: "\f147";
+}
+.ico-nav-action-reload:before {
+    content: "\f148";
+}
+.ico-nav-action-save:before {
+    content: "\f149";
+}
+.ico-nav-action-show:before {
+    content: "\f14a";
+}
+.ico-nav-action-tick:before {
+    content: "\f14b";
+}
+.ico-nav-action-to-do:before {
+    content: "\f14c";
+}
+.ico-nav-action-trash:before {
+    content: "\f14d";
+}
+.ico-nav-action-unlike:before {
+    content: "\f14e";
+}
+.ico-nav-action-unlock:before {
+    content: "\f14f";
+}
+.ico-nav-action-upload:before {
+    content: "\f150";
+}
+.ico-nav-action-wifi:before {
+    content: "\f151";
+}
+.ico-nav-arrows-down-left:before {
+    content: "\f152";
+}
+.ico-nav-arrows-down:before {
+    content: "\f153";
+}
+.ico-nav-arrows-left-:before {
+    content: "\f154";
+}
+.ico-nav-arrows-right-:before {
+    content: "\f155";
+}
+.ico-nav-arrows-up-left:before {
+    content: "\f156";
+}
+.ico-nav-arrows-up-right:before {
+    content: "\f157";
+}
+.ico-nav-arrows-up:before {
+    content: "\f158";
+}
+.ico-nav-favorite-favorite-full:before {
+    content: "\f159";
+}
+.ico-nav-favorite-favorite-item:before {
+    content: "\f15a";
+}
+.ico-nav-favorite-favorite:before {
+    content: "\f15b";
+}
+.ico-nav-favorite-love:before {
+    content: "\f15c";
+}
+.ico-nav-favorite-wish-list:before {
+    content: "\f15d";
+}
+.ico-nav-files-archive:before {
+    content: "\f15e";
+}
+.ico-nav-files-book:before {
+    content: "\f15f";
+}
+.ico-nav-files-favorite-page:before {
+    content: "\f160";
+}
+.ico-nav-files-internet-page:before {
+    content: "\f161";
+}
+.ico-nav-files-pdf:before {
+    content: "\f162";
+}
+.ico-nav-files-product-page:before {
+    content: "\f163";
+}
+.ico-nav-files-sheet:before {
+    content: "\f164";
+}
+.ico-nav-files-specificity-page:before {
+    content: "\f165";
+}
+.ico-nav-gestures-double-click-1-finger:before {
+    content: "\f166";
+}
+.ico-nav-gestures-double-click-2-fingers:before {
+    content: "\f167";
+}
+.ico-nav-gestures-double-click-3-fingers:before {
+    content: "\f168";
+}
+.ico-nav-gestures-extend-2-hands:before {
+    content: "\f169";
+}
+.ico-nav-gestures-extend-diagonally:before {
+    content: "\f16a";
+}
+.ico-nav-gestures-extend-horizontally:before {
+    content: "\f16b";
+}
+.ico-nav-gestures-extend-vertically:before {
+    content: "\f16c";
+}
+.ico-nav-gestures-long-press-1-finger:before {
+    content: "\f16d";
+}
+.ico-nav-gestures-long-press-2-fingers:before {
+    content: "\f16e";
+}
+.ico-nav-gestures-long-press-3-fingers:before {
+    content: "\f16f";
+}
+.ico-nav-gestures-move-1-finger:before {
+    content: "\f170";
+}
+.ico-nav-gestures-move-2-fingers:before {
+    content: "\f171";
+}
+.ico-nav-gestures-move-3-fingers:before {
+    content: "\f172";
+}
+.ico-nav-gestures-rotation-2-fingers:before {
+    content: "\f173";
+}
+.ico-nav-gestures-rotation-2-hands:before {
+    content: "\f174";
+}
+.ico-nav-gestures-scroll-1-finger:before {
+    content: "\f175";
+}
+.ico-nav-gestures-scroll-2-fingers:before {
+    content: "\f176";
+}
+.ico-nav-gestures-scroll-3-fingers:before {
+    content: "\f177";
+}
+.ico-nav-gestures-simple-click-1-finger:before {
+    content: "\f178";
+}
+.ico-nav-gestures-simple-click-2-fingers:before {
+    content: "\f179";
+}
+.ico-nav-gestures-simple-click-3-fingers:before {
+    content: "\f17a";
+}
+.ico-nav-gestures-slide-1-finger:before {
+    content: "\f17b";
+}
+.ico-nav-gestures-slide-2-fingers:before {
+    content: "\f17c";
+}
+.ico-nav-gestures-slide-3-fingers:before {
+    content: "\f17d";
+}
+.ico-nav-help-bubble-empty:before {
+    content: "\f17e";
+}
+.ico-nav-help-bubble-focus:before {
+    content: "\f17f";
+}
+.ico-nav-help-bubble-unfocused:before {
+    content: "\f180";
+}
+.ico-nav-help-contact:before {
+    content: "\f181";
+}
+.ico-nav-help-hint:before {
+    content: "\f182";
+}
+.ico-nav-help-information:before {
+    content: "\f183";
+}
+.ico-nav-help-question:before {
+    content: "\f184";
+}
+.ico-nav-help-warning:before {
+    content: "\f185";
+}
+.ico-nav-location-compass:before {
+    content: "\f186";
+}
+.ico-nav-location-flag:before {
+    content: "\f187";
+}
+.ico-nav-location-panel:before {
+    content: "\f188";
+}
+.ico-nav-location-pin:before {
+    content: "\f189";
+}
+.ico-nav-location-target:before {
+    content: "\f18a";
+}
+.ico-nav-media-backward:before {
+    content: "\f18b";
+}
+.ico-nav-media-cookie:before {
+    content: "\f18c";
+}
+.ico-nav-media-documents:before {
+    content: "\f18d";
+}
+.ico-nav-media-emit:before {
+    content: "\f18e";
+}
+.ico-nav-media-forward:before {
+    content: "\f18f";
+}
+.ico-nav-media-medal:before {
+    content: "\f190";
+}
+.ico-nav-media-movie-camera:before {
+    content: "\f191";
+}
+.ico-nav-media-music:before {
+    content: "\f192";
+}
+.ico-nav-media-pad:before {
+    content: "\f193";
+}
+.ico-nav-media-pause:before {
+    content: "\f194";
+}
+.ico-nav-media-picture:before {
+    content: "\f195";
+}
+.ico-nav-media-play:before {
+    content: "\f196";
+}
+.ico-nav-media-pod:before {
+    content: "\f197";
+}
+.ico-nav-media-qr-code:before {
+    content: "\f198";
+}
+.ico-nav-media-stop:before {
+    content: "\f199";
+}
+.ico-nav-media-trophy:before {
+    content: "\f19a";
+}
+.ico-nav-media-volume-high:before {
+    content: "\f19b";
+}
+.ico-nav-media-volume-low:before {
+    content: "\f19c";
+}
+.ico-nav-media-volume-mute:before {
+    content: "\f19d";
+}
+.ico-nav-notification-alarm-clock:before {
+    content: "\f19e";
+}
+.ico-nav-notification-alarm:before {
+    content: "\f19f";
+}
+.ico-nav-notification-calendar:before {
+    content: "\f1a0";
+}
+.ico-nav-notification-sandglass:before {
+    content: "\f1a1";
+}
+.ico-nav-notification-timer:before {
+    content: "\f1a2";
+}
+.ico-nav-pad-down-left-:before {
+    content: "\f1a3";
+}
+.ico-nav-pad-down-right:before {
+    content: "\f1a4";
+}
+.ico-nav-pad-down:before {
+    content: "\f1a5";
+}
+.ico-nav-pad-end:before {
+    content: "\f1a6";
+}
+.ico-nav-pad-horizontally:before {
+    content: "\f1a7";
+}
+.ico-nav-pad-left:before {
+    content: "\f1a8";
+}
+.ico-nav-pad-right:before {
+    content: "\f1a9";
+}
+.ico-nav-pad-up-left:before {
+    content: "\f1aa";
+}
+.ico-nav-pad-up-right:before {
+    content: "\f1ab";
+}
+.ico-nav-pad-up:before {
+    content: "\f1ac";
+}
+.ico-nav-pad-vertically:before {
+    content: "\f1ad";
+}
+.ico-nav-users-community:before {
+    content: "\f1ae";
+}
+.ico-nav-users-group:before {
+    content: "\f1af";
+}
+.ico-nav-users-user:before {
+    content: "\f1b0";
+}
+.ico-others-box:before {
+    content: "\f1b1";
+}
+.ico-others-devices-app:before {
+    content: "\f1b2";
+}
+.ico-others-devices-desktop:before {
+    content: "\f1b3";
+}
+.ico-others-devices-laptop:before {
+    content: "\f1b4";
+}
+.ico-others-devices-smartphone:before {
+    content: "\f1b5";
+}
+.ico-others-devices-tablet:before {
+    content: "\f1b6";
+}
+.ico-others-devices-tv:before {
+    content: "\f1b7";
+}
+.ico-others-emojis-angry:before {
+    content: "\f1b8";
+}
+.ico-others-emojis-chill:before {
+    content: "\f1b9";
+}
+.ico-others-emojis-confused:before {
+    content: "\f1ba";
+}
+.ico-others-emojis-disappointed:before {
+    content: "\f1bb";
+}
+.ico-others-emojis-fine:before {
+    content: "\f1bc";
+}
+.ico-others-emojis-happy:before {
+    content: "\f1bd";
+}
+.ico-others-emojis-surprised:before {
+    content: "\f1be";
+}
+.ico-others-handicap:before {
+    content: "\f1bf";
+}
+.ico-others-luggage:before {
+    content: "\f1c0";
+}
+.ico-others-organisation:before {
+    content: "\f1c1";
+}
+.ico-others-usb:before {
+    content: "\f1c2";
+}
+.ico-vehicles-cars-berline:before {
+    content: "\f1c3";
+}
+.ico-vehicles-cars-break:before {
+    content: "\f1c4";
+}
+.ico-vehicles-cars-campervan:before {
+    content: "\f1c5";
+}
+.ico-vehicles-cars-cdv:before {
+    content: "\f1c6";
+}
+.ico-vehicles-cars-chassis-cab:before {
+    content: "\f1c7";
+}
+.ico-vehicles-cars-city-car:before {
+    content: "\f1c8";
+}
+.ico-vehicles-cars-compact-van:before {
+    content: "\f1c9";
+}
+.ico-vehicles-cars-configurator:before {
+    content: "\f1ca";
+}
+.ico-vehicles-cars-convertible:before {
+    content: "\f1cb";
+}
+.ico-vehicles-cars-coupe:before {
+    content: "\f1cc";
+}
+.ico-vehicles-cars-dump-truck:before {
+    content: "\f1cd";
+}
+.ico-vehicles-cars-emergency:before {
+    content: "\f1ce";
+}
+.ico-vehicles-cars-f1:before {
+    content: "\f1cf";
+}
+.ico-vehicles-cars-family:before {
+    content: "\f1d0";
+}
+.ico-vehicles-cars-hatchback:before {
+    content: "\f1d1";
+}
+.ico-vehicles-cars-large-van:before {
+    content: "\f1d2";
+}
+.ico-vehicles-cars-minibus:before {
+    content: "\f1d3";
+}
+.ico-vehicles-cars-mpv:before {
+    content: "\f1d4";
+}
+.ico-vehicles-cars-passenger-cdv:before {
+    content: "\f1d5";
+}
+.ico-vehicles-cars-pick-up:before {
+    content: "\f1d6";
+}
+.ico-vehicles-cars-shuttle:before {
+    content: "\f1d7";
+}
+.ico-vehicles-cars-suv:before {
+    content: "\f1d8";
+}
+.ico-vehicles-cars-tow-truck:before {
+    content: "\f1d9";
+}
+.ico-vehicles-cockpit-air-conditioning:before {
+    content: "\f1da";
+}
+.ico-vehicles-cockpit-automatic-gear:before {
+    content: "\f1db";
+}
+.ico-vehicles-cockpit-automatic-stick:before {
+    content: "\f1dc";
+}
+.ico-vehicles-cockpit-interior:before {
+    content: "\f1dd";
+}
+.ico-vehicles-cockpit-key:before {
+    content: "\f1de";
+}
+.ico-vehicles-cockpit-manual-gear:before {
+    content: "\f1df";
+}
+.ico-vehicles-cockpit-manual-stick:before {
+    content: "\f1e0";
+}
+.ico-vehicles-cockpit-seat:before {
+    content: "\f1e1";
+}
+.ico-vehicles-cockpit-speedometer:before {
+    content: "\f1e2";
+}
+.ico-vehicles-cockpit-steering-wheel:before {
+    content: "\f1e3";
+}
+.ico-vehicles-energy-battery-level-0:before {
+    content: "\f1e4";
+}
+.ico-vehicles-energy-battery-level-1:before {
+    content: "\f1e5";
+}
+.ico-vehicles-energy-battery-level-2:before {
+    content: "\f1e6";
+}
+.ico-vehicles-energy-battery-level-3:before {
+    content: "\f1e7";
+}
+.ico-vehicles-energy-battery-level-4:before {
+    content: "\f1e8";
+}
+.ico-vehicles-energy-battery-pricing:before {
+    content: "\f1e9";
+}
+.ico-vehicles-energy-battery:before {
+    content: "\f1ea";
+}
+.ico-vehicles-energy-charge:before {
+    content: "\f1eb";
+}
+.ico-vehicles-energy-data-emission:before {
+    content: "\f1ec";
+}
+.ico-vehicles-energy-electric-vehicle:before {
+    content: "\f1ed";
+}
+.ico-vehicles-energy-fast-charging-port-:before {
+    content: "\f1ee";
+}
+.ico-vehicles-energy-fuel-pump:before {
+    content: "\f1ef";
+}
+.ico-vehicles-energy-green-emission:before {
+    content: "\f1f0";
+}
+.ico-vehicles-energy-hybrid:before {
+    content: "\f1f1";
+}
+.ico-vehicles-energy-no-battery:before {
+    content: "\f1f2";
+}
+.ico-vehicles-energy-plug-connected:before {
+    content: "\f1f3";
+}
+.ico-vehicles-energy-plug-disconnected:before {
+    content: "\f1f4";
+}
+.ico-vehicles-energy-plug-hybrid:before {
+    content: "\f1f5";
+}
+.ico-vehicles-energy-plug:before {
+    content: "\f1f6";
+}
+.ico-vehicles-energy-standart-charging-port:before {
+    content: "\f1f7";
+}
+.ico-vehicles-energy-wall-charging-port:before {
+    content: "\f1f8";
+}
+.ico-vehicles-exterior-brake:before {
+    content: "\f1f9";
+}
+.ico-vehicles-exterior-car-body:before {
+    content: "\f1fa";
+}
+.ico-vehicles-exterior-car-hood:before {
+    content: "\f1fb";
+}
+.ico-vehicles-exterior-door:before {
+    content: "\f1fc";
+}
+.ico-vehicles-exterior-fog-lamp:before {
+    content: "\f1fd";
+}
+.ico-vehicles-exterior-high-beam:before {
+    content: "\f1fe";
+}
+.ico-vehicles-exterior-hubcap:before {
+    content: "\f1ff";
+}
+.ico-vehicles-exterior-low-beam:before {
+    content: "\f200";
+}
+.ico-vehicles-exterior-no-light:before {
+    content: "\f201";
+}
+.ico-vehicles-exterior-roof-bar:before {
+    content: "\f202";
+}
+.ico-vehicles-exterior-roof-box:before {
+    content: "\f203";
+}
+.ico-vehicles-exterior-snow-box:before {
+    content: "\f204";
+}
+.ico-vehicles-exterior-spare-parts:before {
+    content: "\f205";
+}
+.ico-vehicles-exterior-tow-ball:before {
+    content: "\f206";
+}
+.ico-vehicles-exterior-transmission:before {
+    content: "\f207";
+}
+.ico-vehicles-exterior-wheel:before {
+    content: "\f208";
+}
+.ico-vehicles-exterior-windshield:before {
+    content: "\f209";
+}
+.ico-vehicles-exterior-wiper:before {
+    content: "\f20a";
+}
+.ico-vehicles-maintenance-antifreeze:before {
+    content: "\f20b";
+}
+.ico-vehicles-maintenance-check-oil:before {
+    content: "\f20c";
+}
+.ico-vehicles-maintenance-draining:before {
+    content: "\f20d";
+}
+.ico-vehicles-maintenance-exchange:before {
+    content: "\f20e";
+}
+.ico-vehicles-maintenance-oil-ok:before {
+    content: "\f20f";
+}
+.ico-vehicles-maintenance-reparation:before {
+    content: "\f210";
+}
+.ico-vehicles-maintenance-replace:before {
+    content: "\f211";
+}
+.ico-vehicles-maintenance-return:before {
+    content: "\f212";
+}
+.ico-vehicles-maintenance-tire-pressure:before {
+    content: "\f213";
+}
+.ico-vehicles-maintenance-wheel-ok:before {
+    content: "\f214";
+}
+.ico-vehicles-maintenance-wiper-ok:before {
+    content: "\f215";
+}
+.ico-vehicles-motor-electric:before {
+    content: "\f216";
+}
+.ico-vehicles-motor-emptying:before {
+    content: "\f217";
+}
+.ico-vehicles-motor-engine-belt:before {
+    content: "\f218";
+}
+.ico-vehicles-motor-exhaust-pipe:before {
+    content: "\f219";
+}
+.ico-vehicles-motor-horn:before {
+    content: "\f21a";
+}
+.ico-vehicles-motor-kilowatts:before {
+    content: "\f21b";
+}
+.ico-vehicles-motor-mecanical-link:before {
+    content: "\f21c";
+}
+.ico-vehicles-motor-motor-boost:before {
+    content: "\f21d";
+}
+.ico-vehicles-motor-motor-sport:before {
+    content: "\f21e";
+}
+.ico-vehicles-motor-motor:before {
+    content: "\f21f";
+}
+.ico-vehicles-motor-no-oil:before {
+    content: "\f220";
+}
+.ico-vehicles-motor-oil-compare:before {
+    content: "\f221";
+}
+.ico-vehicles-motor-oil-level-0:before {
+    content: "\f222";
+}
+.ico-vehicles-motor-oil-level-1:before {
+    content: "\f223";
+}
+.ico-vehicles-motor-oil-level-2:before {
+    content: "\f224";
+}
+.ico-vehicles-motor-oil-level-3:before {
+    content: "\f225";
+}
+.ico-vehicles-motor-oil-level-4:before {
+    content: "\f226";
+}
+.ico-vehicles-motor-oil-motor:before {
+    content: "\f227";
+}
+.ico-vehicles-motor-piston:before {
+    content: "\f228";
+}
+.ico-vehicles-motor-pistons:before {
+    content: "\f229";
+}
+.ico-vehicles-others-city-road:before {
+    content: "\f22a";
+}
+.ico-vehicles-others-country-road:before {
+    content: "\f22b";
+}
+.ico-vehicles-others-cycle:before {
+    content: "\f22c";
+}
+.ico-vehicles-others-favorite-car:before {
+    content: "\f22d";
+}
+.ico-vehicles-others-helmet:before {
+    content: "\f22e";
+}
+.ico-vehicles-others-highway:before {
+    content: "\f22f";
+}
+.ico-vehicles-others-parking:before {
+    content: "\f230";
+}
+.ico-vehicles-others-weight:before {
+    content: "\f231";
+}
+.ico-vehicles-status-braking:before {
+    content: "\f232";
+}
+.ico-vehicles-status-cars-park:before {
+    content: "\f233";
+}
+.ico-vehicles-status-collision:before {
+    content: "\f234";
+}
+.ico-vehicles-status-detection:before {
+    content: "\f235";
+}
+.ico-vehicles-status-driving:before {
+    content: "\f236";
+}
+.ico-vehicles-status-fleet:before {
+    content: "\f237";
+}
+.ico-vehicles-status-no-signal:before {
+    content: "\f238";
+}
+.ico-vehicles-status-progression:before {
+    content: "\f239";
+}
+.ico-vehicles-status-signal-down:before {
+    content: "\f23a";
+}
+.ico-vehicles-status-signal-ok:before {
+    content: "\f23b";
+}
+.ico-vehicles-status-signal-up:before {
+    content: "\f23c";
+}
+.ico-weather-cloudy-1:before {
+    content: "\f23d";
+}
+.ico-weather-cloudy-2:before {
+    content: "\f23e";
+}
+.ico-weather-lightning:before {
+    content: "\f23f";
+}
+.ico-weather-partly-cloudy-1:before {
+    content: "\f240";
+}
+.ico-weather-partly-cloudy-2:before {
+    content: "\f241";
+}
+.ico-weather-partly-lightning-1:before {
+    content: "\f242";
+}
+.ico-weather-partly-lightning:before {
+    content: "\f243";
+}
+.ico-weather-partly-raining-1:before {
+    content: "\f244";
+}
+.ico-weather-partly-raining-2:before {
+    content: "\f245";
+}
+.ico-weather-partly-snowing:before {
+    content: "\f246";
+}
+.ico-weather-raining-1:before {
+    content: "\f247";
+}
+.ico-weather-raining-2:before {
+    content: "\f248";
+}
+.ico-weather-raining-snowing:before {
+    content: "\f249";
+}
+.ico-weather-snowing:before {
+    content: "\f24a";
+}
+.ico-weather-sunny:before {
+    content: "\f24b";
+}
+.ico-weather-windy:before {
+    content: "\f24c";
+}
+
+
+    </style>
+</head>
+<body>
+
+    <h1>icons</h1>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-agreement"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-agreement</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-bag"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-bag</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-calculator"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-calculator</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-car-delivery"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-car-delivery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-coins"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-coins</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-copyright"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-copyright</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-credit-card"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-credit-card</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-dealer-dacia"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-dealer-dacia</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-dealer-dealer-flag"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-dealer-dealer-flag</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-dealer-renault"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-dealer-renault</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-dealer-rental"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-dealer-rental</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-dealer-upgrade"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-dealer-upgrade</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-euro"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-euro</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-goal"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-goal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-key-delivery"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-key-delivery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-money"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-money</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-promo"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-promo</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-refund"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-refund</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-sale"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-sale</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-shopping-cart"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-shopping-cart</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-stat-bar"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-stat-bar</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-stat-circle"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-stat-circle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-commercial-timer-4min"></i>
+            </span>
+            <br>
+            <span class='label'>commercial-timer-4min</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-factory"></i>
+            </span>
+            <br>
+            <span class='label'>factory-factory</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-foundry"></i>
+            </span>
+            <br>
+            <span class='label'>factory-foundry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-gear"></i>
+            </span>
+            <br>
+            <span class='label'>factory-gear</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-graph"></i>
+            </span>
+            <br>
+            <span class='label'>factory-graph</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-mechanical"></i>
+            </span>
+            <br>
+            <span class='label'>factory-mechanical</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-paint-bucket"></i>
+            </span>
+            <br>
+            <span class='label'>factory-paint-bucket</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-painting"></i>
+            </span>
+            <br>
+            <span class='label'>factory-painting</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-repair"></i>
+            </span>
+            <br>
+            <span class='label'>factory-repair</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-sonde"></i>
+            </span>
+            <br>
+            <span class='label'>factory-sonde</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-synoptique"></i>
+            </span>
+            <br>
+            <span class='label'>factory-synoptique</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-factory-toolbox"></i>
+            </span>
+            <br>
+            <span class='label'>factory-toolbox</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-filter-az"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-filter-az</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-filter-za"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-filter-za</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-font-increase"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-font-increase</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-font-reduce"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-font-reduce</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-full-screen"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-full-screen</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-less"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-less</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-more"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-more</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-pip"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-pip</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-reduce-screen"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-reduce-screen</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-zoom-in"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-zoom-in</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-adjustement-zoom-out"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-adjustement-zoom-out</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-call"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-call</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-cross"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-cross</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-drop-files"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-drop-files</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-edit"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-edit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-export"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-export</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-filter"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-filter</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-header-burger-menu"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-header-burger-menu</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-header-disconnect"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-header-disconnect</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-header-exit"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-header-exit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-header-galaxy"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-header-galaxy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-header-home"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-header-home</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-header-search"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-header-search</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-header-web-call"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-header-web-call</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-hidden"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-hidden</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-like"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-like</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-link"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-link</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-list-ok"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-list-ok</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-list"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-list</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-loading"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-loading</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-lock"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-lock</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-mail"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-mail</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-more-action"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-more-action</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-network"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-network</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-point"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-point</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-print"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-print</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-refresh"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-refresh</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-reload"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-reload</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-save"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-save</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-show"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-show</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-tick"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-tick</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-to-do"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-to-do</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-trash"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-trash</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-unlike"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-unlike</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-unlock"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-unlock</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-upload"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-upload</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-action-wifi"></i>
+            </span>
+            <br>
+            <span class='label'>nav-action-wifi</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-arrows-down-left"></i>
+            </span>
+            <br>
+            <span class='label'>nav-arrows-down-left</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-arrows-down"></i>
+            </span>
+            <br>
+            <span class='label'>nav-arrows-down</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-arrows-left-"></i>
+            </span>
+            <br>
+            <span class='label'>nav-arrows-left-</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-arrows-right-"></i>
+            </span>
+            <br>
+            <span class='label'>nav-arrows-right-</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-arrows-up-left"></i>
+            </span>
+            <br>
+            <span class='label'>nav-arrows-up-left</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-arrows-up-right"></i>
+            </span>
+            <br>
+            <span class='label'>nav-arrows-up-right</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-arrows-up"></i>
+            </span>
+            <br>
+            <span class='label'>nav-arrows-up</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-favorite-favorite-full"></i>
+            </span>
+            <br>
+            <span class='label'>nav-favorite-favorite-full</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-favorite-favorite-item"></i>
+            </span>
+            <br>
+            <span class='label'>nav-favorite-favorite-item</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-favorite-favorite"></i>
+            </span>
+            <br>
+            <span class='label'>nav-favorite-favorite</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-favorite-love"></i>
+            </span>
+            <br>
+            <span class='label'>nav-favorite-love</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-favorite-wish-list"></i>
+            </span>
+            <br>
+            <span class='label'>nav-favorite-wish-list</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-archive"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-archive</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-book"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-book</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-favorite-page"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-favorite-page</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-internet-page"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-internet-page</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-pdf"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-pdf</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-product-page"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-product-page</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-sheet"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-sheet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-files-specificity-page"></i>
+            </span>
+            <br>
+            <span class='label'>nav-files-specificity-page</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-double-click-1-finger"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-double-click-1-finger</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-double-click-2-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-double-click-2-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-double-click-3-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-double-click-3-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-extend-2-hands"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-extend-2-hands</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-extend-diagonally"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-extend-diagonally</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-extend-horizontally"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-extend-horizontally</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-extend-vertically"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-extend-vertically</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-long-press-1-finger"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-long-press-1-finger</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-long-press-2-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-long-press-2-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-long-press-3-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-long-press-3-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-move-1-finger"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-move-1-finger</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-move-2-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-move-2-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-move-3-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-move-3-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-rotation-2-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-rotation-2-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-rotation-2-hands"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-rotation-2-hands</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-scroll-1-finger"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-scroll-1-finger</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-scroll-2-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-scroll-2-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-scroll-3-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-scroll-3-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-simple-click-1-finger"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-simple-click-1-finger</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-simple-click-2-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-simple-click-2-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-simple-click-3-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-simple-click-3-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-slide-1-finger"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-slide-1-finger</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-slide-2-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-slide-2-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-gestures-slide-3-fingers"></i>
+            </span>
+            <br>
+            <span class='label'>nav-gestures-slide-3-fingers</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-bubble-empty"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-bubble-empty</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-bubble-focus"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-bubble-focus</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-bubble-unfocused"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-bubble-unfocused</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-contact"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-contact</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-hint"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-hint</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-information"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-information</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-question"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-question</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-help-warning"></i>
+            </span>
+            <br>
+            <span class='label'>nav-help-warning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-location-compass"></i>
+            </span>
+            <br>
+            <span class='label'>nav-location-compass</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-location-flag"></i>
+            </span>
+            <br>
+            <span class='label'>nav-location-flag</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-location-panel"></i>
+            </span>
+            <br>
+            <span class='label'>nav-location-panel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-location-pin"></i>
+            </span>
+            <br>
+            <span class='label'>nav-location-pin</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-location-target"></i>
+            </span>
+            <br>
+            <span class='label'>nav-location-target</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-backward"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-backward</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-cookie"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-cookie</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-documents"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-documents</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-emit"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-emit</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-forward"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-forward</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-medal"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-medal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-movie-camera"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-movie-camera</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-music"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-music</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-pad"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-pad</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-pause"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-pause</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-picture"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-picture</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-play"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-play</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-pod"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-pod</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-qr-code"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-qr-code</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-stop"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-stop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-trophy"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-trophy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-volume-high"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-volume-high</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-volume-low"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-volume-low</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-media-volume-mute"></i>
+            </span>
+            <br>
+            <span class='label'>nav-media-volume-mute</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-notification-alarm-clock"></i>
+            </span>
+            <br>
+            <span class='label'>nav-notification-alarm-clock</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-notification-alarm"></i>
+            </span>
+            <br>
+            <span class='label'>nav-notification-alarm</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-notification-calendar"></i>
+            </span>
+            <br>
+            <span class='label'>nav-notification-calendar</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-notification-sandglass"></i>
+            </span>
+            <br>
+            <span class='label'>nav-notification-sandglass</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-notification-timer"></i>
+            </span>
+            <br>
+            <span class='label'>nav-notification-timer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-down-left-"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-down-left-</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-down-right"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-down-right</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-down"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-down</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-end"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-end</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-horizontally"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-horizontally</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-left"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-left</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-right"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-right</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-up-left"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-up-left</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-up-right"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-up-right</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-up"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-up</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-pad-vertically"></i>
+            </span>
+            <br>
+            <span class='label'>nav-pad-vertically</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-users-community"></i>
+            </span>
+            <br>
+            <span class='label'>nav-users-community</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-users-group"></i>
+            </span>
+            <br>
+            <span class='label'>nav-users-group</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-nav-users-user"></i>
+            </span>
+            <br>
+            <span class='label'>nav-users-user</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-box"></i>
+            </span>
+            <br>
+            <span class='label'>others-box</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-devices-app"></i>
+            </span>
+            <br>
+            <span class='label'>others-devices-app</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-devices-desktop"></i>
+            </span>
+            <br>
+            <span class='label'>others-devices-desktop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-devices-laptop"></i>
+            </span>
+            <br>
+            <span class='label'>others-devices-laptop</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-devices-smartphone"></i>
+            </span>
+            <br>
+            <span class='label'>others-devices-smartphone</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-devices-tablet"></i>
+            </span>
+            <br>
+            <span class='label'>others-devices-tablet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-devices-tv"></i>
+            </span>
+            <br>
+            <span class='label'>others-devices-tv</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-emojis-angry"></i>
+            </span>
+            <br>
+            <span class='label'>others-emojis-angry</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-emojis-chill"></i>
+            </span>
+            <br>
+            <span class='label'>others-emojis-chill</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-emojis-confused"></i>
+            </span>
+            <br>
+            <span class='label'>others-emojis-confused</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-emojis-disappointed"></i>
+            </span>
+            <br>
+            <span class='label'>others-emojis-disappointed</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-emojis-fine"></i>
+            </span>
+            <br>
+            <span class='label'>others-emojis-fine</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-emojis-happy"></i>
+            </span>
+            <br>
+            <span class='label'>others-emojis-happy</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-emojis-surprised"></i>
+            </span>
+            <br>
+            <span class='label'>others-emojis-surprised</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-handicap"></i>
+            </span>
+            <br>
+            <span class='label'>others-handicap</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-luggage"></i>
+            </span>
+            <br>
+            <span class='label'>others-luggage</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-organisation"></i>
+            </span>
+            <br>
+            <span class='label'>others-organisation</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-others-usb"></i>
+            </span>
+            <br>
+            <span class='label'>others-usb</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-berline"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-berline</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-break"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-break</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-campervan"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-campervan</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-cdv"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-cdv</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-chassis-cab"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-chassis-cab</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-city-car"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-city-car</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-compact-van"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-compact-van</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-configurator"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-configurator</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-convertible"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-convertible</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-coupe"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-coupe</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-dump-truck"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-dump-truck</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-emergency"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-emergency</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-f1"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-f1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-family"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-family</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-hatchback"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-hatchback</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-large-van"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-large-van</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-minibus"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-minibus</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-mpv"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-mpv</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-passenger-cdv"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-passenger-cdv</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-pick-up"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-pick-up</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-shuttle"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-shuttle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-suv"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-suv</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cars-tow-truck"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cars-tow-truck</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-air-conditioning"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-air-conditioning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-automatic-gear"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-automatic-gear</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-automatic-stick"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-automatic-stick</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-interior"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-interior</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-key"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-key</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-manual-gear"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-manual-gear</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-manual-stick"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-manual-stick</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-seat"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-seat</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-speedometer"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-speedometer</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-cockpit-steering-wheel"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-cockpit-steering-wheel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-battery-level-0"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-battery-level-0</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-battery-level-1"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-battery-level-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-battery-level-2"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-battery-level-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-battery-level-3"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-battery-level-3</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-battery-level-4"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-battery-level-4</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-battery-pricing"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-battery-pricing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-battery"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-battery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-charge"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-charge</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-data-emission"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-data-emission</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-electric-vehicle"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-electric-vehicle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-fast-charging-port-"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-fast-charging-port-</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-fuel-pump"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-fuel-pump</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-green-emission"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-green-emission</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-hybrid"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-hybrid</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-no-battery"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-no-battery</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-plug-connected"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-plug-connected</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-plug-disconnected"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-plug-disconnected</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-plug-hybrid"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-plug-hybrid</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-plug"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-plug</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-standart-charging-port"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-standart-charging-port</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-energy-wall-charging-port"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-energy-wall-charging-port</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-brake"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-brake</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-car-body"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-car-body</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-car-hood"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-car-hood</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-door"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-door</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-fog-lamp"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-fog-lamp</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-high-beam"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-high-beam</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-hubcap"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-hubcap</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-low-beam"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-low-beam</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-no-light"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-no-light</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-roof-bar"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-roof-bar</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-roof-box"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-roof-box</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-snow-box"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-snow-box</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-spare-parts"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-spare-parts</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-tow-ball"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-tow-ball</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-transmission"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-transmission</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-wheel"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-wheel</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-windshield"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-windshield</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-exterior-wiper"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-exterior-wiper</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-antifreeze"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-antifreeze</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-check-oil"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-check-oil</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-draining"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-draining</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-exchange"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-exchange</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-oil-ok"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-oil-ok</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-reparation"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-reparation</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-replace"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-replace</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-return"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-return</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-tire-pressure"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-tire-pressure</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-wheel-ok"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-wheel-ok</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-maintenance-wiper-ok"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-maintenance-wiper-ok</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-electric"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-electric</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-emptying"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-emptying</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-engine-belt"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-engine-belt</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-exhaust-pipe"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-exhaust-pipe</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-horn"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-horn</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-kilowatts"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-kilowatts</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-mecanical-link"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-mecanical-link</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-motor-boost"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-motor-boost</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-motor-sport"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-motor-sport</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-motor"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-motor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-no-oil"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-no-oil</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-oil-compare"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-oil-compare</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-oil-level-0"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-oil-level-0</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-oil-level-1"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-oil-level-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-oil-level-2"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-oil-level-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-oil-level-3"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-oil-level-3</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-oil-level-4"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-oil-level-4</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-oil-motor"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-oil-motor</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-piston"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-piston</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-motor-pistons"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-motor-pistons</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-city-road"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-city-road</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-country-road"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-country-road</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-cycle"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-cycle</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-favorite-car"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-favorite-car</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-helmet"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-helmet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-highway"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-highway</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-parking"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-parking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-others-weight"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-others-weight</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-braking"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-braking</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-cars-park"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-cars-park</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-collision"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-collision</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-detection"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-detection</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-driving"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-driving</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-fleet"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-fleet</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-no-signal"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-no-signal</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-progression"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-progression</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-signal-down"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-signal-down</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-signal-ok"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-signal-ok</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-vehicles-status-signal-up"></i>
+            </span>
+            <br>
+            <span class='label'>vehicles-status-signal-up</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-cloudy-1"></i>
+            </span>
+            <br>
+            <span class='label'>weather-cloudy-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-cloudy-2"></i>
+            </span>
+            <br>
+            <span class='label'>weather-cloudy-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-lightning"></i>
+            </span>
+            <br>
+            <span class='label'>weather-lightning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-partly-cloudy-1"></i>
+            </span>
+            <br>
+            <span class='label'>weather-partly-cloudy-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-partly-cloudy-2"></i>
+            </span>
+            <br>
+            <span class='label'>weather-partly-cloudy-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-partly-lightning-1"></i>
+            </span>
+            <br>
+            <span class='label'>weather-partly-lightning-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-partly-lightning"></i>
+            </span>
+            <br>
+            <span class='label'>weather-partly-lightning</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-partly-raining-1"></i>
+            </span>
+            <br>
+            <span class='label'>weather-partly-raining-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-partly-raining-2"></i>
+            </span>
+            <br>
+            <span class='label'>weather-partly-raining-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-partly-snowing"></i>
+            </span>
+            <br>
+            <span class='label'>weather-partly-snowing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-raining-1"></i>
+            </span>
+            <br>
+            <span class='label'>weather-raining-1</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-raining-2"></i>
+            </span>
+            <br>
+            <span class='label'>weather-raining-2</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-raining-snowing"></i>
+            </span>
+            <br>
+            <span class='label'>weather-raining-snowing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-snowing"></i>
+            </span>
+            <br>
+            <span class='label'>weather-snowing</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-sunny"></i>
+            </span>
+            <br>
+            <span class='label'>weather-sunny</span>
+        </div>
+
+
+        <div class="preview">
+            <span class="inner">
+                <i class="ico-weather-windy"></i>
+            </span>
+            <br>
+            <span class='label'>weather-windy</span>
+        </div>
+
+
+</body>
+</html>
