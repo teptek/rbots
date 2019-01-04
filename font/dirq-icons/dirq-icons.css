@@ -1,10 +1,10 @@
 @font-face {
     font-family: "dirq-icons";
-    src: url("./dirq-icons.eot?e240455b55fd4249d3dfbd2c9eff3c45?#iefix") format("embedded-opentype"),
-url("./dirq-icons.woff2?e240455b55fd4249d3dfbd2c9eff3c45") format("woff2"),
-url("./dirq-icons.woff?e240455b55fd4249d3dfbd2c9eff3c45") format("woff"),
-url("./dirq-icons.ttf?e240455b55fd4249d3dfbd2c9eff3c45") format("truetype"),
-url("./dirq-icons.svg?e240455b55fd4249d3dfbd2c9eff3c45#dirq-icons") format("svg");
+    src: url("./dirq-icons.eot?8dfbdf997be5c697b92a9793629dc7f4?#iefix") format("embedded-opentype"),
+url("./dirq-icons.woff2?8dfbdf997be5c697b92a9793629dc7f4") format("woff2"),
+url("./dirq-icons.woff?8dfbdf997be5c697b92a9793629dc7f4") format("woff"),
+url("./dirq-icons.ttf?8dfbdf997be5c697b92a9793629dc7f4") format("truetype"),
+url("./dirq-icons.svg?8dfbdf997be5c697b92a9793629dc7f4#dirq-icons") format("svg");
 }
 
 i {
@@ -130,135 +130,138 @@ i[class^="ico-"]:before, i[class*=" ico-"]:before {
 .ico-home:before {
     content: "\e024";
 }
-.ico-info:before {
+.ico-include:before {
     content: "\e025";
 }
-.ico-key:before {
+.ico-info:before {
     content: "\e026";
 }
-.ico-keys2:before {
+.ico-key:before {
     content: "\e027";
 }
-.ico-light:before {
+.ico-keys2:before {
     content: "\e028";
 }
-.ico-links:before {
+.ico-light:before {
     content: "\e029";
 }
-.ico-list:before {
+.ico-links:before {
     content: "\e02a";
 }
-.ico-location:before {
+.ico-list:before {
     content: "\e02b";
 }
-.ico-lock:before {
+.ico-location:before {
     content: "\e02c";
 }
-.ico-logo-a:before {
+.ico-lock:before {
     content: "\e02d";
 }
-.ico-logo-app:before {
+.ico-logo-a:before {
     content: "\e02e";
 }
-.ico-logo-monochrome-grey:before {
+.ico-logo-app:before {
     content: "\e02f";
 }
-.ico-logo.dirq:before {
+.ico-logo-monochrome-grey:before {
     content: "\e030";
 }
-.ico-mail-xls:before {
+.ico-logo.dirq:before {
     content: "\e031";
 }
-.ico-mail:before {
+.ico-mail-xls:before {
     content: "\e032";
 }
-.ico-menu-burger:before {
+.ico-mail:before {
     content: "\e033";
 }
-.ico-menu:before {
+.ico-menu-burger:before {
     content: "\e034";
 }
-.ico-more:before {
+.ico-menu:before {
     content: "\e035";
 }
-.ico-off:before {
+.ico-more:before {
     content: "\e036";
 }
-.ico-panel:before {
+.ico-off:before {
     content: "\e037";
 }
-.ico-pdf:before {
+.ico-panel:before {
     content: "\e038";
 }
-.ico-plus:before {
+.ico-pdf:before {
     content: "\e039";
 }
-.ico-ppt:before {
+.ico-plus:before {
     content: "\e03a";
 }
-.ico-renault:before {
+.ico-ppt:before {
     content: "\e03b";
 }
-.ico-rpic2:before {
+.ico-renault:before {
     content: "\e03c";
 }
-.ico-save:before {
+.ico-rpic2:before {
     content: "\e03d";
 }
-.ico-search-rd:before {
+.ico-save:before {
     content: "\e03e";
 }
-.ico-search:before {
+.ico-search-rd:before {
     content: "\e03f";
 }
-.ico-select:before {
+.ico-search:before {
     content: "\e040";
 }
-.ico-sets:before {
+.ico-select:before {
     content: "\e041";
 }
-.ico-setting-full:before {
+.ico-sets:before {
     content: "\e042";
 }
-.ico-settings:before {
+.ico-setting-full:before {
     content: "\e043";
 }
-.ico-tag:before {
+.ico-settings:before {
     content: "\e044";
 }
-.ico-time:before {
+.ico-tag:before {
     content: "\e045";
 }
-.ico-timeout:before {
+.ico-time:before {
     content: "\e046";
 }
-.ico-toggle:before {
+.ico-timeout:before {
     content: "\e047";
 }
-.ico-tool:before {
+.ico-toggle:before {
     content: "\e048";
 }
-.ico-trash:before {
+.ico-tool:before {
     content: "\e049";
 }
-.ico-upload:before {
+.ico-trash:before {
     content: "\e04a";
 }
-.ico-valid-cercle:before {
+.ico-upload:before {
     content: "\e04b";
 }
-.ico-validation:before {
+.ico-valid-cercle:before {
     content: "\e04c";
 }
-.ico-view-off:before {
+.ico-validation:before {
     content: "\e04d";
 }
-.ico-view:before {
+.ico-view-off:before {
     content: "\e04e";
 }
-.ico-warning:before {
+.ico-view:before {
     content: "\e04f";
 }
-.ico-word:before {
+.ico-warning:before {
     content: "\e050";
+}
+.ico-word:before {
+    content: "\e051";
 }
